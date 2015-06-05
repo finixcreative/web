@@ -369,6 +369,9 @@ a.sublink:hover {
 	margin-right: auto;
 	display: block;
 }
+.capitalize {
+	text-transform: capitalize;
+}
 .checkmark {
 	max-height: 150px;
 	max-width: 150px;

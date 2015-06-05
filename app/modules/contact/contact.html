@@ -9,7 +9,7 @@
 	</p>
 	<p>
 		<span class="full" ng-repeat="contact in client.client.contacts">
-			{{ contact.type }}: <a href="{{ contact.method }}{{ contact.info }}">{{ contact.info }}</a>
+			<span class="capitalize">{{ contact.type }}</span>: <a href="{{ contact.method }}{{ contact.info }}">{{ contact.info }}</a>
 		</span>
 	</p>
 </div>
