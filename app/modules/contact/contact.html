@@ -8,8 +8,8 @@
 		{{ location.address.city }}, {{ location.address.state }} {{ location.address.zip }}
 	</p>
 	<p>
-		<div class="full" ng-repeat="contact in client.client.contacts">
+		<span class="full" ng-repeat="contact in client.client.contacts">
 			{{ contact.type }}: <a href="{{ contact.method }}{{ contact.info }}">{{ contact.info }}</a>
-		</div>
+		</span>
 	</p>
 </div>
