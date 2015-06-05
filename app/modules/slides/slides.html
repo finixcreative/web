@@ -15,9 +15,9 @@
 			<h1>{{ image.headline }}</h1>
 			<h2>{{ image.subheadline }}</h2>
 			<p>{{ image.text }}</p>
-			<div ng-repeat="link in image.links">
-				<button class="cta button middle center" ng-click="location.href='{{ link.url }}'">{{ link.text }}</button>
-			</div>
+			<form action="{{ link.url }}" ng-repeat="link in image.links">
+				<button class="cta button middle center">{{ link.text }}</button>
+			</form>
 		</section>
 	</div>
 	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow_left"></span></button>
