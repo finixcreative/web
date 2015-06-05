@@ -1,16 +1,3 @@
-/*
---------------------------
-BENCHTOP DEVICES BRAND GUIDE
---------------------------
-Primary Color    | #7d287d
-Secondary Color  | #
-Primary Accent   | #
-Primary Fill     | #
-Secondary Accent | #
-Secondary Fill   | #
---------------------------
-*/
-
 /* GENERAL STYLES */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 * {
@@ -26,7 +13,7 @@ button {
 	font-family: 'Open Sans', sans-serif;
 }
 body {
-	background: url("../images/low_contrast_linen.png") #444;
+	background: #444;
 	background-attachment: fixed;
 	color: #444;
 	margin: 0px;
@@ -71,7 +58,7 @@ header a {
 	font-weight: 700;
 }
 header a:hover {
-	color: #7d287d;
+	color: #f52;
 }
 header a img {
 	width: auto;
@@ -139,13 +126,13 @@ li.step a {
 	border-radius: 50%;
 }
 li.step a:hover {
-	color: #7d287d;
-	border: 1px solid #7d287d;	
+	color: #f52;
+	border: 1px solid #f52;	
 }
 li.step.active a {
-	background: #7d287d;
+	background: #f52;
 	color: #fff;
-	border: 1px solid #7d287d;
+	border: 1px solid #f52;
 }
 form {}
 .form-body {
@@ -213,8 +200,8 @@ input[type=checkbox]:checked + label.product > .check-box {
 .button:focus,
 .button:checked {
 	background: #fff;
-	color: #7d287d;
-	border: 1px solid #7d287d;
+	color: #f52;
+	border: 1px solid #f52;
 }
 .cta,
 .submit {
@@ -245,7 +232,7 @@ input[type=checkbox] + label.product {
 }
 input[type=checkbox] + label.product:hover,
 input[type=checkbox]:checked + label.product {
-	background: #7d287d;
+	background: #f52;
 }
 input[type=submit] {}
 input[type=text] {
@@ -358,7 +345,7 @@ button.slidenav:focus {
 	color: #444;
 }
 .subsection p a:hover {
-	color: #7d287d;
+	color: #f52;
 }
 .subsection-alt {
 	background: #ccc;

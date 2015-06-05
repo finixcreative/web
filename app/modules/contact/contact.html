@@ -8,9 +8,8 @@
 		{{ location.address.city }}, {{ location.address.state }} {{ location.address.zip }}
 	</p>
 	<p>
-		Email: <a href="mailto:{{ client.client.contact.email }}">{{ client.client.contact.email }}</a><br>
-		Phone: <a href="tel:1-{{ client.client.contact.phone }}">{{ client.client.contact.phone }}</a><br>
-		Cell: <a href="tel:1-{{ client.client.contact.cell }}">{{ client.client.contact.cell }}</a><br>
-		Fax: <a href="">{{ client.client.contact.fax }}</a>
+		<div class="full" ng-repeat="contact in client.client.contacts">
+			{{ contact.type }}: <a href="{{ contact.method }}{{ contact.info }}">{{ contact.info }}</a>
+		</div>
 	</p>
 </div>
