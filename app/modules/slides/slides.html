@@ -16,7 +16,7 @@
 			<h2>{{ image.subheadline }}</h2>
 			<p>{{ image.text }}</p>
 			<div ng-repeat="link in image.links">
-				<a class="cta button" href="{{ link.url }}" target="{{ link.target }}"><span class="{{ link.icon }}"></span>{{ link.text }}</a>
+				<button class="cta button middle center" onclick="location.href='{{ link.url }}'">{{ link.text }}</button>
 			</div>
 		</section>
 	</div>
