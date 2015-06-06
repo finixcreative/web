@@ -287,13 +287,11 @@ footer p a:hover {
 	color: #fff;
 	padding: 40px 0;
 	position: absolute;
+	top: 0;
 }
-.slide.ng-animate {
-	top: 0px;
-}
+.slide.ng-animate {}
 .slide.ng-hide {
 	left: -100%;
-	top: 0px;
 }
 .slide.ng-hide-remove-active {
 	left: 100%;
