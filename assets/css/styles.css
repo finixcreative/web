@@ -298,6 +298,7 @@ footer p a:hover {
 
 .slide.ng-hide {
 	left: -100%;
+	transition: 0s;
 }
 .slide.ng-hide-remove {
 	left: 100%;
