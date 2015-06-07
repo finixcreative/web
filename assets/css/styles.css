@@ -288,7 +288,9 @@ footer p a:hover {
 	position: absolute;
 	top: 0;
 }
-.slide.ng-animate {}
+.slide.ng-animate {
+	transition: 0s;
+}
 .slide.ng-hide {
 	left: -100%;
 }
