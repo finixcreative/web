@@ -191,7 +191,7 @@ input[type=checkbox]:checked + label.product > .check-box {
 	display: block;
 	cursor: pointer;
 }
-.hero .button {
+.button.alt {
 	color: #fff;
 	border: 1px solid #fff;
 }
@@ -289,12 +289,12 @@ footer p a:hover {
 	top: 0;
 }
 .slide.ng-animate {
-	transition: 0s;
+/*	transition: 0s; */
 }
 .slide.animate-enter,
-.slide.animate-enter-active {}
+.slide.animate-enter.animate-enter-active {}
 .slide.animate-leave,
-.slide.animate-leave-active {}
+.slide.animate-leave.animate-leave-active {}
 
 .slide.ng-hide {
 	left: -100%;
@@ -302,7 +302,7 @@ footer p a:hover {
 .slide.ng-hide-remove {
 	left: 100%;
 }
-.slide.ng-hide-remove-active {
+.slide.ng-hide-remove.ng-hide-remove-active {
 	left: 0%;
 }
 button#prev {
