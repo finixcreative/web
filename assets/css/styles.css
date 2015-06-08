@@ -290,7 +290,7 @@ footer p a:hover {
 .slider {
 	position: relative;
 }
-.slide {
+/*.slide {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -299,7 +299,7 @@ footer p a:hover {
 	top: 0;
 }
 .slide.ng-animate {
-/*	transition: 0s; */
+	//transition: 0s;
 }
 .slide.animate-enter,
 .slide.animate-enter.animate-enter-active {}
@@ -316,6 +316,7 @@ footer p a:hover {
 .slide.ng-hide-remove.ng-hide-remove-active {
 	left: 0%;
 }
+*/
 button#prev {
 	left: 0;
 }
