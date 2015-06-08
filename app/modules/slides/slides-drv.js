@@ -7,7 +7,7 @@ angular.module('slidesMod')
 			templateUrl: '/web/app/modules/slides/slides.html',
 			controller: 'SlidesController',
 			controllerAs: 'slides',
-			link: function (scope, elem, attrs){
+			/* link: function (scope, elem, attrs){
 				scope.currentIndex = 0;
 				scope.next = function(){
 					scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
@@ -32,6 +32,6 @@ angular.module('slidesMod')
 				scope.$on('$destroy', function() {
 					$timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
 				});
-			},
+			}, */
 		};
 	});
