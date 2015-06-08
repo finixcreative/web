@@ -7,8 +7,8 @@
 		<div
 			class="item {{image.state}} full"
 			ng-repeat="image in images"
-			ng-swipe-left="prev"
-			ng-swipe-right="next"
+			ng-swipe-left="{'data-slide': 'prev'}"
+			ng-swipe-right="{'data-slide': 'next'}"
 			ng-style="{
 				'background-image': 'url({{image.background.img}})',
 				'background-color': '{{image.background.color}}',
