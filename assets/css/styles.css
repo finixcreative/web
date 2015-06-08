@@ -76,8 +76,12 @@ header a img {
 }
 nav {}
 nav ul li a {
-	text-decoration: none;
 	text-transform: uppercase;
+}
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:visited {
+	text-decoration: none;
 }
 ul {
 	width: 100%;
