@@ -299,9 +299,9 @@ footer p a:hover {
 .slider {
 	position: relative;
 }
-.pad40 {
-	padding-top: 40px;
-	padding-bottom: 40px;
+.pad80 {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 /*.slide {
 	background-attachment: fixed;
