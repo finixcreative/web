@@ -5,17 +5,14 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div
-			class="item {{image.state}} full pad80"
+			class="item full pad80 {{image.state}}"
 			ng-repeat="image in images"
-			ng-swipe-left="prev"
-			ng-swipe-right="next"
+			ng-swipe-left="prev()"
+			ng-swipe-right="next()"
 			ng-style="{
 				'background-image': 'url({{image.background.img}})',
 				'background-color': '{{image.background.color}}',
 				'background-position': '{{image.background.position}}',
-				'background-attachment': 'fixed',
-				'background-repeat': 'no-repeat',
-				'background-size': 'cover',
 			}">
 			<div class="wrapper">
 				<section class="content full">
