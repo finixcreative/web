@@ -304,14 +304,13 @@ footer p a:hover {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-/*.slide {
+.item {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
-	position: relative;
-	top: 0;
 }
+/*
 .slide.ng-animate {
 	//transition: 0s;
 }
