@@ -230,7 +230,7 @@ select {
 .button:checked {
 	background: #fff;
 	color: #f52;
-	border: 1px solid #f52;
+	border: 2px solid #f52;
 }
 .cta,
 .submit {
