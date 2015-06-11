@@ -14,7 +14,6 @@ angular.module('slidesMod')
 				scope.next = function (){
 					div.setAttribute('data-slide', 'next')
 				};
-				/*
 				scope.currentIndex = 0;
 				scope.next = function(){
 					scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
@@ -28,6 +27,7 @@ angular.module('slidesMod')
 					});
 					scope.images[scope.currentIndex].visible = true;
 				});
+				/*
 				var timer;
 				var sliderFunc = function() {
 					timer = $timeout(function() {
