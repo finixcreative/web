@@ -27,7 +27,6 @@ angular.module('slidesMod')
 					});
 					scope.images[scope.currentIndex].visible = true;
 				});
-				/*
 				var timer;
 				var sliderFunc = function() {
 					timer = $timeout(function() {
@@ -39,7 +38,6 @@ angular.module('slidesMod')
 				scope.$on('$destroy', function() {
 					$timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
 				});
-				*/
 			},
 		};
 	});
