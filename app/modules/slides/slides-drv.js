@@ -2,7 +2,7 @@ angular.module('slidesMod')
 	.directive('slides', function ($timeout){
 		return {
 			restrict: 'E',
-			replace: true,
+			replace: false,
 			scope: {images: '='},
 			templateUrl: '/web/app/modules/slides/slides.html',
 			controller: 'SlidesController',
