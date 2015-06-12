@@ -3,7 +3,6 @@ angular.module('slidesMod')
 		return {
 			restrict: 'E',
 			replace: false,
-			transclude: true,
 			scope: {images: '='},
 			templateUrl: '/web/app/modules/slides/slides.html',
 			controller: 'SlidesController',
