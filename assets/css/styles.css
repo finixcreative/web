@@ -370,17 +370,24 @@ button.slidenav:focus {
 .hero img {
 	max-width: 100%;
 }
-.subsection {
+.subsection,
+.row {
 	background: #fff;
 }
-.subsection p a {
+.subsection a:hover,
+.row a:hover {
+	text-decoration: none;
+}
+.subsection p a,
+.row p a {
 	font-weight: 700;
 	color: #444;
 }
-.subsection p a:hover {
+.subsection p a:hover,
+.row p a:hover {
 	color: #f52;
 }
-.subsection-alt {
+.alt {
 	background: #ccc;
 }
 a.sublink {
