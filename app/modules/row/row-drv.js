@@ -4,7 +4,5 @@ angular.module('coreMod')
 			restrict: 'E',
 			replace: false,
 			templateUrl: '/web/app/modules/row/row.html',
-			controller: 'SitemapController',
-			controllerAs: 'sitemap',
 		};
 	});
