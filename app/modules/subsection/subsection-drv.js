@@ -6,17 +6,17 @@ angular.module('coreMod')
 			templateUrl: '/web/app/modules/subsection/subsection.html',
 		};
 	})
-	.directive('subsection-major', function(){
+	.directive('subsectionMajor', function(){
 		return {
 			restrict: 'EAC',
-			replace: true,
+			replace: false,
 			templateUrl: '/web/app/modules/subsection/subsection-major.html',
 		};
 	})
-	.directive('subsection-minor', function(){
+	.directive('subsectionMinor', function(){
 		return {
 			restrict: 'EAC',
-			replace: true,
+			replace: false,
 			templateUrl: '/web/app/modules/subsection/subsection-minor.html',
 		};
 	});
