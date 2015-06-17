@@ -1,10 +1,8 @@
 angular.module('coreMod')
 	.directive('subsection', function(){
 		return {
-			restrict: 'EAC',
+			restrict: 'E',
 			replace: false,
-			templateUrl: function(elem, attr){
-				return '/web/app/modules/subsection/'+attr.template+'.html';
-			}
+			templateUrl: '/web/app/modules/subsection/subsection.html',
 		};
 	});
