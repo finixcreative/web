@@ -1,5 +1,5 @@
 angular.module('coreMod')
-	.directive('plugin', ['$compile', function($compile) {
+	.directive('plugin', ['$compile', function($compile){
 		return {
 			restrict: 'E',
 			replace: true,
