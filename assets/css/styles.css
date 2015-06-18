@@ -162,9 +162,7 @@ form {}
 	border: 1px solid #fff;
 	position: relative;
 }
-.tile img {
-	height: 200px;
-}
+.tile img {}
 .tile:hover,
 .tile:active,
 .tile:focus,
