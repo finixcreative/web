@@ -3,7 +3,9 @@
 		<li ng-repeat="page in sitemap.sitemap.pages">
 			<a href="#/{{page.title}}">{{page.title}}</a>
 		</li>
-		<li class="right-float" ng-controller="ClientController as client">{{client.cta}}</li>
+		<li class="right-float" ng-controller="ClientController as client">
+			<a href="tel:1-{{client.client.cta}}">{{client.client.cta}}</a>
+		</li>
 	</ul>
 </nav>
 <nav class="tablet full">
@@ -11,7 +13,9 @@
 		<li ng-repeat="page in sitemap.sitemap.pages">
 			<a href="#/{{page.title}}">{{page.title}}</a>
 		</li>
-		<li class="right-float" ng-controller="ClientController as client">{{client.cta}}</li>
+		<li class="right-float" ng-controller="ClientController as client">
+			<a href="tel:1-{{client.client.cta}}">{{client.client.cta}}</a>
+		</li>
 	</ul>
 </nav>
 <nav class="mobile full">
@@ -24,6 +28,8 @@
 				</li>
 			</ul>
 		</li>
-		<li class="right-float" ng-controller="ClientController as client">{{client.cta}}</li>
+		<li class="right-float" ng-controller="ClientController as client">
+			<a href="tel:1-{{client.client.cta}}">{{client.client.cta}}</a>
+		</li>
 	</ul>
 </nav>
