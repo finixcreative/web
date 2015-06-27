@@ -9,7 +9,7 @@ angular.module('coreMod')
 			link: function(scope, element) {
 				var template = '<' + scope.plugin + '>' + '</' + scope.plugin + '>',
 				compiled = $compile(template)(scope);
-				element.append(compiled);            
+				element.append(compiled);
 			},
 		};
 	}]);
