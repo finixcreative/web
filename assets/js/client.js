@@ -1,25 +1,43 @@
 var client = {
-	'company': 'Benchtop Devices',
-	'type': 'LLC',
-	'contact': {
-		'email': 'tony@benchtopdevices.com',
-		'phone': '603-283-6138',
-		'cell': '603-801-4551',
-		'fax': '480-247-4057',
-	},
+	'company': 'Client Name',
+	'type': 'Inc',
+	'logo': 'assets/images/logo.png',
+	'cta': '123-456-7890',
+	'contacts': [
+		{
+			'type': 'email',
+			'info': 'contact@email.com',
+			'method': 'mailto:',
+		},
+		{
+			'type': 'phone',
+			'info': '123-456-7890',
+			'method': 'tel:',
+		},
+		{
+			'type': 'cell',
+			'info': '123-456-7890',
+			'method': 'tel:',
+		},
+		{
+			'type': 'fax',
+			'info': '123-456-7890',
+			'method': '',
+		},
+	],
 	'locations': [
 		{
 			'address': {
-				'street': 'Box 357 / 518 Route 9',
-				'city': 'West Chesterfield',
-				'state': 'NH',
-				'zip': '03466',
+				'street': '123 Main Street',
+				'city': 'Anytown',
+				'state': 'ST',
+				'zip': '12345',
 			},
 			'map': '',
 		},
 	],
 	'socials': [
-/*		{
+		{
 			'name': 'facebook',
 			'link': 'www.facebook.com',
 		},
@@ -27,11 +45,11 @@ var client = {
 			'name': 'twitter',
 			'link': 'www.twitter.com',
 		},
-*/		{
+		{
 			'name': 'linkedin',
 			'link': 'www.linkedin.com',
 		},
-/*		{
+		{
 			'name': 'google+',
 			'link': 'plus.google.com',
 		},
@@ -55,5 +73,5 @@ var client = {
 			'name': 'tumblr',
 			'link': 'www.tumblr.com',
 		},
-*/	],
+	],
 };
