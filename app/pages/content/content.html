@@ -1,1 +1,7 @@
-<element ng-repeat="element in content.elements"></element>
+<element
+	ng-repeat="element in $scope.content.elements"
+	class="{{element.classes}}"
+	id="{{element.type}}"
+	>
+	<h1>{{element.headline}}</h1>
+</element>
