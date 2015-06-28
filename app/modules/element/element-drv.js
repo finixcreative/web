@@ -3,6 +3,6 @@ angular.module('coreMod')
 		return {
 			restrict: 'E',
 			replace: true,
-			templateUrl: '/web/app/modules/element/element.html',
+			templateUrl: 'http://finixcreative.github.io/web/app/modules/element/element.html',
 		};
 	});
