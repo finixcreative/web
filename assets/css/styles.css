@@ -362,11 +362,12 @@ button.slidenav:focus {
 .content {
 	padding: 20px;
 }
-.hero {
-	color: #fff;
-}
+.hero {}
 .hero img {
 	max-width: 100%;
+}
+.white-text {
+	color: #fff;
 }
 .subsection,
 .row {
