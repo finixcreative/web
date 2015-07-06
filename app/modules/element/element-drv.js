@@ -1,16 +1,18 @@
 angular.module('coreMod')
-	.directive('element', ['$scope', '$compile', function ($scope, $compile){
+	.directive('element', function ($compile){
 		return {
 			restrict: 'E',
 			replace: true,
+			template: '<div>New element</div>',
+			/*templateUrl: 'http://finixcreative.github.io/web/app/modules/element/element.html',*/
+			controller: 'ElementController',
 			scope: {
 				plugin: '=',
 			},
-			compile: function (scope, element){
-				var template = angular.element('<' + scope.plugin + '></' + scope.plugin + '>');
-				template.append(element.contents());
-				element.replaceWith(template);
+			link: function (scope, element, attrs){
+				var compileElement = $compile(scope.createElement);
+				var content = compileElement(scope);
+				element.append(content);
 			},
-			/*templateUrl: 'http://finixcreative.github.io/web/app/modules/element/element.html',*/
 		};
 	}]);
