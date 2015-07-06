@@ -15,4 +15,4 @@ angular.module('coreMod')
 				element.append(content);
 			},
 		};
-	}]);
+	});
