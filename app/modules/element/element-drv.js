@@ -5,7 +5,7 @@ angular.module('coreMod')
 			replace: true,
 			templateUrl: 'http://finixcreative.github.io/web/app/modules/element/element.html',
 			controller: 'ElementController',
-			controllerAs: 'elements',
+			controllerAs: 'element',
 			scope: {
 				plugin: '=',
 			},

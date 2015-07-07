@@ -1,6 +1,6 @@
 angular.module('coreMod')
 	.controller('ElementController', function ($scope){
-		$scope = [
+		$scope.elements = [
 			{
 				plugin: 'copyright',
 				elements: [
@@ -16,5 +16,5 @@ angular.module('coreMod')
 				],
 			},
 		];
-		$scope.createElement = angular.element('<' + $scope.plugin + '></' + $scope.plugin + '>');
+		$scope.createElement = angular.element('<' + $scope..element.plugin + '></' + $scope.element.plugin + '>');
 	});
