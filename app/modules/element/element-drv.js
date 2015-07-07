@@ -3,9 +3,9 @@ angular.module('coreMod')
 		return {
 			restrict: 'E',
 			replace: true,
-			template: '<div>New element</div>',
-			/*templateUrl: 'http://finixcreative.github.io/web/app/modules/element/element.html',*/
+			templateUrl: 'http://finixcreative.github.io/web/app/modules/element/element.html',
 			controller: 'ElementController',
+			controllerAs: 'elements',
 			scope: {
 				plugin: '=',
 			},
