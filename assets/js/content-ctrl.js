@@ -1,4 +1,4 @@
 angular.module('coreMod')
 	.controller('ContentController', function(){
-		this = content;
+		this.content = content;
 	});
