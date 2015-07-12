@@ -1,7 +1,7 @@
 <nav class="desktop full">
 	<ul class="wrapper">
 		<li ng-repeat="page in sitemap.sitemap.pages">
-			<a href="#/{{page.title}}" ng-class="{active: isActive('/{{page.title}}')}" onload="{active: isActive('/{{page[0].title}}')}">{{page.title}}</a>
+			<a href="#/{{page.title}}" ng-class="{active: isActive('/{{page.title}}')}" onload="active: isActive('/home')">{{page.title}}</a>
 		</li>
 		<li class="right-float" ng-controller="ClientController as client">
 			<a href="tel:1-{{client.client.cta}}">Call Now! {{client.client.cta}}</a>
