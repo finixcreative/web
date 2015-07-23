@@ -57,7 +57,7 @@ p {
 header {
 	background: #fff;
 	width: 100%;
-	border-bottom: 1px solid #eee;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
 	float: left;
 	position: fixed;
 	z-index: 999;
@@ -291,7 +291,7 @@ footer p a:hover {
 }
 #content {
 	width: 100%;
-	padding: 71px 0 0 0;
+	padding: 70px 0 0 0;
 }
 .slider {
 	position: relative;
