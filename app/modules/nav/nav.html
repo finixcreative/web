@@ -3,7 +3,7 @@
 		<li ng-repeat="page in sitemap.sitemap.pages">
 			<a href="#/{{page.title}}" ng-class="{active: isActive('/{{page.title}}')}" onload="active: isActive('/home')">{{page.title}}</a>
 		</li>
-		<li class="right-float" ng-controller="ClientController as client">
+		<li class="call-now right-float" ng-controller="ClientController as client">
 			<a href="tel:1-{{client.client.cta}}">Call Now {{client.client.cta}}</a>
 		</li>
 	</ul>
