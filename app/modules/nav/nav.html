@@ -4,7 +4,7 @@
 			<a href="#/{{page.title}}" ng-class="{active: isActive('/{{page.title}}')}" onload="active: isActive('/home')">{{page.title}}</a>
 		</li>
 		<li class="right-float" ng-controller="ClientController as client">
-			<a href="tel:1-{{client.client.cta}}">Call Now! {{client.client.cta}}</a>
+			<a href="tel:1-{{client.client.cta}}">Call Now {{client.client.cta}}</a>
 		</li>
 	</ul>
 </nav>
@@ -14,7 +14,7 @@
 			<a href="#/{{page.title}}">{{page.title}}</a>
 		</li>
 		<li class="right-float" ng-controller="ClientController as client">
-			<a href="tel:1-{{client.client.cta}}">Call Now!</a>
+			<a href="tel:1-{{client.client.cta}}">Call Now</a>
 		</li>
 	</ul>
 </nav>
@@ -29,7 +29,7 @@
 			</ul>
 		</li>
 		<li class="right-float" ng-controller="ClientController as client">
-			<a href="tel:1-{{client.client.cta}}">Call Now!</a>
+			<a href="tel:1-{{client.client.cta}}">Call Now</a>
 		</li>
 	</ul>
 </nav>
