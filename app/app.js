@@ -1,9 +1,12 @@
 angular.module('finixApp', [
 	'ngRoute',
-	'ngResource',
 	'ngAnimate',
 	'coreMod',
-	'panelMod',
+	'chimeraMod',
+	'hydraMod',
+	'angular-parallax',
 	'slidesMod',
+	'ngResource',
+	'panelMod',
 	'productsMod'
 ]);

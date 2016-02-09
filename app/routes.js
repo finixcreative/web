@@ -1,12 +1,13 @@
 angular.module('finixApp')
-	.config(['$routeProvider', function ($routeProvider) {
+	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider
-			.when('/:pageId', {
-				templateUrl: 'http://finixcreative.github.io/web/app/pages/content/content.html',
-				controller: 'ContentController',
-				controllerAs: 'content',
+			.when('/:chimera', {
+				templateUrl: 'app/modules/chimera/chimera.html',
+				controller: 'ChimeraController',
+				controllerAs: 'chimera'
 			})
 			.otherwise({
 				redirectTo: '/home',
 			});
-	}]);
+	}])
+;
