@@ -1,6 +1,6 @@
 angular.module('coreMod', [])
 	.controller('ClientController', ['$scope', '$http', function($scope, $http){
-		$scope.filepath = 'client/assets/scripts/client.json';
+		$scope.filepath = 'client/scripts/client.json';
 		$scope.client = [];
 		$http.get($scope.filepath).then(
 			function success(response){
