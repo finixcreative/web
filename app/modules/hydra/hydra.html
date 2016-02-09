@@ -1,0 +1,3 @@
+<div ng-repeat="content in contents" ng-include="'app/modules/' + content.config.type + '/' + content.config.type + '.html'">
+	<div ng-include="app/modules/hydra/hydra.html" ng-init="contents = content.contents"></div>
+</div>
