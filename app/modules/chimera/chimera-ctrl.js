@@ -4,7 +4,7 @@ angular.module('chimeraMod', [])
 	.controller('ChimeraController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams){
 		var chimera = $routeParams.chimera;
 		var pageData = 'app/contents/'+chimera+'.json';
-		$scope.template = 'app/pages/'+chimera+'/'+chimera+'.html';
+		$scope.template = 'app/modules/hydra/hydra.html';
 		$scope.contents = [];
 		$scope.errors = [];
 		$scope.configure = true;
