@@ -1,5 +1,7 @@
-// Copyright 2015 Finix. All rights reserved.
-
+/*
+HYDRA | Replicating module generates dynamic elements based on page content data.
+© 2015 Finix, all rights reserved.
+*/
 angular.module('hydraMod', [])
 	.directive('hydra', function(){
 		return {
