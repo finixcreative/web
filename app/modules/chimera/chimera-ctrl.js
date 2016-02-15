@@ -2,7 +2,7 @@
 CHIMERA | Shapeshifter module accepts dynamic route parameter to fetch page content data.
 © 2015 Finix, all rights reserved.
 */
-angular.module('chimeraMod', [])
+angular.module('chimeraMod')
 	.controller('ChimeraController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams){
 		var chimera = $routeParams.chimera;
 		var pageData = 'app/contents/'+chimera+'.json';
