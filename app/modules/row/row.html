@@ -1,3 +1,20 @@
-<div class="wrapper">
-	<plugin plugin="{{subsection.template}}" class="{{subsection.classes}}" ng-repeat="subsection in row.subsections"></plugin>
+<div
+	id="{{content.config.title}}"
+	class="{{content.config.class.outer}} row full"
+	style="
+		background-image:url({{content.config.bg.img}});
+		background-color:{{content.config.bg.color}};
+		background-size:{{content.config.bg.size}};
+		background-repeat:{{content.config.bg.repeat}};
+		background-position:{{content.config.bg.position}};
+		background-attachment:{{content.config.bg.attachment}};
+	"
+	parallax-background parallax-ratio="{{content.config.bg.parallax}}"
+>
+	<div class="overlay" style="background-color:{{content.config.bg.color}}"></div>
+	<div class="wrapper">
+		<div class="{{content.config.class.inner}} full">
+			<hydra></hydra>
+		</div>
+	</div>
 </div>
