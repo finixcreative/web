@@ -5,7 +5,6 @@ HYDRA | Replicating module generates dynamic elements based on page content data
 angular.module('hydraMod')
 	.controller('HydraController', function($scope){
 		$scope.hydra = 'app/modules/hydra/hydra.html';
-		$scope.module = 'app/modules/' + content.config.type + '/' + content.config.type + '.html';
 		$scope.edit = false;
 		/*
 		$scope.saveChanges = function(){
