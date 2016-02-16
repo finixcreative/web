@@ -462,6 +462,7 @@ a.sublink:hover {
 #displayracks h4 {
 	color: #fff;
 }
+/*
 .overlay {
 	background: rgba(0,0,0,0.2);
 	width: 100%;
@@ -470,7 +471,7 @@ a.sublink:hover {
 	bottom: 0;
 	display: none;
 }
-
+*/
 /* DEVICES */
 @media screen and (max-width: 960px) {}
 @media screen and (max-width: 768px) {}
