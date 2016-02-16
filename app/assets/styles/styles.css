@@ -1,12 +1,13 @@
 /*
-|-------------------------------------------|
-| FINIX WEB PRODUCT BASE STYLES 			|
-|-------------------------------------------|
-| Website		| www.finixcreative.com 	|
-| Email			| rsmith@finixcreative.com 	|
-| Phone			| 617-417-2179 				|
-| Copyright		| Finix, 2015 				|
-|-------------------------------------------|
++---------------------------------------+
+| FINIX WEB PRODUCT BASE STYLES 		|
++---------------------------------------+
+| Website	| www.finixcreative.com 	|
+| Email		| rsmith@finixcreative.com 	|
+| Phone		| 617-417-2179 				|
++---------------------------------------+
+| © 2015 Finix, all rights reserved.	|
++---------------------------------------+
 */
 
 /* GENERAL STYLES */
@@ -16,8 +17,6 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-	-webkit-transition: all .3s ease-in;
-	transition: all .3s ease-in;
 }
 body,
 button {
@@ -33,6 +32,8 @@ body {
 }
 a {
 	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
 }
 h1 {
 	font-size: 2.5em;
