@@ -303,10 +303,6 @@ header nav li ul.menu li a:hover {
 .invisible {
 	display: none;
 }
-.content {
-	padding: 0;
-	padding-top: 80px;
-}
 .hero {
 	background-color: #222;
 	background-size: cover;
