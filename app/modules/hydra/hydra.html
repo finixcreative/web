@@ -2,6 +2,6 @@
 HYDRA | Replicating module generates dynamic elements based on page content data.
 © 2015 Finix, all rights reserved.
 -->
-<div ng-include="module" ng-repeat="content in contents">
+<div ng-include="'app/modules/' + content.config.type + '/' + content.config.type + '.html'" ng-repeat="content in contents">
 	<div ng-include="hydra" ng-init="contents = content.contents"></div>
 </div>
