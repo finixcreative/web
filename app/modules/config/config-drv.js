@@ -2,7 +2,7 @@ angular.module('coreMod')
 	.directive('config', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/config.html',
+			templateUrl: 'app/modules/config/config.html',
 			controller: 'ChimeraController',
 			controllerAs: 'chimera'
 		};
@@ -10,7 +10,7 @@ angular.module('coreMod')
 	.directive('configtext', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/configtext.html',
+			templateUrl: 'app/modules/config/configtext.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
@@ -18,7 +18,7 @@ angular.module('coreMod')
 	.directive('writetext', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/writetext.html',
+			templateUrl: 'app/modules/config/writetext.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
@@ -26,7 +26,7 @@ angular.module('coreMod')
 	.directive('configheadline', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/configheadline.html',
+			templateUrl: 'app/modules/config/configheadline.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
@@ -34,7 +34,7 @@ angular.module('coreMod')
 	.directive('writeheadline', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/writeheadline.html',
+			templateUrl: 'app/modules/config/writeheadline.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
@@ -42,7 +42,7 @@ angular.module('coreMod')
 	.directive('configimg', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/configimg.html',
+			templateUrl: 'app/modules/config/configimg.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
@@ -50,7 +50,7 @@ angular.module('coreMod')
 	.directive('imgselect', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/imgselect.html',
+			templateUrl: 'app/modules/config/imgselect.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
@@ -58,7 +58,7 @@ angular.module('coreMod')
 	.directive('size', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/size.html',
+			templateUrl: 'app/modules/config/size.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
@@ -66,7 +66,7 @@ angular.module('coreMod')
 	.directive('textsize', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/textsize.html',
+			templateUrl: 'app/modules/config/textsize.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
