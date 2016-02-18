@@ -1,7 +1,7 @@
 <div ng-show="configure">
 	<div ng-controller="HydraController">
 		<button class="config" ng-click="edit = !edit">
-			<img src="assets/images/icons/icon-edit.png" alt="Edit icon">
+			<img src="app/assets/images/icons/icon-edit.png" alt="Edit icon">
 		</button>
 		<form class="config full pad" ng-show="edit" ng-submit="saveChanges()">
 			<div ng-controller="ChimeraController" ng-include="'app/modules/config/' + configtype() + '.html'"></div>
