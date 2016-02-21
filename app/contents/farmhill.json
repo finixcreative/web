@@ -1,0 +1,136 @@
+[
+	{
+		"config": {
+			"title": "farmhill",
+			"type": "page"
+		},
+		"contents": [
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "white-txt pad"
+					},
+					"bg": {
+						"img": "https://drscdn.500px.org/photo/131739497/m%3D2048/7b58146c3a81290bfe7248da9a4b03e0",
+						"color": "#259",
+						"size": "cover",
+						"repeat": "no-repeat",
+						"position": "",
+						"attachment": "fixed",
+						"parallax": 0.2
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h1",
+							"text": "Jobs"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Are you talented? Do you love what you do? Do you have a great attitude? Liar."
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "image",
+							"classes": "",
+							"size": "full",
+							"src": "bannerImage@2x.png",
+							"alt": "Farm Hill banner image"
+						},
+						"contents": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#fff",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h3",
+							"text": "Subsection headlines"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "h4",
+							"text": "Subsection subheadline"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+						},
+						"contents": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#f3f3f3",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h3",
+							"text": "Secondary subsection headline"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "h4",
+							"text": "Secondary subsection subheadline"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+						},
+						"contents": null
+					}
+				]
+			}
+		]
+	}
+]
