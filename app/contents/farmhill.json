@@ -42,7 +42,7 @@
 							"type": "image",
 							"classes": "",
 							"size": "full",
-							"src": "bannerImage@2x.png",
+							"src": "client/farmhill/jobspage/assets/bannerImage@2x.png",
 							"alt": "Farm Hill banner image"
 						},
 						"contents": null
