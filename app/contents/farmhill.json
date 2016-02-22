@@ -168,8 +168,154 @@
 					},
 					{
 						"config": {
-							"type": "p",
-							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+							"type": "tile",
+							"class": "third",
+							"color": "#09f",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Design",
+								"position": "UI Designer",
+								"location": "Redwood City, CA"
+							}
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tile",
+							"class": "third",
+							"color": "#f39c12",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Operations",
+								"position": "Operations Manager",
+								"location": "Los Angeles, CA"
+							}
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tile",
+							"class": "third",
+							"color": "#ec543e",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Culinary",
+								"position": "Sous Chef",
+								"location": "New York, NY"
+							}
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tile",
+							"class": "third",
+							"color": "#7a80ff",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Logistics",
+								"position": "UI Designer",
+								"location": "Redwood City, CA"
+							}
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tile",
+							"class": "third",
+							"color": "#27d277",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Growth",
+								"position": "Operations Manager",
+								"location": "Los Angeles, CA"
+							}
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tile",
+							"class": "third",
+							"color": "#000",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Finance",
+								"position": "Sous Chef",
+								"location": "New York, NY"
+							}
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tile",
+							"class": "third",
+							"color": "#7a80ff",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Logistics",
+								"position": "UI Designer",
+								"location": "Redwood City, CA"
+							}
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tile",
+							"class": "third",
+							"color": "#27d277",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Growth",
+								"position": "Operations Manager",
+								"location": "Los Angeles, CA"
+							}
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tile",
+							"class": "third",
+							"color": "#000",
+							"border": {
+								"width": "5px",
+								"style": "solid"
+							},
+							"text": {
+								"department": "Finance",
+								"position": "Sous Chef",
+								"location": "New York, NY"
+							}
 						},
 						"contents": null
 					}
