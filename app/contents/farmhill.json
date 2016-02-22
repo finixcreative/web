@@ -62,6 +62,89 @@
 					"type": "row",
 					"class": {
 						"outer": "",
+						"inner": ""
+					},
+					"bg": {
+						"img": "",
+						"color": "#fff",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "input",
+							"class": "",
+							"size": "full"
+						},
+						"contents": [
+							{
+								"config": {
+									"class": "sixth",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "design"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "operations"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "culinary"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "finance"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "growth"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "logistics"
+								},
+								"contents": null
+							}
+						]
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
 						"inner": "pad"
 					},
 					"bg": {
