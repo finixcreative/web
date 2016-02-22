@@ -154,6 +154,7 @@ select {
 header {
 	border: none;
 	position: fixed;
+	background: #3bf;
 }
 header nav ul {
 	width: auto;
