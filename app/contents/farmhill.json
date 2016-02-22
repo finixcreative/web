@@ -84,7 +84,7 @@
 						"contents": [
 							{
 								"config": {
-									"class": "sixth",
+									"class": "sixth pad",
 									"input": "radio",
 									"name": "jobtype",
 									"value": "design"
@@ -93,7 +93,7 @@
 							},
 							{
 								"config": {
-									"class": "sixth",
+									"class": "sixth pad",
 									"input": "radio",
 									"name": "jobtype",
 									"value": "operations"
@@ -102,7 +102,7 @@
 							},
 							{
 								"config": {
-									"class": "sixth",
+									"class": "sixth pad",
 									"input": "radio",
 									"name": "jobtype",
 									"value": "culinary"
@@ -111,7 +111,7 @@
 							},
 							{
 								"config": {
-									"class": "sixth",
+									"class": "sixth pad",
 									"input": "radio",
 									"name": "jobtype",
 									"value": "finance"
@@ -120,7 +120,7 @@
 							},
 							{
 								"config": {
-									"class": "sixth",
+									"class": "sixth pad",
 									"input": "radio",
 									"name": "jobtype",
 									"value": "growth"
@@ -129,7 +129,7 @@
 							},
 							{
 								"config": {
-									"class": "sixth",
+									"class": "sixth pad",
 									"input": "radio",
 									"name": "jobtype",
 									"value": "logistics"
