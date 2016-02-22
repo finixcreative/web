@@ -1,0 +1,9 @@
+<div class="{{content.config.class}} {{content.config.size}}">
+	<div
+		class="{{content.config.class}} {{content.config.size}}"
+		style="border-left: {{content.config.border.width}} {{content.config.border.style}} {{content.config.color}};"
+		ng-repeat="content in contents | orderBy: ['config.text.department', 'config.text.position'] | filter: jobfilter"
+	>
+		<hydra></hydra>
+	</div>
+</div>
