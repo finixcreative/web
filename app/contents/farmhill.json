@@ -176,7 +176,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#09f",
 									"border": {
@@ -196,7 +196,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#f39c12",
 									"border": {
@@ -216,7 +216,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#ec543e",
 									"border": {
@@ -236,7 +236,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#7a80ff",
 									"border": {
@@ -256,7 +256,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#27d277",
 									"border": {
@@ -276,7 +276,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#000",
 									"border": {
@@ -296,7 +296,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#7a80ff",
 									"border": {
@@ -316,7 +316,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#27d277",
 									"border": {
@@ -336,7 +336,7 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "pad",
+									"class": "white-bg pad",
 									"size": "third",
 									"color": "#000",
 									"border": {
