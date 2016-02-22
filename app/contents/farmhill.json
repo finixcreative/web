@@ -14,11 +14,17 @@
 					},
 					"bg": {
 						"img": "",
-						"color": "#0cf",
+						"color": "#",
+						"gradient": {
+							"angle": "0deg",
+							"color1": "0af",
+							"color2": "0cf",
+						},
 						"size": "cover",
 						"repeat": "no-repeat",
 						"position": "",
 						"attachment": "fixed",
+						"overlay": null,
 						"parallax": 0
 					}
 				},
