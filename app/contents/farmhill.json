@@ -66,7 +66,7 @@
 					},
 					"bg": {
 						"img": "",
-						"color": "#fff",
+						"color": "#f2f2f2",
 						"size": "",
 						"repeat": "",
 						"position": "",
@@ -78,55 +78,7 @@
 					{
 						"config": {
 							"type": "h3",
-							"text": "Subsection headlines"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "h4",
-							"text": "Subsection subheadline"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "p",
-							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
-						},
-						"contents": null
-					}
-				]
-			},
-			{
-				"config": {
-					"type": "row",
-					"class": {
-						"outer": "",
-						"inner": "pad"
-					},
-					"bg": {
-						"img": "",
-						"color": "#f3f3f3",
-						"size": "",
-						"repeat": "",
-						"position": "",
-						"attachment": "",
-						"parallax": 0
-					}
-				},
-				"contents": [
-					{
-						"config": {
-							"type": "h3",
-							"text": "Secondary subsection headline"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "h4",
-							"text": "Secondary subsection subheadline"
+							"text": "Current Openings"
 						},
 						"contents": null
 					},
