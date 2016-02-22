@@ -186,7 +186,9 @@
 										"department": "Design",
 										"position": "UI Designer",
 										"location": "Redwood City, CA"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							},
@@ -203,7 +205,9 @@
 										"department": "Operations",
 										"position": "Operations Manager",
 										"location": "Los Angeles, CA"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							},
@@ -220,7 +224,9 @@
 										"department": "Culinary",
 										"position": "Sous Chef",
 										"location": "New York, NY"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							},
@@ -237,7 +243,9 @@
 										"department": "Logistics",
 										"position": "UI Designer",
 										"location": "Redwood City, CA"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							},
@@ -254,7 +262,9 @@
 										"department": "Growth",
 										"position": "Operations Manager",
 										"location": "Los Angeles, CA"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							},
@@ -271,7 +281,9 @@
 										"department": "Finance",
 										"position": "Sous Chef",
 										"location": "New York, NY"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							},
@@ -288,7 +300,9 @@
 										"department": "Logistics",
 										"position": "UI Designer",
 										"location": "Redwood City, CA"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							},
@@ -305,7 +319,9 @@
 										"department": "Growth",
 										"position": "Operations Manager",
 										"location": "Los Angeles, CA"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							},
@@ -322,7 +338,9 @@
 										"department": "Finance",
 										"position": "Sous Chef",
 										"location": "New York, NY"
-									}
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
 								},
 								"contents": null
 							}
