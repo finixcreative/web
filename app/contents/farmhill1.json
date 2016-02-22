@@ -1,0 +1,362 @@
+[
+	{
+		"config": {
+			"title": "farmhill",
+			"type": "page"
+		},
+		"contents": [
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "white-txt"
+					},
+					"bg": {
+						"img": "",
+						"color": "",
+						"gradient": {
+							"angle": "180deg",
+							"color1": "#0af",
+							"color2": "#0cf"
+						},
+						"size": "cover",
+						"repeat": "no-repeat",
+						"position": "",
+						"attachment": "fixed",
+						"overlay": null,
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h1",
+							"text": "Jobs",
+							"class": "center pad"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Are you talented? Do you love what you do?\\nDo you have a great attitude? Liar.",
+							"class": "center pad"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "image",
+							"class": "",
+							"size": "full",
+							"src": "client/farmhill/jobspage/assets/bannerImage@2x.png",
+							"alt": "Farm Hill banner image"
+						},
+						"contents": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": ""
+					},
+					"bg": {
+						"img": "",
+						"color": "#fff",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "input",
+							"class": "",
+							"size": "full"
+						},
+						"contents": [
+							{
+								"config": {
+									"class": "sixth pad",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "design"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth pad",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "operations"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth pad",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "culinary"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth pad",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "finance"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth pad",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "growth"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"class": "sixth pad",
+									"input": "radio",
+									"name": "jobtype",
+									"value": "logistics"
+								},
+								"contents": null
+							}
+						]
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#f2f2f2",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h3",
+							"text": "Current Openings",
+							"class": "center"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "tiles",
+							"class": "pad",
+							"size": "full"
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#09f",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Design",
+										"position": "UI Designer",
+										"location": "Redwood City, CA"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#f39c12",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Operations",
+										"position": "Operations Manager",
+										"location": "Los Angeles, CA"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#ec543e",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Culinary",
+										"position": "Sous Chef",
+										"location": "New York, NY"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#7a80ff",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Logistics",
+										"position": "UI Designer",
+										"location": "Redwood City, CA"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#27d277",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Growth",
+										"position": "Operations Manager",
+										"location": "Los Angeles, CA"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#000",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Finance",
+										"position": "Sous Chef",
+										"location": "New York, NY"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#7a80ff",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Logistics",
+										"position": "UI Designer",
+										"location": "Redwood City, CA"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#27d277",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Growth",
+										"position": "Operations Manager",
+										"location": "Los Angeles, CA"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "tile",
+									"class": "white-bg pad",
+									"size": "third",
+									"color": "#000",
+									"border": {
+										"width": "5px",
+										"style": "solid"
+									},
+									"text": {
+										"department": "Finance",
+										"position": "Sous Chef",
+										"location": "New York, NY"
+									},
+									"orderby": ["config.text.department", "config.text.position"],
+									"filter": "jobfilter"
+								},
+								"contents": null
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
