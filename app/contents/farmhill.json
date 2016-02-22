@@ -40,7 +40,7 @@
 					{
 						"config": {
 							"type": "p",
-							"text": "Are you talented? Do you love what you do?\nDo you have a great attitude? Liar.",
+							"text": "Are you talented? Do you love what you do?\\nDo you have a great attitude? Liar.",
 							"classes": "center"
 						},
 						"contents": null
