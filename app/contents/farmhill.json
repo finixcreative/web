@@ -169,14 +169,15 @@
 					{
 						"config": {
 							"type": "tiles",
-							"class": "",
+							"class": "pad",
 							"size": "full"
 						},
 						"contents": [
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#09f",
 									"border": {
 										"width": "5px",
@@ -195,7 +196,8 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#f39c12",
 									"border": {
 										"width": "5px",
@@ -214,7 +216,8 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#ec543e",
 									"border": {
 										"width": "5px",
@@ -233,7 +236,8 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#7a80ff",
 									"border": {
 										"width": "5px",
@@ -252,7 +256,8 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#27d277",
 									"border": {
 										"width": "5px",
@@ -271,7 +276,8 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#000",
 									"border": {
 										"width": "5px",
@@ -290,7 +296,8 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#7a80ff",
 									"border": {
 										"width": "5px",
@@ -309,7 +316,8 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#27d277",
 									"border": {
 										"width": "5px",
@@ -328,7 +336,8 @@
 							{
 								"config": {
 									"type": "tile",
-									"class": "third",
+									"class": "pad",
+									"size": "third",
 									"color": "#000",
 									"border": {
 										"width": "5px",
