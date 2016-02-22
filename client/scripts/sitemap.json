@@ -1,19 +1,24 @@
 {
 	"pages": [
 		{
-			"title": "home"
+			"title": "Menu",
+			"link": "menu"
 		},
 		{
-			"title": "products"
+			"title": "About",
+			"link": "about"
 		},
 		{
-			"title": "services"
+			"title": "Contact",
+			"link": "contact"
 		},
 		{
-			"title": "about"
+			"title": "Catering",
+			"link": "catering"
 		},
 		{
-			"title": "contact"
+			"title": "Farm Hill for Teams",
+			"link": "teams"
 		}
 	]
 }
