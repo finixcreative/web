@@ -161,7 +161,8 @@
 					{
 						"config": {
 							"type": "h3",
-							"text": "Current Openings"
+							"text": "Current Openings",
+							"class": "center"
 						},
 						"contents": null
 					},
