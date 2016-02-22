@@ -32,14 +32,16 @@
 					{
 						"config": {
 							"type": "h1",
-							"text": "Jobs"
+							"text": "Jobs",
+							"classes": "center"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
-							"text": "Are you talented? Do you love what you do? Do you have a great attitude? Liar."
+							"text": "Are you talented? Do you love what you do?\nDo you have a great attitude? Liar.",
+							"classes": "center"
 						},
 						"contents": null
 					},
