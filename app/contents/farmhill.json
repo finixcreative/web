@@ -33,7 +33,7 @@
 						"config": {
 							"type": "h1",
 							"text": "Jobs",
-							"classes": "center"
+							"class": "center"
 						},
 						"contents": null
 					},
@@ -41,14 +41,14 @@
 						"config": {
 							"type": "p",
 							"text": "Are you talented? Do you love what you do?\\nDo you have a great attitude? Liar.",
-							"classes": "center"
+							"class": "center"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "image",
-							"classes": "",
+							"class": "",
 							"size": "full",
 							"src": "client/farmhill/jobspage/assets/bannerImage@2x.png",
 							"alt": "Farm Hill banner image"
