@@ -33,7 +33,7 @@
 						"config": {
 							"type": "h1",
 							"text": "Jobs",
-							"class": "center"
+							"class": "center pad"
 						},
 						"contents": null
 					},
@@ -41,7 +41,7 @@
 						"config": {
 							"type": "p",
 							"text": "Are you talented? Do you love what you do?\\nDo you have a great attitude? Liar.",
-							"class": "center"
+							"class": "center pad"
 						},
 						"contents": null
 					},
