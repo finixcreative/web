@@ -10,7 +10,7 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "white-txt pad"
+						"inner": "white-txt center pad"
 					},
 					"bg": {
 						"img": "https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg",
@@ -33,7 +33,7 @@
 					{
 						"config": {
 							"type": "h2",
-							"text": "Take a look around (everything is editable)"
+							"text": "Take a look around"
 						},
 						"contents": null
 					},
@@ -55,7 +55,7 @@
 					},
 					"bg": {
 						"img": "https://static.pexels.com/photos/3747/landscape-mountains-nature-lake.jpeg",
-						"color": "#af7",
+						"color": "#444",
 						"size": "cover",
 						"repeat": "no-repeat",
 						"position": "",
