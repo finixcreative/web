@@ -19,7 +19,7 @@
 						"repeat": "no-repeat",
 						"position": "",
 						"attachment": "fixed",
-						"parallax": 0.4
+						"parallax": 0.8
 					}
 				},
 				"contents": [
@@ -55,12 +55,12 @@
 					},
 					"bg": {
 						"img": "https://static.pexels.com/photos/3747/landscape-mountains-nature-lake.jpeg",
-						"color": "#444",
+						"color": "#000",
 						"size": "cover",
 						"repeat": "no-repeat",
 						"position": "",
 						"attachment": "fixed",
-						"parallax": 0.2
+						"parallax": 0.1
 					}
 				},
 				"contents": [
@@ -101,7 +101,7 @@
 					{
 						"config": {
 							"type": "p",
-							"text": "Q: How many Microsoft technicians does it take to screw in a light bulb?"
+							"text": "Q: How many Microsoft engineers does it take to screw in a light bulb?"
 						},
 						"contents": null
 					},
