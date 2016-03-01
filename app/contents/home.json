@@ -66,6 +66,13 @@
 				"contents": [
 					{
 						"config": {
+							"type": "h3",
+							"text": "Storytelling at it's finest!"
+						},
+						"contents": null
+					},
+					{
+						"config": {
 							"type": "p",
 							"text": "Q: What do you get when you cross a gorilla and a computer?"
 						},
