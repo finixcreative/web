@@ -19,7 +19,7 @@
 						"repeat": "no-repeat",
 						"position": "",
 						"attachment": "fixed",
-						"parallax": 0.8
+						"parallax": 0.2
 					}
 				},
 				"contents": [
@@ -60,7 +60,7 @@
 						"repeat": "no-repeat",
 						"position": "",
 						"attachment": "fixed",
-						"parallax": 0.1
+						"parallax": 0.8
 					}
 				},
 				"contents": [
