@@ -51,6 +51,40 @@
 					"type": "row",
 					"class": {
 						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#fff",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 1
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h3",
+							"text": "Build sections and add content"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "The integrated editing tools make content management fast and simple, rather than writing code for hours or trying to work with a cumbersome user interface."
+						},
+						"contents": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
 						"inner": "white-txt pad"
 					},
 					"bg": {
@@ -96,12 +130,12 @@
 					},
 					"bg": {
 						"img": "",
-						"color": "#fff",
+						"color": "#f3f3f3",
 						"size": "",
 						"repeat": "",
 						"position": "",
 						"attachment": "",
-						"parallax": 0.2
+						"parallax": 1
 					}
 				},
 				"contents": [
