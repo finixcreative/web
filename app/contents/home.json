@@ -1,14 +1,119 @@
 [
 	{
-		"field1": "A",
-		"field2": "B"
-	},
-	{
-		"field1": "C",
-		"field2": "D"
-	},
-	{
-		"field1": "E",
-		"field2": "F"
+		"config": {
+			"title": "home",
+			"type": "page"
+		},
+		"content": [
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "white-txt pad"
+					},
+					"bg": {
+						"img": "https://static.pexels.com/photos/3747/landscape-mountains-nature-lake.jpeg",
+						"color": "#f52",
+						"size": "cover",
+						"repeat": "no-repeat",
+						"position": "",
+						"attachment": "fixed",
+						"parallax": 0.2
+					}
+				},
+				"content": [
+					{
+						"config": {
+							"type": "h1",
+							"text": "Welcome to the future of web design!"
+						},
+						"content": null
+					},
+					{
+						"config": {
+							"type": "h2",
+							"text": "Take a look around (everything is editable)"
+						},
+						"content": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Finix web construction tools are the ultimate in intuitive, flexible, and powerful development software. Quickly create your own website, app, or blog with fully customizable design and content."
+						},
+						"content": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#fff",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0.2
+					}
+				},
+				"content": [
+					{
+						"config": {
+							"type": "p",
+							"text": "Q: What do you get when you cross a gorilla and a computer?"
+						},
+						"content": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "A: Hairy Reasoner."
+						},
+						"content": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "white-txt pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#f3f3f3",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0.2
+					}
+				},
+				"content": [
+					{
+						"config": {
+							"type": "p",
+							"text": "Q: How many Microsoft technicians does it take to screw in a light bulb?"
+						},
+						"content": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "A: None. They would just declare darkness the new standard™"
+						},
+						"content": null
+					}
+				]
+			}
+		]
 	}
 ]
