@@ -1,8 +1,12 @@
 {
 	"pages": [
 		{
-			"title": "Menu",
-			"link": "menu"
+			"title": "Home",
+			"link": "home"
+		},
+		{
+			"title": "Services",
+			"link": "services"
 		},
 		{
 			"title": "About",
@@ -13,12 +17,8 @@
 			"link": "contact"
 		},
 		{
-			"title": "Catering",
-			"link": "catering"
-		},
-		{
-			"title": "Farm Hill for Teams",
-			"link": "teams"
+			"title": "Hydra",
+			"link": "hydra"
 		}
 	]
 }
