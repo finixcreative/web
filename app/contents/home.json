@@ -4,7 +4,7 @@
 			"title": "home",
 			"type": "page"
 		},
-		"content": [
+		"contents": [
 			{
 				"config": {
 					"type": "row",
@@ -22,27 +22,27 @@
 						"parallax": 0.4
 					}
 				},
-				"content": [
+				"contents": [
 					{
 						"config": {
 							"type": "h1",
 							"text": "Welcome to the future of web design!"
 						},
-						"content": null
+						"contents": null
 					},
 					{
 						"config": {
 							"type": "h2",
 							"text": "Take a look around (everything is editable)"
 						},
-						"content": null
+						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
 							"text": "Finix web construction tools are the ultimate in intuitive, flexible, and powerful development software. Quickly create your own website, app, or blog with fully customizable design and content."
 						},
-						"content": null
+						"contents": null
 					}
 				]
 			},
@@ -63,20 +63,20 @@
 						"parallax": 0.2
 					}
 				},
-				"content": [
+				"contents": [
 					{
 						"config": {
 							"type": "p",
 							"text": "Q: What do you get when you cross a gorilla and a computer?"
 						},
-						"content": null
+						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
 							"text": "A: Hairy Reasoner."
 						},
-						"content": null
+						"contents": null
 					}
 				]
 			},
@@ -97,20 +97,20 @@
 						"parallax": 0.2
 					}
 				},
-				"content": [
+				"contents": [
 					{
 						"config": {
 							"type": "p",
 							"text": "Q: How many Microsoft technicians does it take to screw in a light bulb?"
 						},
-						"content": null
+						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
 							"text": "A: None. They would just declare darkness the new standard™"
 						},
-						"content": null
+						"contents": null
 					}
 				]
 			}
