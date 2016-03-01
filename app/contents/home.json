@@ -13,13 +13,13 @@
 						"inner": "white-txt pad"
 					},
 					"bg": {
-						"img": "https://static.pexels.com/photos/3747/landscape-mountains-nature-lake.jpeg",
+						"img": "https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg",
 						"color": "#f52",
 						"size": "cover",
 						"repeat": "no-repeat",
 						"position": "",
 						"attachment": "fixed",
-						"parallax": 0.2
+						"parallax": 0.4
 					}
 				},
 				"content": [
@@ -51,15 +51,15 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "pad"
+						"inner": "white-txt pad"
 					},
 					"bg": {
-						"img": "",
-						"color": "#fff",
-						"size": "",
-						"repeat": "",
+						"img": "https://static.pexels.com/photos/3747/landscape-mountains-nature-lake.jpeg",
+						"color": "#af7",
+						"size": "cover",
+						"repeat": "no-repeat",
 						"position": "",
-						"attachment": "",
+						"attachment": "fixed",
 						"parallax": 0.2
 					}
 				},
