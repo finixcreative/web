@@ -14,7 +14,7 @@
 					},
 					"bg": {
 						"img": "https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg",
-						"color": "#52f",
+						"color": "#3af",
 						"size": "cover",
 						"repeat": "no-repeat",
 						"position": "",
@@ -26,14 +26,14 @@
 					{
 						"config": {
 							"type": "h1",
-							"text": "Welcome to the future of web design!"
+							"text": "The future of web design!"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "h2",
-							"text": "Take a look around"
+							"text": "Take a look around..."
 						},
 						"contents": null
 					},
