@@ -6,12 +6,10 @@ angular.module('chimeraMod')
 	.controller('ChimeraController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams){
 		var chimera = $routeParams.chimera,
 			pageData = 'app/contents/'+chimera+'.json';
-		$scope = {
-			template: 'app/modules/hydra/hydra.html',
-			contents: [],
-			errors: [],
-			configure: true
-		};
+		$scope.template = 'app/modules/hydra/hydra.html';
+		$scope.contents = [];
+		$scope.errors = [];
+		$scope.configure = true;
 		$http.get(pageData).then(
 			function success(response){
 				//success callbacks
