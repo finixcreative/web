@@ -13,8 +13,8 @@
 						"inner": "white-txt center pad"
 					},
 					"bg": {
-						"img": "https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg",
-						"color": "#3af",
+						"img": "http://spfusa.org/wp-content/uploads/2015/12/golden-gate-bridge.jpg",
+						"color": "#f52",
 						"size": "cover",
 						"repeat": "no-repeat",
 						"position": "",
