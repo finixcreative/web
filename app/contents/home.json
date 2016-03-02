@@ -25,6 +25,16 @@
 				"contents": [
 					{
 						"config": {
+							"type": "image",
+							"class": "center",
+							"size": "",
+							"src": "app/assets/images/icons/logo-finix-2014-compressed.png",
+							"alt": "Finix logo"
+						},
+						"contents": null
+					},
+					{
+						"config": {
 							"type": "h1",
 							"text": "The future of web design!"
 						},
