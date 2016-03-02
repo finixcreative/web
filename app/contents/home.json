@@ -105,6 +105,7 @@
 						"repeat": "no-repeat",
 						"position": "",
 						"attachment": "fixed",
+						"opacity": 0.2,
 						"parallax": 0.8
 					}
 				},
