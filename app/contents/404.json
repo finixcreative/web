@@ -10,7 +10,7 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "white-txt pad"
+						"inner": "white-txt pad-200-20"
 					},
 					"bg": {
 						"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Louis-Emile_Durandelle,_The_Eiffel_Tower_-_State_of_the_Construction,_1888,_grayscale.jpg",
@@ -19,7 +19,7 @@
 						"repeat": "no-repeat",
 						"position": "",
 						"attachment": "fixed",
-						"opacity": 0.5,
+						"opacity": 0.8,
 						"parallax": 0.2
 					}
 				},
