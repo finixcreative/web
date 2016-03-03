@@ -161,6 +161,8 @@ button {
 	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
 }
 button:hover {
 	background: rgba(255,255,255,1);
