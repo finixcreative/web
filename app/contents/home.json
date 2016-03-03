@@ -175,25 +175,25 @@
 									"text": "A: Hairy Reasoner."
 								},
 								"contents": null
+							},
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Try it",
+									"link": "#/hydra",
+									"target": ""
+								},
+								"contents": null
 							}
 						]
-					},
-					{
-						"config": {
-							"type": "button",
-							"id": "",
-							"class": "center pad",
-							"size": "",
-							"name": "",
-							"buttontype": "",
-							"value": "",
-							"form": "",
-							"click": "",
-							"text": "Try it",
-							"link": "#/hydra",
-							"target": ""
-						},
-						"contents": null
 					}
 				]
 			},
@@ -236,6 +236,23 @@
 									"text": "A: None. They would just declare darkness the new standard™"
 								},
 								"contents": null
+							},
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Try it",
+									"link": "#/hydra",
+									"target": ""
+								},
+								"contents": null
 							}
 						]
 					},
@@ -246,23 +263,6 @@
 							"size": "quarter",
 							"src": "http://cbri.com/wp-content/uploads/2012/02/risk-management-safety.png",
 							"alt": "Burned out lightbulb"							
-						},
-						"contents": null
-					}
-					{
-						"config": {
-							"type": "button",
-							"id": "",
-							"class": "center pad",
-							"size": "",
-							"name": "",
-							"buttontype": "",
-							"value": "",
-							"form": "",
-							"click": "",
-							"text": "Try it",
-							"link": "#/hydra",
-							"target": ""
 						},
 						"contents": null
 					}
