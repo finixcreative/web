@@ -50,6 +50,7 @@ angular.module('chimeraMod')
 					"Contents: " + $scope.contents[0].contents + "\n",
 					"Errors: " + $scope.errors
 				);
+				$window.location.href = "/404";
 			}
 		);
 		/* Element cases

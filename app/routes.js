@@ -6,8 +6,11 @@ angular.module('finixApp')
 				controller: 'ChimeraController',
 				controllerAs: 'chimera'
 			})
-			.otherwise({
+			.when('/', {
 				redirectTo: '/home',
+			})
+			.otherwise({
+				redirectTo: '/404',
 			});
 	}])
 ;
