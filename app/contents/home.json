@@ -43,13 +43,6 @@
 					},
 					{
 						"config": {
-							"type": "h2",
-							"text": "Take a look around..."
-						},
-						"contents": null
-					},
-					{
-						"config": {
 							"type": "p",
 							"text": "Finix web construction tools are the ultimate in intuitive, flexible, and powerful development software. Quickly create your own website, app, or blog with fully customizable design and content."
 						},
