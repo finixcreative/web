@@ -191,13 +191,6 @@
 						"contents": [
 							{
 								"config": {
-									"type": "h3",
-									"text": "Storytelling at it's finest!"
-								},
-								"contents": null
-							},
-							{
-								"config": {
 									"type": "p",
 									"text": "Q: How many Microsoft engineers does it take to screw in a light bulb?"
 								},
