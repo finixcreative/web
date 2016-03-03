@@ -98,6 +98,23 @@
 							"text": "Finix integrated editing tools make digital content management fast and simple, rather than wasting hours writing code or limiting your options with a cumbersome CMS user interface."
 						},
 						"contents": null
+					},
+					{
+						"config": {
+							"type": "button",
+							"id": "",
+							"class": "center pad",
+							"size": "",
+							"name": "",
+							"buttontype": "",
+							"value": "",
+							"form": "",
+							"click": "",
+							"text": "Learn more",
+							"link": "#/about",
+							"target": ""
+						},
+						"contents": null
 					}
 				]
 			},
@@ -160,6 +177,23 @@
 								"contents": null
 							}
 						]
+					},
+					{
+						"config": {
+							"type": "button",
+							"id": "",
+							"class": "center pad",
+							"size": "",
+							"name": "",
+							"buttontype": "",
+							"value": "",
+							"form": "",
+							"click": "",
+							"text": "Try it",
+							"link": "#/hydra",
+							"target": ""
+						},
+						"contents": null
 					}
 				]
 			},
@@ -212,6 +246,23 @@
 							"size": "quarter",
 							"src": "http://cbri.com/wp-content/uploads/2012/02/risk-management-safety.png",
 							"alt": "Burned out lightbulb"							
+						},
+						"contents": null
+					}
+					{
+						"config": {
+							"type": "button",
+							"id": "",
+							"class": "center pad",
+							"size": "",
+							"name": "",
+							"buttontype": "",
+							"value": "",
+							"form": "",
+							"click": "",
+							"text": "Try it",
+							"link": "#/hydra",
+							"target": ""
 						},
 						"contents": null
 					}
