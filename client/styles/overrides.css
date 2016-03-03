@@ -159,18 +159,19 @@ select {
 button {
 	background: rgba(255,255,255,0.75);
 	color: #444;
-	border: 1px solid #444;
+	border: 0;
 	border-radius: 5px;
 	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.5);
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
 button:hover {
 	background: rgba(255,255,255,1);
 	color: #f52;
-	border: 1px solid #f52;
+	box-shadow: 1px 0px 1px rgba(0,0,0,0.7);
 }
 header {
 	border: none;
