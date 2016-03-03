@@ -159,7 +159,7 @@ select {
 button {
 	background: rgba(255,255,255,0.75);
 	color: #444;
-	border: 0;
+	border: 1px solid #444;
 	border-radius: 5px;
 	font-size: 1em;
 	font-weight: 700;
@@ -170,6 +170,7 @@ button {
 button:hover {
 	background: rgba(255,255,255,1);
 	color: #f52;
+	border: 1px solid #f52;
 }
 header {
 	border: none;
