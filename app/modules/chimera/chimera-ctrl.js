@@ -51,7 +51,7 @@ angular.module('chimeraMod')
 					"Errors: " + $scope.errors
 				);
 				if($scope.errors == undefined){
-					$location.href = "/404";
+					$location.url("/404");
 				};
 			}
 		);
