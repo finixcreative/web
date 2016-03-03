@@ -57,7 +57,7 @@
 									"form": "",
 									"click": "",
 									"text": "Go home",
-									"link": "/home",
+									"link": "#/home",
 									"target": ""
 								},
 								"contents": null
