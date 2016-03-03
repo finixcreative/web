@@ -50,20 +50,29 @@
 					},
 					{
 						"config": {
-							"type": "button",
-							"id": "",
-							"class": "center pad",
-							"size": "",
-							"name": "",
-							"buttontype": "",
-							"value": "",
-							"form": "",
-							"click": "",
-							"text": "Sign up",
-							"link": "https://finixcreative.typeform.com/to/uMQRIG",
-							"target": "_blank"
+							"type": "block",
+							"class": "pad",
+							"size": "full"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Sign up",
+									"link": "https://finixcreative.typeform.com/to/uMQRIG",
+									"target": "_blank"
+								},
+								"contents": null
+							}
+						]
 					}
 				]
 			},
