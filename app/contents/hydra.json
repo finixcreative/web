@@ -10,7 +10,7 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "white-txt pad"
+						"inner": "white-txt pad-200-20"
 					},
 					"bg": {
 						"img": "https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg",
