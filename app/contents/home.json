@@ -89,7 +89,7 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "white-txt pad"
+						"inner": "white-txt"
 					},
 					"bg": {
 						"img": "https://pixabay.com/static/uploads/photo/2015/12/14/23/42/wood-1093427_960_720.jpg",
@@ -105,24 +105,44 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h3",
-							"text": "Storytelling at it's finest!"
+							"type": "image",
+							"class": "",
+							"size": "third",
+							"src": "https://pixabay.com/static/uploads/photo/2012/05/04/12/55/orangutan-47378_960_720.png",
+							"alt": "Gorilla"							
 						},
 						"contents": null
 					},
 					{
 						"config": {
-							"type": "p",
-							"text": "Q: What do you get when you cross a gorilla and a computer?"
+							"type": "block",
+							"id": "",
+							"class": "pad",
+							"size": "twothird"
 						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "p",
-							"text": "A: Hairy Reasoner."
-						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Storytelling at it's finest!"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Q: What do you get when you cross a gorilla and a computer?"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "A: Hairy Reasoner."
+								},
+								"contents": null
+							}
+						]
 					}
 				]
 			},
