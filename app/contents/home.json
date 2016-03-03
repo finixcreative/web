@@ -96,32 +96,52 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h3",
-							"text": "Easy to build web pages & quickly edit content"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "p",
-							"text": "Finix integrated editing tools make digital content management fast and simple, rather than wasting hours writing code or limiting your options with a cumbersome CMS user interface."
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "button",
+							"type": "block",
 							"id": "",
-							"class": "center pad",
-							"size": "",
-							"name": "",
-							"buttontype": "",
-							"value": "",
-							"form": "",
-							"click": "",
-							"text": "Learn more",
-							"link": "#/about",
-							"target": ""
+							"class": "pad",
+							"size": "threequarter"
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Easy to build web pages & quickly edit content"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Finix integrated editing tools make digital content management fast and simple, rather than wasting hours writing code or limiting your options with a cumbersome CMS user interface."
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Learn more",
+									"link": "#/about",
+									"target": ""
+								},
+								"contents": null
+							}
+						]
+					},
+					{
+						"config": {
+							"type": "image",
+							"class": "",
+							"size": "quarter",
+							"src": "http://nexustravelsolutions.com/wp-content/uploads/MiG-29-take-off-Nexus-Travel-Solutions-Luxury-Bespoke-Holidays-India1.png",
+							"alt": "Jet"							
 						},
 						"contents": null
 					}
