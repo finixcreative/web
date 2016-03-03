@@ -172,7 +172,7 @@
 					},
 					"bg": {
 						"img": "",
-						"color": "#f3f3f3",
+						"color": "#fff",
 						"size": "",
 						"repeat": "",
 						"position": "",
@@ -183,15 +183,42 @@
 				"contents": [
 					{
 						"config": {
-							"type": "p",
-							"text": "Q: How many Microsoft engineers does it take to screw in a light bulb?"
+							"type": "block",
+							"id": "",
+							"class": "pad",
+							"size": "threequarter"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Storytelling at it's finest!"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Q: How many Microsoft engineers does it take to screw in a light bulb?"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "A: None. They would just declare darkness the new standard™"
+								},
+								"contents": null
+							}
+						]
 					},
 					{
 						"config": {
-							"type": "p",
-							"text": "A: None. They would just declare darkness the new standard™"
+							"type": "image",
+							"class": "",
+							"size": "quarter",
+							"src": "http://cbri.com/wp-content/uploads/2012/02/risk-management-safety.png",
+							"alt": "Burned out lightbulb"							
 						},
 						"contents": null
 					}
