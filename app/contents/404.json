@@ -10,7 +10,7 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "white-txt pad-200-20"
+						"inner": "white-txt pad-200-20 center"
 					},
 					"bg": {
 						"img": "https://pixabay.com/static/uploads/photo/2015/05/15/15/00/building-768815_960_720.jpg",
@@ -40,20 +40,29 @@
 					},
 					{
 						"config": {
-							"type": "button",
-							"id": "",
-							"class": "center pad",
-							"size": "",
-							"name": "",
-							"buttontype": "",
-							"value": "",
-							"form": "",
-							"click": "",
-							"text": "Go home",
-							"link": "/home",
-							"target": ""
+							"type": "block",
+							"class": "pad",
+							"size": "full"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Go home",
+									"link": "/home",
+									"target": ""
+								},
+								"contents": null
+							}
+						]
 					}
 				]
 			}
