@@ -47,6 +47,21 @@
 							"text": "Finix web tools are the ultimate resource for intuitive, flexible, and powerful software development. Quickly create your own website, app, or blog with fully customizable design and content."
 						},
 						"contents": null
+					},
+					{
+						"config": {
+							"type": "button",
+							"id": "",
+							"class": "center pad",
+							"size": "",
+							"name": "",
+							"buttontype": "",
+							"value": "",
+							"form": "",
+							"click": "",
+							"text": "Buy now!"
+						},
+						"contents": null
 					}
 				]
 			},
