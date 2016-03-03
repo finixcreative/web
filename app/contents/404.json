@@ -37,6 +37,23 @@
 							"text": "Oops! The page you were looking for is missing... we're so sorry for the mix-up."
 						},
 						"contents": null
+					},
+					{
+						"config": {
+							"type": "button",
+							"id": "",
+							"class": "center pad",
+							"size": "",
+							"name": "",
+							"buttontype": "",
+							"value": "",
+							"form": "",
+							"click": "",
+							"text": "Go home",
+							"link": "/home",
+							"target": ""
+						},
+						"contents": null
 					}
 				]
 			}
