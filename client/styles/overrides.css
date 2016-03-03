@@ -153,6 +153,19 @@ select {
 	height: auto;
 	font-size: 16px;
 }
+button {
+	background: rgba(255,255,255,0.75);
+	color: #444;
+	border: 0;
+	border-radius: 5px;
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+button:hover {
+	background: rgba(255,255,255,1);
+	color: #f52;
+}
 header {
 	border: none;
 	position: fixed;
