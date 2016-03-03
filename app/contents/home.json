@@ -107,8 +107,8 @@
 						"config": {
 							"type": "image",
 							"class": "",
-							"size": "third",
-							"src": "https://pixabay.com/static/uploads/photo/2012/05/04/12/55/orangutan-47378_960_720.png",
+							"size": "quarter",
+							"src": "https://pixabay.com/static/uploads/photo/2015/11/19/05/14/gorilla-1050384_960_720.png",
 							"alt": "Gorilla"							
 						},
 						"contents": null
@@ -118,7 +118,7 @@
 							"type": "block",
 							"id": "",
 							"class": "pad",
-							"size": "twothird"
+							"size": "threequarter"
 						},
 						"contents": [
 							{
