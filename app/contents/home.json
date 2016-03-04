@@ -86,9 +86,9 @@
 					"bg": {
 						"img": "https://upload.wikimedia.org/wikipedia/commons/4/4b/STS-125_Atlantis_Liftoff_02.jpg",
 						"color": "#fff",
-						"size": "",
+						"size": "cover",
 						"repeat": "no-repeat",
-						"position": "",
+						"position": "top",
 						"attachment": "",
 						"opacity": 0.7,
 						"parallax": 0.9
