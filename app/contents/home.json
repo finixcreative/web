@@ -84,14 +84,14 @@
 						"inner": "pad"
 					},
 					"bg": {
-						"img": "http://nexustravelsolutions.com/wp-content/uploads/MiG-29-take-off-Nexus-Travel-Solutions-Luxury-Bespoke-Holidays-India1.png",
+						"img": "https://upload.wikimedia.org/wikipedia/commons/4/4b/STS-125_Atlantis_Liftoff_02.jpg",
 						"color": "#fff",
 						"size": "",
 						"repeat": "no-repeat",
 						"position": "bottom",
 						"attachment": "fixed",
-						"opacity": 0.8,
-						"parallax": 0.5
+						"opacity": 0.7,
+						"parallax": 0.9
 					}
 				},
 				"contents": [
