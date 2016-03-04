@@ -99,6 +99,9 @@ Dark Gray	     | #222
 .middle {
 	margin: 0 auto;
 }
+.circle {
+	border-radius: 50%;
+}
 .pad {
 	padding: 20px;
 }

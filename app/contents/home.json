@@ -149,13 +149,23 @@
 				"contents": [
 					{
 						"config": {
-							"type": "image",
-							"class": "",
-							"size": "quarter",
-							"src": "https://pixabay.com/static/uploads/photo/2015/11/19/05/14/gorilla-1050384_960_720.png",
-							"alt": "Gorilla"							
+							"type": "block",
+							"id": "",
+							"class": "pad",
+							"size": "quarter"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "image",
+									"class": "white-bg circle",
+									"size": "full",
+									"src": "https://pixabay.com/static/uploads/photo/2015/11/19/05/14/gorilla-1050384_960_720.png",
+									"alt": "Gorilla"							
+								},
+								"contents": null
+							}
+						]
 					},
 					{
 						"config": {
