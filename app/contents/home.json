@@ -89,7 +89,7 @@
 						"size": "",
 						"repeat": "no-repeat",
 						"position": "bottom",
-						"attachment": "fixed",
+						"attachment": "",
 						"opacity": 0.7,
 						"parallax": 0.9
 					}
