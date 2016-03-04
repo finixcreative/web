@@ -86,7 +86,7 @@
 					"bg": {
 						"img": "http://nexustravelsolutions.com/wp-content/uploads/MiG-29-take-off-Nexus-Travel-Solutions-Luxury-Bespoke-Holidays-India1.png",
 						"color": "#fff",
-						"size": "cover",
+						"size": "",
 						"repeat": "no-repeat",
 						"position": "bottom",
 						"attachment": "fixed",
