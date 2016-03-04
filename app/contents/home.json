@@ -84,13 +84,13 @@
 						"inner": "pad"
 					},
 					"bg": {
-						"img": "https://upload.wikimedia.org/wikipedia/commons/4/45/020408_STS110_Atlantis_launch.jpg",
+						"img": "",
 						"color": "#fff",
-						"size": "cover",
-						"repeat": "no-repeat",
+						"size": "",
+						"repeat": "",
 						"position": "",
-						"attachment": "fixed",
-						"opacity": 0.7,
+						"attachment": "",
+						"opacity": 0,
 						"parallax": null
 					}
 				},
