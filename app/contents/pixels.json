@@ -1,0 +1,78 @@
+[
+	{
+		"config": {
+			"title": "pixels",
+			"type": "page"
+		},
+		"contents": [
+			{
+				"config": {
+					"type": "block",
+					"id": "",
+					"class": "",
+					"size": "pixel-1",
+					"bg": {
+						"img": "",
+						"color": "#f52",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": ""
+					}
+				},
+				"contents": []
+			},
+			{
+				"config": {
+					"type": "block",
+					"id": "",
+					"class": "",
+					"size": "pixel-10",
+					"bg": {
+						"img": "",
+						"color": "#ccc",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": ""
+					}
+				},
+				"contents": []
+			},
+			{
+				"config": {
+					"type": "block",
+					"id": "",
+					"class": "",
+					"size": "pixel-100",
+					"bg": {
+						"img": "",
+						"color": "#25f",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": ""
+					}
+				},
+				"contents": []
+			},
+			{
+				"config": {
+					"type": "block",
+					"id": "",
+					"class": "",
+					"size": "pixel-10",
+					"bg": {
+						"img": "",
+						"color": "#9ad",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": ""
+					}
+				},
+				"contents": []
+			}
+		]
+	}
+]

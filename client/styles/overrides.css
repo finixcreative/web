@@ -114,6 +114,18 @@ Dark Gray	     | #222
 .pad-200-20 {
 	padding: 200px 20px;
 }
+.pixel-1 {
+	width: 1px;
+	height: 1px;
+}
+.pixel-10 {
+	width: 10px;
+	height: 10px;
+}
+.pixel-100 {
+	width: 100px;
+	height: 100px;
+}
 * {
 	box-sizing: border-box;
 }
