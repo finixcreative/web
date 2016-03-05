@@ -285,6 +285,37 @@
 							"alt": "Burned out lightbulb"							
 						},
 						"contents": null
+					}					
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#f3f3f3",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 1
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "video",
+							"class": "middle",
+							"size": "full",
+							"format": "mp4",
+							"src": "https://www.youtube.com/watch?v=G_WbeVhrk6k",
+							"poster": "https://i.ytimg.com/vi/G_WbeVhrk6k/mqdefault.jpg"
+						},
+						"contents": null
 					}
 				]
 			}
