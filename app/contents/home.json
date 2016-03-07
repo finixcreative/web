@@ -207,7 +207,7 @@
 									"value": "",
 									"form": "",
 									"click": "",
-									"text": "Try it",
+									"text": "Try it now",
 									"link": "#/hydra",
 									"target": ""
 								},
@@ -268,7 +268,7 @@
 									"value": "",
 									"form": "",
 									"click": "",
-									"text": "Try it",
+									"text": "Try it now",
 									"link": "#/hydra",
 									"target": ""
 								},
@@ -312,10 +312,91 @@
 							"class": "middle",
 							"size": "full",
 							"format": "mp4",
-							"src": "http://www.w3schools.com/html/mov_bbb.mp4",
+							"src": "blob:https%3A//www.youtube.com/26cd8d40-1fc7-4529-9ea3-67eab431786b",
 							"poster": ""
 						},
 						"contents": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "slideshow",
+					"class": "",
+					"bg": {
+						"img": "",
+						"color": "#ccc",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 1
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "slide",
+							"class": "pad",
+							"size": "full",
+							"visible": true,
+							"animation": ""
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Slide 1"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h4",
+									"text": "Subheadline"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Lorem ipsum dolor sit amet!"
+								},
+								"contents": null
+							}
+						]
+					},
+					{
+						"config": {
+							"type": "slide",
+							"class": "pad",
+							"size": "full",
+							"visible": false,
+							"animation": ""
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Slide 2"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h4",
+									"text": "Subheadline"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Lorem ipsum dolor sit amet!"
+								},
+								"contents": null
+							}
+						]
 					}
 				]
 			}
