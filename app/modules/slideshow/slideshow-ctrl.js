@@ -1,27 +1,32 @@
 angular.module('coreMod')
-	.controller('SlideshowController', function($scope, elem, attrs){
+	.controller('SlideshowController', ['$scope', function($scope){
 		var timer,
 			slideChange;
-		$scope.slides = images;
-		$scope.prev = function(){
-			div.setAttribute('data-slide', 'prev')
-		};
-		$scope.next = function(){
-			div.setAttribute('data-slide', 'next')
-		};
 		$scope.currentIndex = 0;
+		$scope.selectIndex = function(index){
+			$scope.currentIndex = index;
+		};
+		$scope.isCurrentSlideIndex = function(index) {
+			return $scope.currentIndex === index;
+		};
 		$scope.next = function(){
 			$scope.currentIndex < $scope.contents.length - 1 ? $scope.currentIndex++ : $scope.currentIndex = 0;
 		};
 		$scope.prev = function(){
-			$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.images.length - 1;
+			$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.contents.length - 1;
 		};
-		scope.$watch('currentIndex', function(){
-			scope.images.forEach(function(image){
-				image.visible = false;
+		for(var i = 0; i < $scope.contents.length; i++){
+			$scope.contents[i].config.index = i;
+			console.log($scope.contents[i].config.index);
+		};
+		$scope.$watch('currentIndex', function(){
+			$scope.contents.forEach(function(content){
+				content.config.visible = false;
 			});
-			scope.images[scope.currentIndex].visible = true;
+			$scope.contents[$scope.currentIndex].config.visible = true;
+			console.log($scope.contents[$scope.currentIndex].config.visible);
 		});
+		console.log("Slides: " + $scope.contents);
 		slideChange = function(){
 			timer = $timeout(function(){
 				scope.next();
@@ -30,7 +35,8 @@ angular.module('coreMod')
 		};
 		slideChange();
 		scope.$on('$destroy', function(){
-			$timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
+			// when the scope is getting destroyed, cancel the timer
+			$timeout.cancel(timer);
 		});
-	})
+	}])
 ;

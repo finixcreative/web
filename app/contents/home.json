@@ -334,7 +334,6 @@
 							"type": "slide",
 							"class": "pad",
 							"size": "full",
-							"visible": true,
 							"animation": "",
 							"bg": {
 								"img": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Huangshan_pic_4.jpg",
@@ -375,7 +374,6 @@
 							"type": "slide",
 							"class": "pad",
 							"size": "full",
-							"visible": false,
 							"animation": ""
 						},
 						"contents": [
