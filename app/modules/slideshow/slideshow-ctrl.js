@@ -1,5 +1,5 @@
 angular.module('coreMod')
-	.controller('SlideshowController', ['$scope', function($scope){
+	.controller('SlideshowController', ['$scope', '$timeout' function($scope, $timeout){
 		var timer,
 			slideChange;
 		$scope.currentIndex = 0;
