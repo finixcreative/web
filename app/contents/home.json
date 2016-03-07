@@ -322,7 +322,7 @@
 			{
 				"config": {
 					"type": "slideshow",
-					"class": "",
+					"class": "full",
 					"bg": {
 						"img": "",
 						"color": "#ccc",
