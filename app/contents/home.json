@@ -339,8 +339,8 @@
 							"size": "full",
 							"animation": "",
 							"bg": {
-								"img": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Huangshan_pic_4.jpg",
-								"color": "#3df",
+								"img": "https://upload.wikimedia.org/wikipedia/commons/3/3f/ZhangjiajieNP1.jpg",
+								"color": "#3fd",
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
@@ -353,7 +353,7 @@
 							{
 								"config": {
 									"type": "h3",
-									"text": "Slide 1"
+									"text": "Zhangjiajie Pillars"
 								},
 								"contents": null
 							},
@@ -383,7 +383,7 @@
 							"size": "full",
 							"animation": "",
 							"bg": {
-								"img": "https://static.pexels.com/photos/328/landscape-nature-sky-desert.jpg",
+								"img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Small_Dunes_of_Badain_Jaran_Desert.JPG",
 								"color": "#df3",
 								"size": "cover",
 								"repeat": "no-repeat",
@@ -397,7 +397,51 @@
 							{
 								"config": {
 									"type": "h3",
-									"text": "Slide 2"
+									"text": "Gobi Desert"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h4",
+									"text": "Subheadline"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Lorem ipsum dolor sit amet!"
+								},
+								"contents": null
+							}
+						]
+					},
+					{
+						"config": {
+							"type": "slide",
+							"class": {
+								"outer": "white-txt",
+								"inner": "pad-100-20"
+							},
+							"size": "full",
+							"animation": "",
+							"bg": {
+								"img": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Half_Dome,_Yosemite.jpg",
+								"color": "#0d9",
+								"size": "cover",
+								"repeat": "no-repeat",
+								"position": "",
+								"attachment": "",
+								"opacity": 0.5,
+								"parallax": 0.2
+							}
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Yosemite Valley"
 								},
 								"contents": null
 							},
