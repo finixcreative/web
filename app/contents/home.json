@@ -332,7 +332,7 @@
 					{
 						"config": {
 							"type": "slide",
-							"class": "pad",
+							"class": "white-txt pad",
 							"size": "full",
 							"animation": "",
 							"bg": {
@@ -373,7 +373,7 @@
 					{
 						"config": {
 							"type": "slide",
-							"class": "pad",
+							"class": "white-txt pad",
 							"size": "full",
 							"animation": "",
 							"bg": {
