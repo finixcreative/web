@@ -332,7 +332,10 @@
 					{
 						"config": {
 							"type": "slide",
-							"class": "white-txt pad-100-10",
+							"class": {
+								"outer": "white-txt",
+								"inner": "pad-100-10"
+							},
 							"size": "full",
 							"animation": "",
 							"bg": {
@@ -373,7 +376,10 @@
 					{
 						"config": {
 							"type": "slide",
-							"class": "white-txt pad-100-10",
+							"class": {
+								"outer": "white-txt",
+								"inner": "pad-100-10"
+							},
 							"size": "full",
 							"animation": "",
 							"bg": {
