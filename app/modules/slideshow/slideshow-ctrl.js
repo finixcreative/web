@@ -34,7 +34,7 @@ angular.module('coreMod')
 			}, 6000);
 		};
 		slideChange();
-		scope.$on('$destroy', function(){
+		$scope.$on('$destroy', function(){
 			// when the scope is getting destroyed, cancel the timer
 			$timeout.cancel(timer);
 		});
