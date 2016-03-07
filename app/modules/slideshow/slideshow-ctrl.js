@@ -29,7 +29,7 @@ angular.module('coreMod')
 		console.log("Slides: " + $scope.contents);
 		slideChange = function(){
 			timer = $timeout(function(){
-				scope.next();
+				$scope.next();
 				timer = $timeout(sliderFunc, 6000);
 			}, 6000);
 		};
