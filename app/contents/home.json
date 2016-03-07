@@ -306,6 +306,7 @@
 					}
 				},
 				"contents": [
+					/*
 					{
 						"config": {
 							"type": "video",
@@ -317,6 +318,7 @@
 						},
 						"contents": null
 					}
+					*/
 				]
 			},
 			{
