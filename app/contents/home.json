@@ -346,7 +346,7 @@
 								"position": "",
 								"attachment": "",
 								"opacity": 0.5,
-								"parallax": 1
+								"parallax": 0.2
 							}
 						},
 						"contents": [
@@ -390,7 +390,7 @@
 								"position": "",
 								"attachment": "",
 								"opacity": 0.5,
-								"parallax": 1
+								"parallax": 0.2
 							}
 						},
 						"contents": [
