@@ -1,6 +1,11 @@
 <div
 	id="{{content.config.title}}"
 	class="{{content.config.type}} {{content.config.class}} {{content.config.size}}"
+	ng-show="slide.visible"
+	ng-show="content.config.visible"
+	ng-animate="content.config.animation"
+	ng-swipe-left="next()"
+	ng-swipe-right="prev()"
 	style="
 		background-image:url({{content.config.bg.img}});
 		background-color:{{content.config.bg.color}};
@@ -23,13 +28,7 @@
 		"
 	></div>
 	<div class="wrapper">
-		<div
-			class="{{content.config.class}} full slide"
-			ng-show="content.config.visible"
-			ng-animate="content.config.animation"
-			ng-swipe-left="next()"
-			ng-swipe-right="prev()"
-		>
+		<div class="full">
 			<hydra></hydra>
 		</div>
 	</div>

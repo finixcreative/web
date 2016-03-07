@@ -342,6 +342,7 @@
 								"repeat": "",
 								"position": "",
 								"attachment": "",
+								"opacity": 0.5,
 								"parallax": 1
 							}
 						},
@@ -374,7 +375,17 @@
 							"type": "slide",
 							"class": "pad",
 							"size": "full",
-							"animation": ""
+							"animation": "",
+							"bg": {
+								"img": "https://static.pexels.com/photos/328/landscape-nature-sky-desert.jpg",
+								"color": "#df3",
+								"size": "",
+								"repeat": "",
+								"position": "",
+								"attachment": "",
+								"opacity": 0.5,
+								"parallax": 1
+							}
 						},
 						"contents": [
 							{
