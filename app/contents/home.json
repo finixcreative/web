@@ -288,7 +288,6 @@
 					}					
 				]
 			},
-			/*
 			{
 				"config": {
 					"type": "row",
@@ -313,15 +312,13 @@
 							"class": "middle",
 							"size": "full",
 							"format": "mp4",
-							"src": "blob:https%3A//www.youtube.com/26cd8d40-1fc7-4529-9ea3-67eab431786b",
+							"src": "",
 							"poster": ""
 						},
 						"contents": null
 					}
 				]
 			},
-			*/
-
 			{
 				"config": {
 					"type": "slideshow",
