@@ -322,15 +322,10 @@
 			{
 				"config": {
 					"type": "slideshow",
-					"class": "full",
+					"class": "",
+					"size": "full",
 					"bg": {
-						"img": "",
-						"color": "#ccc",
-						"size": "",
-						"repeat": "",
-						"position": "",
-						"attachment": "",
-						"parallax": 1
+						"color": "#ccc"
 					}
 				},
 				"contents": [
@@ -340,7 +335,16 @@
 							"class": "pad",
 							"size": "full",
 							"visible": true,
-							"animation": ""
+							"animation": "",
+							"bg": {
+								"img": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Huangshan_pic_4.jpg",
+								"color": "#3df",
+								"size": "",
+								"repeat": "",
+								"position": "",
+								"attachment": "",
+								"parallax": 1
+							}
 						},
 						"contents": [
 							{
