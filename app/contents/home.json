@@ -341,8 +341,8 @@
 							"bg": {
 								"img": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Huangshan_pic_4.jpg",
 								"color": "#3df",
-								"size": "",
-								"repeat": "",
+								"size": "cover",
+								"repeat": "no-repeat",
 								"position": "",
 								"attachment": "",
 								"opacity": 0.5,
@@ -385,8 +385,8 @@
 							"bg": {
 								"img": "https://static.pexels.com/photos/328/landscape-nature-sky-desert.jpg",
 								"color": "#df3",
-								"size": "",
-								"repeat": "",
+								"size": "cover",
+								"repeat": "no-repeat",
 								"position": "",
 								"attachment": "",
 								"opacity": 0.5,
