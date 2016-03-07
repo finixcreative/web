@@ -288,6 +288,7 @@
 					}					
 				]
 			},
+			/*
 			{
 				"config": {
 					"type": "row",
@@ -306,7 +307,6 @@
 					}
 				},
 				"contents": [
-					/*
 					{
 						"config": {
 							"type": "video",
@@ -318,9 +318,10 @@
 						},
 						"contents": null
 					}
-					*/
 				]
 			},
+			*/
+
 			{
 				"config": {
 					"type": "slideshow",
