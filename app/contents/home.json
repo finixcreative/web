@@ -334,7 +334,7 @@
 							"type": "slide",
 							"class": {
 								"outer": "white-txt",
-								"inner": "pad-100-20"
+								"inner": "pad-100-20 center"
 							},
 							"size": "full",
 							"animation": "",
@@ -378,7 +378,7 @@
 							"type": "slide",
 							"class": {
 								"outer": "white-txt",
-								"inner": "pad-100-20"
+								"inner": "pad-100-20 center"
 							},
 							"size": "full",
 							"animation": "",
@@ -422,7 +422,7 @@
 							"type": "slide",
 							"class": {
 								"outer": "white-txt",
-								"inner": "pad-100-20"
+								"inner": "pad-100-20 center"
 							},
 							"size": "full",
 							"animation": "",
