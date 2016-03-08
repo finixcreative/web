@@ -11,11 +11,9 @@ angular.module('coreMod')
 		};
 		$scope.next = function(){
 			$scope.currentIndex < $scope.contents.length - 1 ? $scope.currentIndex++ : $scope.currentIndex = 0;
-			timer = $timeout(slideChange, 6000);
 		};
 		$scope.prev = function(){
 			$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.contents.length - 1;
-			timer = $timeout(slideChange, 6000);
 		};
 		for(var i = 0; i < $scope.contents.length; i++){
 			$scope.contents[i].config.index = i;
