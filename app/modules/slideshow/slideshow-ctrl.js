@@ -11,11 +11,11 @@ angular.module('coreMod')
 		};
 		$scope.next = function(){
 			$scope.currentIndex < $scope.contents.length - 1 ? $scope.currentIndex++ : $scope.currentIndex = 0;
-			$timeout.cancel(timer);
+			timer = $timeout(slideChange, 6000);
 		};
 		$scope.prev = function(){
 			$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.contents.length - 1;
-			$timeout.cancel(timer);
+			timer = $timeout(slideChange, 6000);
 		};
 		for(var i = 0; i < $scope.contents.length; i++){
 			$scope.contents[i].config.index = i;
@@ -28,7 +28,9 @@ angular.module('coreMod')
 			$scope.contents[$scope.currentIndex].config.visible = true;
 			console.log($scope.contents[$scope.currentIndex].config.visible);
 		});
-		console.log("Slides: " + $scope.contents);
+		$scope.$on('$destroy', function(){
+			$timeout.cancel(timer);
+		});
 		slideChange = function(){
 			timer = $timeout(function(){
 				$scope.next();
@@ -36,9 +38,6 @@ angular.module('coreMod')
 			}, 6000);
 		};
 		slideChange();
-		$scope.$on('$destroy', function(){
-			// when the scope is getting destroyed, cancel the timer
-			$timeout.cancel(timer);
-		});
+		console.log("Slides: " + $scope.contents);
 	}])
 ;
