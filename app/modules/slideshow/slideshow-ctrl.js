@@ -11,9 +11,11 @@ angular.module('coreMod')
 		};
 		$scope.next = function(){
 			$scope.currentIndex < $scope.contents.length - 1 ? $scope.currentIndex++ : $scope.currentIndex = 0;
+			$timeout.cancel(timer);
 		};
 		$scope.prev = function(){
 			$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.contents.length - 1;
+			$timeout.cancel(timer);
 		};
 		for(var i = 0; i < $scope.contents.length; i++){
 			$scope.contents[i].config.index = i;
