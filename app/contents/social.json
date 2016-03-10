@@ -1,0 +1,20 @@
+[
+	{
+		"config": {
+			"title": "social",
+			"type": "page"
+		},
+		"contents": [
+			{
+				"config": {
+					"type": "typeform",
+					"title": "social",
+					"class": "form",
+					"size": "",
+					"src": "https://finixcreative.typeform.com/to/qfDsjm"
+				},
+				"contents": null
+			}
+		]
+	}
+]
