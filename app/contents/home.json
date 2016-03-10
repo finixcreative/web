@@ -67,8 +67,8 @@
 									"form": "",
 									"click": "",
 									"text": "Sign up",
-									"link": "https://finixcreative.typeform.com/to/uMQRIG",
-									"target": "_blank"
+									"link": "#/signup",
+									"target": ""
 								},
 								"contents": null
 							}
