@@ -1,0 +1,20 @@
+[
+	{
+		"config": {
+			"title": "brand",
+			"type": "page"
+		},
+		"contents": [
+			{
+				"config": {
+					"type": "typeform",
+					"title": "brand",
+					"class": "form",
+					"size": "",
+					"src": "https://finixcreative.typeform.com/to/xn31FV"
+				},
+				"contents": null
+			}
+		]
+	}
+]
