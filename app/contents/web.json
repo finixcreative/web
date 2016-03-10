@@ -7,11 +7,11 @@
 		"contents": [
 			{
 				"config": {
-					"type": "iframe",
-					"title": "",
-					"class": "typeform",
+					"type": "typeform",
+					"title": "web",
+					"class": "form",
 					"size": "",
-					"src": "https://finixcreative.typeform.com/to/uMQRIG"
+					"src": "https://finixcreative.typeform.com/to/p1eujs"
 				},
 				"contents": null
 			}
