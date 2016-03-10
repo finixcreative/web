@@ -7,9 +7,9 @@
 		"contents": [
 			{
 				"config": {
-					"type": "iframe",
-					"title": "",
-					"class": "typeform",
+					"type": "typeform",
+					"title": "signup",
+					"class": "form",
 					"size": "",
 					"src": "https://finixcreative.typeform.com/to/uMQRIG"
 				},
