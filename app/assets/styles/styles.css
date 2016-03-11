@@ -151,6 +151,9 @@ li.step.active a {
 	color: #fff;
 	border: 1px solid #f52;
 }
+video {
+	background: #000;
+}
 form {}
 .form-body {
 	border: 1px solid #ccc;
