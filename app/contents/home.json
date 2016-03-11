@@ -13,7 +13,7 @@
 						"inner": "white-txt center pad-100-20"
 					},
 					"bg": {
-						"img": "https://static.pexels.com/photos/6572/pexels-photo.jpeg",
+						"img": "app/assets/images/backgrounds/finix-bg-bw.png",
 						"color": "#f52",
 						"size": "cover",
 						"repeat": "no-repeat",
@@ -29,7 +29,7 @@
 							"type": "image",
 							"class": "center",
 							"size": "",
-							"src": "app/assets/images/icons/logo-finix-2014-compressed.png",
+							"src": "app/assets/images/icons/finix-logo.png",
 							"alt": "Finix logo"
 						},
 						"contents": null
@@ -344,7 +344,7 @@
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
-								"attachment": "",
+								"attachment": "fixed",
 								"opacity": 0.7,
 								"parallax": 0.2
 							}
@@ -398,7 +398,7 @@
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
-								"attachment": "",
+								"attachment": "fixed",
 								"opacity": 0.7,
 								"parallax": 0.2
 							}
@@ -452,7 +452,7 @@
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
-								"attachment": "",
+								"attachment": "fixed",
 								"opacity": 0.7,
 								"parallax": 0.2
 							}
@@ -506,7 +506,7 @@
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
-								"attachment": "",
+								"attachment": "fixed",
 								"opacity": 0.7,
 								"parallax": 0.2
 							}
@@ -560,7 +560,7 @@
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
-								"attachment": "",
+								"attachment": "fixed",
 								"opacity": 0.7,
 								"parallax": 0.2
 							}
@@ -614,7 +614,7 @@
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
-								"attachment": "",
+								"attachment": "fixed",
 								"opacity": 0.7,
 								"parallax": 0.2
 							}
