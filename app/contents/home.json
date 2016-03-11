@@ -49,21 +49,14 @@
 							{
 								"config": {
 									"type": "h1",
-									"text": "Digital Marketing & Web Design"
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "h2",
-									"text": "Solutions for Small Businesses"
+									"text": "Digital Marketing & Web Development solutions"
 								},
 								"contents": null
 							},
 							{
 								"config": {
 									"type": "p",
-									"text": "We're a creative team on a mission to help great local businesses reach more customers. We offer a complete suite of digital marketing and design services that any small business can afford. So what are you waiting for?"
+									"text": "We're on a mission to help you reach more customers. We offer web development, digital marketing, and design services to improve your online presence and build brand loyalty."
 								},
 								"contents": null
 							},
