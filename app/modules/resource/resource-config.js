@@ -7,7 +7,8 @@ angular.module('coreMod')
 				// Allow loading from outer templates domain.
 				'http://finixcreative.github.io/web/**',
 				'https://finixcreative.typeform.com/**',
-				'https://www.youtube.com/embed/**'
+				'https://www.youtube.com/embed/**',
+				'https://**.vimeocdn.com/**'
 			]
 		);
 	})
