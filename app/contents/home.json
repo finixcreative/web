@@ -502,77 +502,6 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "white-txt center pad-100-20"
-					},
-					"bg": {
-						"img": "app/assets/images/backgrounds/finix-bg-bw.png",
-						"color": "#f52",
-						"size": "cover",
-						"repeat": "no-repeat",
-						"position": "",
-						"attachment": "fixed",
-						"opacity": 0.7,
-						"parallax": 0.2
-					}
-				},
-				"contents": [
-					{
-						"config": {
-							"type": "image",
-							"class": "center",
-							"size": "",
-							"src": "app/assets/images/icons/finix-logo.png",
-							"alt": "Finix logo"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "h1",
-							"text": "The future of web development"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "p",
-							"text": "Finix web tools are the ultimate resource for intuitive, flexible, and powerful software development. Quickly create your own website, app, or blog with fully customizable design and content."
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "block",
-							"class": "pad",
-							"size": "full"
-						},
-						"contents": [
-							{
-								"config": {
-									"type": "button",
-									"id": "",
-									"class": "center pad",
-									"size": "",
-									"name": "",
-									"buttontype": "",
-									"value": "",
-									"form": "",
-									"click": "",
-									"text": "Sign up",
-									"link": "#/signup",
-									"target": ""
-								},
-								"contents": null
-							}
-						]
-					}
-				]
-			},
-			{
-				"config": {
-					"type": "row",
-					"class": {
-						"outer": "",
 						"inner": "pad"
 					},
 					"bg": {
@@ -590,14 +519,21 @@
 					{
 						"config": {
 							"type": "h3",
-							"text": "Easy to build web pages & quickly edit content"
+							"text": "The future of web development"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "h4",
+							"text": "Easily build web pages & manage content"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
-							"text": "Finix integrated editing tools make digital content management fast and simple, rather than wasting hours writing code or limiting your options with a cumbersome CMS user interface."
+							"text": "Finix web tools are the ultimate resource for powerful, flexible, and intuitive software development and content management. Make a website, app, or blog in minutes with a custom design and your own content. Stop wasting hours writing code or limiting your design options with a template-based content management platform."
 						},
 						"contents": null
 					},
