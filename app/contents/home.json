@@ -312,7 +312,7 @@
 							"class": "middle",
 							"size": "full",
 							"format": "mp4",
-							"src": "https://08-lvl3-pdl.vimeocdn.com/01/4312/4/121564055/343732582.mp4?expires=1457667885&token=0df85b17e9a627fa43f4d",
+							"src": "",
 							"poster": ""
 						},
 						"contents": null
@@ -339,35 +339,45 @@
 							"size": "full",
 							"animation": "",
 							"bg": {
-								"img": "https://upload.wikimedia.org/wikipedia/commons/3/3f/ZhangjiajieNP1.jpg",
-								"color": "#3fd",
+								"img": "app/assets/images/backgrounds/finix-bg-bw.png",
+								"color": "#f52",
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
 								"attachment": "",
-								"opacity": 0.5,
+								"opacity": 0.7,
 								"parallax": 0.2
 							}
 						},
 						"contents": [
 							{
 								"config": {
-									"type": "h3",
-									"text": "Zhangjiajie Pillars"
+									"type": "image",
+									"class": "center",
+									"size": "",
+									"src": "app/assets/images/icons/finix-logo.png",
+									"alt": "Finix logo"
 								},
 								"contents": null
 							},
 							{
 								"config": {
-									"type": "h4",
-									"text": "Subheadline"
+									"type": "h1",
+									"text": "Digital Marketing & Web Design"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h2",
+									"text": "Solutions for Small Businesses"
 								},
 								"contents": null
 							},
 							{
 								"config": {
 									"type": "p",
-									"text": "Lorem ipsum dolor sit amet!"
+									"text": "We're a creative team on a mission to help great local businesses reach more customers. We offer a complete suite of digital marketing and design services that any small business can afford. So what are you waiting for?"
 								},
 								"contents": null
 							}
@@ -383,35 +393,45 @@
 							"size": "full",
 							"animation": "",
 							"bg": {
-								"img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Small_Dunes_of_Badain_Jaran_Desert.JPG",
-								"color": "#df3",
+								"img": "app/assets/images/backgrounds/web-bg-bw.png",
+								"color": "#099",
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
 								"attachment": "",
-								"opacity": 0.5,
+								"opacity": 0.7,
 								"parallax": 0.2
 							}
 						},
 						"contents": [
 							{
 								"config": {
-									"type": "h3",
-									"text": "Gobi Desert"
+									"type": "image",
+									"class": "center",
+									"size": "",
+									"src": "app/assets/images/icons/web-icon.png",
+									"alt": "Web icon"
 								},
 								"contents": null
 							},
 							{
 								"config": {
-									"type": "h4",
-									"text": "Subheadline"
+									"type": "h1",
+									"text": "Web Design"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h2",
+									"text": "Open your online storefront"
 								},
 								"contents": null
 							},
 							{
 								"config": {
 									"type": "p",
-									"text": "Lorem ipsum dolor sit amet!"
+									"text": "Your business needs a great website to succeed. We design beautiful custom responsive websites, to help you attract new customers and establish a stronger online presence."
 								},
 								"contents": null
 							}
@@ -427,35 +447,207 @@
 							"size": "full",
 							"animation": "",
 							"bg": {
-								"img": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Half_Dome,_Yosemite.jpg",
-								"color": "#0d9",
+								"img": "app/assets/images/backgrounds/brand-bg-bw.png",
+								"color": "#f91",
 								"size": "cover",
 								"repeat": "no-repeat",
 								"position": "",
 								"attachment": "",
-								"opacity": 0.5,
+								"opacity": 0.7,
 								"parallax": 0.2
 							}
 						},
 						"contents": [
 							{
 								"config": {
-									"type": "h3",
-									"text": "Yosemite Valley"
+									"type": "image",
+									"class": "center",
+									"size": "",
+									"src": "app/assets/images/icons/brand-icon.png",
+									"alt": "Brand icon"
 								},
 								"contents": null
 							},
 							{
 								"config": {
-									"type": "h4",
-									"text": "Subheadline"
+									"type": "h1",
+									"text": "Branding"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h2",
+									"text": "Stand out from your competition"
 								},
 								"contents": null
 							},
 							{
 								"config": {
 									"type": "p",
-									"text": "Lorem ipsum dolor sit amet!"
+									"text": "Your brand is more than just a logo, it's the soul of your business. We design brands from the ground up, starting with a strategic foundation, to give your business the perfect visual identity."
+								},
+								"contents": null
+							}
+						]
+					},
+					{
+						"config": {
+							"type": "slide",
+							"class": {
+								"outer": "white-txt",
+								"inner": "pad-100-20 center"
+							},
+							"size": "full",
+							"animation": "",
+							"bg": {
+								"img": "app/assets/images/backgrounds/email-bg-bw.png",
+								"color": "#54c",
+								"size": "cover",
+								"repeat": "no-repeat",
+								"position": "",
+								"attachment": "",
+								"opacity": 0.7,
+								"parallax": 0.2
+							}
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "image",
+									"class": "center",
+									"size": "",
+									"src": "app/assets/images/icons/email-icon.png",
+									"alt": "Email icon"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h1",
+									"text": "Email Marketing"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h2",
+									"text": "Promote special deals & events"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Email marketing is a great way to build customer loyalty. We design email campaigns to spread your message, showcase products or services, promote special offers, and keep your customers coming back."
+								},
+								"contents": null
+							}
+						]
+					},
+					{
+						"config": {
+							"type": "slide",
+							"class": {
+								"outer": "white-txt",
+								"inner": "pad-100-20 center"
+							},
+							"size": "full",
+							"animation": "",
+							"bg": {
+								"img": "app/assets/images/backgrounds/print-bg-bw.png",
+								"color": "#3b4",
+								"size": "cover",
+								"repeat": "no-repeat",
+								"position": "",
+								"attachment": "",
+								"opacity": 0.7,
+								"parallax": 0.2
+							}
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "image",
+									"class": "center",
+									"size": "",
+									"src": "app/assets/images/icons/print-icon.png",
+									"alt": "Print icon"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h1",
+									"text": "Print Marketing"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h2",
+									"text": "Take your marketing offline"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Printed materials are still the best way to grow your brand locally. We make eye-catching designs for everything from business cards to billboards, so you'll always make a great impression."
+								},
+								"contents": null
+							}
+						]
+					},
+					{
+						"config": {
+							"type": "slide",
+							"class": {
+								"outer": "white-txt",
+								"inner": "pad-100-20 center"
+							},
+							"size": "full",
+							"animation": "",
+							"bg": {
+								"img": "app/assets/images/backgrounds/social-bg-bw.png",
+								"color": "#07b",
+								"size": "cover",
+								"repeat": "no-repeat",
+								"position": "",
+								"attachment": "",
+								"opacity": 0.7,
+								"parallax": 0.2
+							}
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "image",
+									"class": "center",
+									"size": "",
+									"src": "app/assets/images/icons/social-icon.png",
+									"alt": "Social icon"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h1",
+									"text": "Social Media Marketing"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h2",
+									"text": "Engage your customers"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Social Media is the fastest way to connect with new customers and build loyalty for your brand. We design custom branded social media pages, setup with automated posting to make your job easy."
 								},
 								"contents": null
 							}
