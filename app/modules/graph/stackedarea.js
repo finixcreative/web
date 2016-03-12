@@ -1,4 +1,4 @@
-d3.json('sampledata.json', function(data){
+d3.json('app/modules/graph/sampledata.json', function(data){
 	nv.addGraph(function(){
 		var chart;
 		chart = nv.models.stackedAreaChart().x(function(d){
