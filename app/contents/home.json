@@ -49,7 +49,7 @@
 							{
 								"config": {
 									"type": "h1",
-									"text": "Marketing & Development solutions"
+									"text": "Development & Marketing solved"
 								},
 								"contents": null
 							},
@@ -629,6 +629,13 @@
 							"size": "threequarter"
 						},
 						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "No kidding..."
+								},
+								"contents": null
+							},
 							{
 								"config": {
 									"type": "p",
