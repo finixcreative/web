@@ -128,15 +128,8 @@
 							},
 							{
 								"config": {
-									"type": "h2",
-									"text": "Open your online storefront"
-								},
-								"contents": null
-							},
-							{
-								"config": {
 									"type": "p",
-									"text": "Your business needs a great website to succeed. We design beautiful custom responsive websites, to help you attract new customers and establish a stronger online presence."
+									"text": "Open your online store! These days, every business needs a great website to succeed. We design modern websites that look beaufitul on any device, to help you attract new customers and establish a stronger online presence."
 								},
 								"contents": null
 							},
@@ -208,15 +201,8 @@
 							},
 							{
 								"config": {
-									"type": "h2",
-									"text": "Stand out from your competition"
-								},
-								"contents": null
-							},
-							{
-								"config": {
 									"type": "p",
-									"text": "Your brand is more than just a logo, it's the soul of your business. We design brands from the ground up, starting with a strategic foundation, to give your business the perfect visual identity."
+									"text": "Stand out from the crowd! Your brand is more than just a logo, it's the face of your business. Great brands are built from the ground up, and that's the same approach we take."
 								},
 								"contents": null
 							},
@@ -288,15 +274,8 @@
 							},
 							{
 								"config": {
-									"type": "h2",
-									"text": "Promote special deals & events"
-								},
-								"contents": null
-							},
-							{
-								"config": {
 									"type": "p",
-									"text": "Email marketing is a great way to build customer loyalty. We design email campaigns to spread your message, showcase products or services, promote special offers, and keep your customers coming back."
+									"text": "Email marketing is the most direct way to build customer loyalty. We design great email campaigns to spread your brand message, showcase your products and services, promote special offers or events, and keep your customers coming back."
 								},
 								"contents": null
 							},
@@ -368,15 +347,8 @@
 							},
 							{
 								"config": {
-									"type": "h2",
-									"text": "Take your marketing offline"
-								},
-								"contents": null
-							},
-							{
-								"config": {
 									"type": "p",
-									"text": "Printed materials are still the best way to grow your brand locally. We make eye-catching designs for everything from business cards to billboards, so you'll always make a great impression."
+									"text": "Take your marketing offline! Printed marketing materials are still the best way to expand your local customer base. We make eye-catching designs for business cards, billboards, and everything in between, so you'll always make a great impression."
 								},
 								"contents": null
 							},
@@ -448,15 +420,8 @@
 							},
 							{
 								"config": {
-									"type": "h2",
-									"text": "Engage your customers"
-								},
-								"contents": null
-							},
-							{
-								"config": {
 									"type": "p",
-									"text": "Social Media is the fastest way to connect with new customers and build loyalty for your brand. We design custom branded social media pages, setup with automated posting to make your job easy."
+									"text": "Social Media is the fastest way to connect with new customers and build loyalty for your brand. We design social media pages customized for your brand, including automated posts to engage your followers."
 								},
 								"contents": null
 							},
