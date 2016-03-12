@@ -216,8 +216,8 @@ header nav a {
 	display: block;
 }
 header nav li a:hover {
-	color: #75bbce;
-	border-bottom: 4px solid #75bbce;
+	color: #f52;
+	border-bottom: 4px solid #f52;
 }
 header nav li ul.menu {
 	width: 100%;
