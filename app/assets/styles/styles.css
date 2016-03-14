@@ -55,10 +55,10 @@ p {
 	font-size: 16px;
 	line-height: 1.5em;
 }
-.config {
+button.config {
 	display: none;
 }
-*:hover > .config {
+*:hover > button.config {
 	display: block;
 }
 header {
