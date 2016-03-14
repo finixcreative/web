@@ -55,10 +55,10 @@ p {
 	font-size: 16px;
 	line-height: 1.5em;
 }
-button.config {
+.config {
 	display: none;
 }
-*:hover > button.config {
+*:hover > .config {
 	display: block;
 }
 header {
@@ -364,6 +364,8 @@ button.slidenav {
 	position: absolute;
 	top: 0;
 	display: table-cell;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
 	z-index: 998;
 }
 button.slidenav:hover {
