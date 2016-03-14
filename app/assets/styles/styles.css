@@ -363,6 +363,7 @@ button.slidenav {
 button.slidenav:hover {
 	background: rgba(255,255,255,0.2);
 	color: #fff;
+	box-shadow: none;
 	cursor: pointer;
 }
 button.slidenav:focus {
