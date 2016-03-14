@@ -9,16 +9,20 @@
 			"link": "services"
 		},
 		{
+			"title": "Development",
+			"link": "development"
+		},
+		{
+			"title": "Hydra",
+			"link": "hydra"
+		},
+		{
 			"title": "About",
 			"link": "about"
 		},
 		{
 			"title": "Contact",
 			"link": "contact"
-		},
-		{
-			"title": "Hydra",
-			"link": "hydra"
 		}
 	]
 }
