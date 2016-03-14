@@ -7,6 +7,7 @@ angular.module('coreMod')
 			controllerAs: 'chimera'
 		};
 	})
+	/*
 	.directive('configtext', function(){
 		return {
 			restrict: 'E',
@@ -71,4 +72,5 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	*/
 ;
