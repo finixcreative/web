@@ -7,9 +7,10 @@ angular.module('chimeraMod')
 		var chimera = $routeParams.chimera,
 			pageData = 'app/contents/'+chimera+'.json',
 			configure = false;
+		console.log('Configure Init = '+configure);
 		function configPanel(){
 			configure = !configure;
-			console.log('Configure: '+configure);
+			console.log('Configure Update = '+configure);
 		};
 		if(configure === true){
 			document.getElementsByClassName("hydra").style.position = "relative";
