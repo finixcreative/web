@@ -9,7 +9,16 @@ angular.module('chimeraMod')
 		$scope.template = 'app/modules/hydra/hydra.html';
 		$scope.contents = [];
 		$scope.errors = [];
-		$scope.configure = false;
+		$scope.edit = false;
+		console.log('Configure Init = '+$scope.configure);
+		$scope.configPanel = function(){
+			if($scope.configure.length > 0;){
+				$scope.configure = !$scope.configure;
+				console.log('Configure Update = '+$scope.configure);				
+			} else {
+				$scope.configure = true;
+			}
+		};
 		if($scope.configure === true){
 			$(".hydra").addClass("relative");
 			$scope.configLabel = "Save";
@@ -17,12 +26,6 @@ angular.module('chimeraMod')
 			$(".hydra").removeClass("relative");
 			$scope.configLabel = "Config";
 		}
-		console.log('Configure Init = '+$scope.configure);
-		$scope.configPanel = function(){
-			$scope.configure = !$scope.configure;
-			console.log('Configure Update = '+$scope.configure);
-		};
-		$scope.edit = false;
 		$http.get(pageData).then(
 			function success(response){
 				//success callbacks
