@@ -167,6 +167,9 @@ video {
 	top: 0px;
 	display: none;
 }
+.relative {
+	position: relative;
+}
 *:hover > .configpanel {
 	display: block;
 }

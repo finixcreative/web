@@ -8,12 +8,14 @@ angular.module('chimeraMod')
 			pageData = 'app/contents/'+chimera+'.json',
 			configure = false;
 		console.log('Configure Init = '+configure);
-		function configPanel(){
+		$scope.configPanel = function(){
 			configure = !configure;
 			console.log('Configure Update = '+configure);
 		};
 		if(configure === true){
-			document.getElementsByClassName("hydra").style.position = "relative";
+			document.getElementsByClassName("hydra").classList.add("relative");
+		} else {
+			document.getElementsByClassName("hydra").classList.remove("relative");
 		}
 		$scope.template = 'app/modules/hydra/hydra.html';
 		$scope.contents = [];
