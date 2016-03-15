@@ -21,10 +21,10 @@ angular.module('chimeraMod')
 		};
 		if($scope.configure === true){
 			$(".hydra").addClass("relative");
-			$scope.configLabel = "Save";
+			$scope.configLabel = "Done";
 		} else {
 			$(".hydra").removeClass("relative");
-			$scope.configLabel = "Config";
+			$scope.configLabel = "Edit";
 		}
 		$http.get(pageData).then(
 			function success(response){
