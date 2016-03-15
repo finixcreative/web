@@ -32,7 +32,7 @@ angular.module('chimeraMod')
 			} else {
 				$scope.configLabel = "Error";			
 			}
-			console.log('Configure Update = ' + configure);
+			console.log('Configure Update = ' + $scope.configure);
 		};
 		$http.get(pageData).then(
 			function success(response){
