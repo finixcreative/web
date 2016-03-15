@@ -6,11 +6,11 @@ angular.module('chimeraMod')
 	.controller('ChimeraController', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location){
 		var chimera = $routeParams.chimera,
 			pageData = 'app/contents/'+chimera+'.json',
-			configure = false,
-			configPanel = function(){
-				configure = !configure;
-				console.log("Configure: "+configure);
-			};
+			configure = false;
+		function configPanel(){
+			configure = !configure;
+			console.log('Configure: '+configure);
+		};
 		if(configure === true){
 			document.getElementsByClassName("hydra").style.position = "relative";
 		}
