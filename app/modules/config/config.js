@@ -11,8 +11,8 @@ if(configure === true){
 	$(".hydra").removeClass("relative");
 	configLabel = "Edit";
 } else {
-	$scope.configLabel = "Error";
 	$("#configbutton").attr("disabled");	
+	configLabel = "Error";
 }
 
 configPanel = function(){
