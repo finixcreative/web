@@ -13,9 +13,9 @@ angular.module('chimeraMod')
 		console.log('Configure Init = '+$scope.configure);
 		$scope.configLabel = function(){
 			if($scope.configure === false){
-				return "Config";
+				$scope.configLabel = "Config";
 			} else {
-				return "Save";
+				$scope.configLabel = "Save";
 			}
 		};
 		$scope.configPanel = function(){
