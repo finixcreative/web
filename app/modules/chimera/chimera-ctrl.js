@@ -9,6 +9,7 @@ angular.module('chimeraMod')
 			configure = false,
 			configPanel = function(){
 				configure = !configure;
+				console.log("Configure: "+configure);
 			};
 		if(configure === true){
 			document.getElementsByClassName("hydra").style.position = "relative";
