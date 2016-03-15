@@ -55,12 +55,6 @@ p {
 	font-size: 16px;
 	line-height: 1.5em;
 }
-config {
-	display: none;
-}
-*:hover > config {
-	display: block;
-}
 header {
 	background: #fff;
 	width: 100%;
@@ -160,7 +154,34 @@ li.step.active a {
 video {
 	background: #000;
 }
+config {
+	display: none;
+}
+*:hover > config {
+	display: block;
+}
+button.config {
+	background: #222;
+	height: 30px;
+	padding: 3px;
+	border: none;
+	border-radius: 20px;
+	opacity: 0.5;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+button.config img {
+	width: 24px;
+}
+button.config:active,
+button.config:focus,
+button.config:hover {
+	opacity: 1;
+}
 form {}
+form.config {
+	background-color: rgba(0,0,0,0.2);
+}
 .form-body {
 	border: 1px solid #ccc;
 }
