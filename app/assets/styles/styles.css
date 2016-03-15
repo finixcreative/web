@@ -170,6 +170,9 @@ video {
 .relative {
 	position: relative;
 }
+.hide {
+	display: none;
+}
 *:hover > .configpanel {
 	display: block;
 }

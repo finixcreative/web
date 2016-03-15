@@ -25,14 +25,14 @@ angular.module('chimeraMod')
 			$scope.configure = !$scope.configure;
 			if($scope.configure === true){
 				$(".hydra").addClass("relative");
-				$(".configpanel").configure = true;
+				$(".configpanel").removeClass("hide");
 				$scope.configLabel = "Done";
 			} else if($scope.configure === false){
 				$(".hydra").removeClass("relative");
-				$(".configpanel").configure = false;
+				$(".configpanel").addClass("hide");
 				$scope.configLabel = "Edit";
 			} else {
-				$(".configpanel").configure = undefined;
+				$(".configpanel").addClass("hide");
 				$scope.configLabel = "Error";			
 			}
 			console.log('Configure Update = ' + $scope.configure);
