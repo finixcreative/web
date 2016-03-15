@@ -10,6 +10,30 @@ angular.module('chimeraMod')
 		$scope.contents = [];
 		$scope.errors = [];
 		$scope.edit = false;
+		$scope.configure = false;
+		if($scope.configure === true){
+			$(".hydra").addClass("relative");
+			$scope.configLabel = "Done";
+		} else if($scope.configure === false){
+			$(".hydra").removeClass("relative");
+			$scope.configLabel = "Edit";
+		} else {
+			$scope.configLabel = "Error";			
+		}
+		$scope.configPanel = function(){
+			console.log('Configure Init = ' + $scope.configure);
+			$scope.configure = !$scope.configure;
+			if($scope.configure === true){
+				$(".hydra").addClass("relative");
+				$scope.configLabel = "Done";
+			} else if($scope.configure === false){
+				$(".hydra").removeClass("relative");
+				$scope.configLabel = "Edit";
+			} else {
+				$scope.configLabel = "Error";			
+			}
+			console.log('Configure Update = ' + configure);
+		};
 		$http.get(pageData).then(
 			function success(response){
 				//success callbacks
