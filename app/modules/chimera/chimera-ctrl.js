@@ -11,6 +11,13 @@ angular.module('chimeraMod')
 		$scope.errors = [];
 		$scope.configure = false;
 		console.log('Configure Init = '+$scope.configure);
+		$scope.configLabel = function(){
+			if($scope.configure === false){
+				return "Config";
+			} else {
+				return "Save";
+			}
+		};
 		$scope.configPanel = function(){
 			$scope.configure = !$scope.configure;
 			console.log('Configure Update = '+$scope.configure);
