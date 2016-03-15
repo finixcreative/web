@@ -1,3 +1,4 @@
+/*
 var configure = false,
 	configPanel;
 if(configure === true){
@@ -23,3 +24,4 @@ configPanel = function(){
 	}
 	console.log('Configure Update = ' + configure);
 };
+*/
