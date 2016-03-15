@@ -15,14 +15,17 @@ angular.module('chimeraMod')
 			console.log('Configure Init = ' + configure);
 			configure = !configure;
 			console.log('Configure Update = ' + configure);
+			return configure;
 		}
 		if(configure === true){
 			$(".hydra").addClass("relative");
 			$scope.configLabel = "Done";
-		} else {
+		} else if(configure === false){
 			$(".hydra").removeClass("relative");
 			$scope.configLabel = "Edit";
-		};
+		} else {
+			$scope.configLabel = "Error";			
+		}
 		$http.get(pageData).then(
 			function success(response){
 				//success callbacks
