@@ -10,14 +10,14 @@ angular.module('chimeraMod')
 		$scope.contents = [];
 		$scope.errors = [];
 		$scope.edit = false;
-		console.log('Configure Init = '+$scope.configure);
 		$scope.configPanel = function(){
+			console.log('Configure Init = '+$scope.configure);
 			if($scope.configure = undefined){
 				$scope.configure = true;
 			} else {
 				$scope.configure = !$scope.configure;
-				console.log('Configure Update = '+$scope.configure);
 			}
+			console.log('Configure Update = '+$scope.configure);
 		}
 		if($scope.configure === true){
 			$(".hydra").addClass("relative");
