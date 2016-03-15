@@ -22,6 +22,7 @@ angular.module('chimeraMod')
 		}
 		$scope.configPanel = function(){
 			console.log('Configure Init = ' + $scope.configure);
+			$scope.configure = !$scope.configure;
 			if($scope.configure === true){
 				$(".hydra").addClass("relative");
 				$(".configpanel").configure = true;
