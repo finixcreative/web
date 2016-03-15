@@ -13,11 +13,14 @@ angular.module('chimeraMod')
 		$scope.configure = false;
 		if($scope.configure === true){
 			$(".hydra").addClass("relative");
+			$(".configpanel").removeClass("hide");
 			$scope.configLabel = "Done";
 		} else if($scope.configure === false){
 			$(".hydra").removeClass("relative");
+			$(".configpanel").addClass("hide");
 			$scope.configLabel = "Edit";
 		} else {
+			$(".configpanel").addClass("hide");
 			$scope.configLabel = "Error";			
 		}
 		$scope.configPanel = function(){
