@@ -6,20 +6,20 @@ angular.module('chimeraMod')
 	.controller('ChimeraController', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location){
 		var chimera = $routeParams.chimera,
 			pageData = 'app/contents/'+chimera+'.json';
-		console.log('Configure Init = '+configure);
-		$scope.configPanel = function(){
-			configure = !configure;
-			console.log('Configure Update = '+configure);
-		};
-		if(configure === true){
-			$(".hydra").addClass("relative");
-		} else {
-			$(".hydra").removeClass("relative");
-		}
 		$scope.template = 'app/modules/hydra/hydra.html';
 		$scope.contents = [];
 		$scope.errors = [];
 		$scope.configure = false;
+		console.log('Configure Init = '+$scope.configure);
+		$scope.configPanel = function(){
+			$scope.configure = !$scope.configure;
+			console.log('Configure Update = '+$scope.configure);
+		};
+		if($scope.configure === true){
+			$(".hydra").addClass("relative");
+		} else {
+			$(".hydra").removeClass("relative");
+		}
 		$scope.edit = false;
 		$http.get(pageData).then(
 			function success(response){
