@@ -10,7 +10,7 @@ angular.module('chimeraMod')
 		$scope.contents = [];
 		$scope.errors = [];
 		$scope.edit = false;
-		var configure = false;
+		var configure = $scope.configure;
 		$scope.configPanel = function(){
 			console.log('Configure Init = ' + configure);
 			configure = !configure;
