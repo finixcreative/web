@@ -537,27 +537,6 @@ table {
 	border-radius: 3px;
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
-button.config {
-	background: #222;
-	height: 30px;
-	padding: 3px;
-	border: none;
-	border-radius: 20px;
-	opacity: 0.5;
-	-webkit-transition: all .3s ease-in;
-	transition: all .3s ease-in;
-}
-button.config img {
-	width: 24px;
-}
-button.config:active,
-button.config:focus,
-button.config:hover {
-	opacity: 1;
-}
-form.config {
-	background-color: rgba(0,0,0,0.2);
-}
 footer {
 	color: #fff;
 	border: none;
