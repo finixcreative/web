@@ -13,9 +13,9 @@ angular.module('chimeraMod')
 			console.log('Configure Update = '+configure);
 		};
 		if(configure === true){
-			document.getElementsByClassName("hydra").classList.add("relative");
+			$(".hydra").addClass("relative");
 		} else {
-			document.getElementsByClassName("hydra").classList.remove("relative");
+			$(".hydra").removeClass("relative");
 		}
 		$scope.template = 'app/modules/hydra/hydra.html';
 		$scope.contents = [];
