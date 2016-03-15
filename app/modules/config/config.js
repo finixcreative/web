@@ -1,15 +1,20 @@
-/*
-var configure = false,
-	configPanel;
+var configure,
+	configPanel,
+	configLabel;
+
+config = false;
+
 if(configure === true){
 	$(".hydra").addClass("relative");
-	$scope.configLabel = "Done";
+	configLabel = "Done";
 } else if(configure === false){
 	$(".hydra").removeClass("relative");
-	$scope.configLabel = "Edit";
+	configLabel = "Edit";
 } else {
-	$scope.configLabel = "Error";			
+	$scope.configLabel = "Error";
+	$("#configbutton").attr("disabled");	
 }
+
 configPanel = function(){
 	console.log('Configure Init = ' + configure);
 	configure = !configure;
@@ -24,4 +29,3 @@ configPanel = function(){
 	}
 	console.log('Configure Update = ' + configure);
 };
-*/
