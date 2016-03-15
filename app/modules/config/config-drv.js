@@ -3,8 +3,7 @@ angular.module('coreMod')
 		return {
 			restrict: 'E',
 			templateUrl: 'app/modules/config/config.html',
-			controller: 'ChimeraController',
-			controllerAs: 'chimera'
+			controller: 'ChimeraController'
 		};
 	})
 	/*

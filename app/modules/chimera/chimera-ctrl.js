@@ -5,11 +5,12 @@ CHIMERA | Shapeshifter module accepts dynamic route parameter to fetch page cont
 angular.module('chimeraMod')
 	.controller('ChimeraController', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location){
 		var chimera = $routeParams.chimera,
-			pageData = 'app/contents/'+chimera+'.json';
+			pageData = 'app/contents/'+chimera+'.json',
+			configure = false;
 		$scope.template = 'app/modules/hydra/hydra.html';
 		$scope.contents = [];
 		$scope.errors = [];
-		$scope.configure = true;
+		$scope.edit = false;
 		$http.get(pageData).then(
 			function success(response){
 				//success callbacks
