@@ -7,6 +7,9 @@ angular.module('chimeraMod')
 		var chimera = $routeParams.chimera,
 			pageData = 'app/contents/'+chimera+'.json',
 			configure = false;
+		if(configure === true){
+			document.getElementsByClassName("hydra").style.position = "relative";
+		}
 		$scope.template = 'app/modules/hydra/hydra.html';
 		$scope.contents = [];
 		$scope.errors = [];

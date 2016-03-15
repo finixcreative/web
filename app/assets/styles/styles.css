@@ -154,9 +154,11 @@ li.step.active a {
 video {
 	background: #000;
 }
+/*
 .hydra {
 	position: relative;
 }
+*/
 .configpanel {
 	background: rgba(0,0,0,0.5);
 	width: 100%;
