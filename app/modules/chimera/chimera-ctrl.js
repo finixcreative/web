@@ -12,7 +12,9 @@ angular.module('chimeraMod')
 		$scope.edit = false;
 		$scope.configPanel = function(){
 			console.log('Configure Init = '+$scope.configure);
-			if($scope.configure = undefined || $scope.configure = false){
+			if($scope.configure = undefined){
+				$scope.configure = true;
+			} else if($scope.configure = false){
 				$scope.configure = true;
 			} else {
 				$scope.configure = false;
