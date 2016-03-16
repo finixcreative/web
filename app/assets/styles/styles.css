@@ -154,9 +154,12 @@ li.step.active a {
 video {
 	background: #000;
 }
-/*
-.hydra {
+.relative {
 	position: relative;
+}
+/*
+.hide {
+	display: none;
 }
 */
 .configpanel {
@@ -165,12 +168,6 @@ video {
 	height: 100%;
 	position: absolute;
 	top: 0px;
-	display: none;
-}
-.relative {
-	position: relative;
-}
-.hide {
 	display: none;
 }
 *:hover > .configpanel {
