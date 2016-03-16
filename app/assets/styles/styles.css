@@ -157,11 +157,9 @@ video {
 .relative {
 	position: relative;
 }
-/*
-.hide {
+.stealth {
 	display: none;
 }
-*/
 .configpanel {
 	background: rgba(0,0,0,0.5);
 	width: 100%;
