@@ -2,8 +2,7 @@ angular.module('coreMod')
 	.directive('config', function(){
 		return {
 			restrict: 'E',
-			templateUrl: 'app/modules/config/config.html',
-			controller: 'ChimeraController'
+			templateUrl: 'app/modules/config/config.html'
 		};
 	})
 	/*
