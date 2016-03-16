@@ -344,11 +344,17 @@ footer p a:hover {
 .slider {
 	position: relative;
 }
+.position-left {
+	position: absolute;
+	left: 0px;
+}
+.position-right {
+	position: absolute;
+	left: 0px;
+}
 .slideshow-icon {
 	width: 50px;
     height: 100px;
-    position: absolute;
-    left: 0px;
 }
 .pad80 {
 	padding-top: 80px;
