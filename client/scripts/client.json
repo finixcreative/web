@@ -9,7 +9,7 @@
 	"company": "Finix",
 	"type": "Inc",
 	"logo": "assets/images/logo.png",
-	"cta": "123-456-7890",
+	"cta": "617-417-2179",
 	"contacts": [
 		{
 			"type": "email",
@@ -18,7 +18,7 @@
 		},
 		{
 			"type": "phone",
-			"info": "123-456-7890",
+			"info": "617-417-2179",
 			"method": "tel:"
 		},
 		{
