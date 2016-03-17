@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Web Development, Design, and Digital Marketing solutions",
-		"favicon": "favicon",
+		"favicon": "app/assets/images/icons/social/icon-finix.png",
 		"description": "Description",
 		"keywords": "keywords",
 		"author": "Richard Smith"
