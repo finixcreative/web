@@ -355,6 +355,7 @@ footer p a:hover {
 .slideshow-icon {
 	width: 50px;
     height: 100px;
+    opacity: 0.5;
 }
 .pad80 {
 	padding-top: 80px;
@@ -423,6 +424,9 @@ button.slidenav:hover {
 	color: #fff;
 	box-shadow: none;
 	cursor: pointer;
+}
+button.slidenav:hover > .slideshow-icon {
+    opacity: 1;
 }
 button.slidenav:focus {
 	outline: none;
