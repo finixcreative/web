@@ -711,35 +711,6 @@
 						"contents": null
 					}
 				]
-			},
-			{
-				"config": {
-					"type": "row",
-					"class": {
-						"outer": "",
-						"inner": "pad"
-					},
-					"bg": {
-						"img": "",
-						"color": "#ccc",
-						"size": "",
-						"repeat": "",
-						"position": "",
-						"attachment": "",
-						"parallax": 1
-					}
-				},
-				"contents": [
-					{
-						"config": {
-							"type": "graph",
-							"title": "",
-							"class": "",
-							"size": "full"
-						},
-						"contents": null
-					}
-				]
 			}
 		]
 	}
