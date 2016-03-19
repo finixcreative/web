@@ -1,6 +1,6 @@
 angular.module('coreMod')
 	.controller('ConfigController', function($scope){
-		$scope.configure = true;
+		$scope.configure = false;
 		if($scope.configure === true){
 			$(".hydra").addClass("relative");
 			$(".configpanel").removeClass("stealth");
