@@ -52,7 +52,8 @@ h4 {
 	font-size: 1.2em;
 }
 p {
-	font-size: 16px;
+	margin: 1em;
+	font-size: 20px;
 	line-height: 1.5em;
 }
 header {
