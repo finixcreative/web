@@ -1,33 +1,25 @@
 angular.module("coreMod")
 	.controller("ConfigController", ["$scope", "$rootScope", function($scope, $rootScope){
 		$rootScope.configure = false;
-		/*
 		if($rootScope.configure === true){
 			$(".hydra").addClass("relative");
-			$(".configpanel").removeClass("stealth");
 			$scope.configLabel = "Done";
 		} else if($rootScope.configure === false){
 			$(".hydra").removeClass("relative");
-			$(".configpanel").addClass("stealth");
 			$scope.configLabel = "Edit";
 		} else {
-			$(".configpanel").addClass("stealth");
 			$scope.configLabel = "Error";			
 		}
-		*/
 		$scope.configPanel = function(){
 			console.log("Configure Init = " + $rootScope.configure);
 			$rootScope.configure = !$rootScope.configure;
 			if($rootScope.configure === true){
 				$(".hydra").addClass("relative");
-				$(".configpanel").removeClass("stealth");
 				$scope.configLabel = "Done";
 			} else if($rootScope.configure === false){
 				$(".hydra").removeClass("relative");
-				$(".configpanel").addClass("stealth");
 				$scope.configLabel = "Edit";
 			} else {
-				$(".configpanel").addClass("stealth");
 				$scope.configLabel = "Error";
 			}
 			console.log("Configure Update = " + $rootScope.configure);
