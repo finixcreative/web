@@ -163,16 +163,18 @@ video {
 .stealth {
 	display: none;
 }
+config {
+	display: none;
+}
+*:hover > config {
+	display: block;
+}
 .configpanel {
 	background: rgba(0,0,0,0.5);
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	top: 0px;
-	display: none;
-}
-*:hover > .configpanel {
-	display: block;
 }
 button.config {
 	background: #222;
