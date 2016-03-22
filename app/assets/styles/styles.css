@@ -571,9 +571,6 @@ a.sublink:hover {
 	.slide {
 		padding: 0;
 	}
-	.slide h1 {
-		margin-top: 0;
-	}
 	button.slidenav {
 		display: none;
 	}
