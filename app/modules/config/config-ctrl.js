@@ -1,5 +1,5 @@
-angular.module('coreMod')
-	.controller('ConfigController', function($scope){
+angular.module("coreMod")
+	.controller("ConfigController", ["$scope", "$rootScope", function($scope){
 		$rootScope.configure = false;
 		if($rootScope.configure === true){
 			$(".hydra").addClass("relative");
@@ -14,7 +14,7 @@ angular.module('coreMod')
 			$scope.configLabel = "Error";			
 		}
 		$scope.configPanel = function(){
-			console.log('Configure Init = ' + $rootScope.configure);
+			console.log("Configure Init = " + $rootScope.configure);
 			$rootScope.configure = !$rootScope.configure;
 			if($rootScope.configure === true){
 				$(".hydra").addClass("relative");
@@ -28,7 +28,7 @@ angular.module('coreMod')
 				$(".configpanel").addClass("stealth");
 				$scope.configLabel = "Error";
 			}
-			console.log('Configure Update = ' + $rootScope.configure);
+			console.log("Configure Update = " + $rootScope.configure);
 		};
 		/* Element cases */
 		$scope.configtype = function($scope){
@@ -48,5 +48,5 @@ angular.module('coreMod')
 				return null;
 			};
 		};
-	})
+	}])
 ;
