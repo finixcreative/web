@@ -497,6 +497,9 @@ a.sublink:hover {
 	max-height: 150px;
 	max-width: 150px;
 }
+.float {
+	float: left;
+}
 .right-float {
 	float: right;
 }
