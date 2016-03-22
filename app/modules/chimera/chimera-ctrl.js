@@ -55,24 +55,6 @@ angular.module('chimeraMod')
 				};
 			}
 		);
-		/* Element cases
-		$scope.configtype = function($scope){
-			console.log("* Config Panel *");
-			if ($scope.contents.config.type == "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
-				console.log("Config Headline");
-				return "configheadline";
-			} else if ($scope.contents.config.type == "p"){
-				console.log("Config Text");
-				return "configtext";
-			} else if ($scope.contents.config.type == "img"){
-				console.log("Config Image");
-				return "configimg";
-			} else {
-				console.log("Null Config");
-				return null;
-			};
-		};
-		*/
 		/* Post method
 		$http.post(pageData).then(
 			function success(response){
