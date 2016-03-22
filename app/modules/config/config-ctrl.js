@@ -1,6 +1,7 @@
 angular.module("coreMod")
 	.controller("ConfigController", ["$scope", "$rootScope", function($scope, $rootScope){
 		$rootScope.configure = false;
+		/*
 		if($rootScope.configure === true){
 			$(".hydra").addClass("relative");
 			$(".configpanel").removeClass("stealth");
@@ -13,6 +14,7 @@ angular.module("coreMod")
 			$(".configpanel").addClass("stealth");
 			$scope.configLabel = "Error";			
 		}
+		*/
 		$scope.configPanel = function(){
 			console.log("Configure Init = " + $rootScope.configure);
 			$rootScope.configure = !$rootScope.configure;
