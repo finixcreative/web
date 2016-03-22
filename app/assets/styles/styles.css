@@ -35,26 +35,29 @@ a {
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
+h1, h2, h3, h4, h5, h6, p {
+	font-weight: 300;
+	line-height: 1.5em;
+}
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	line-height: 2em;
 }
 h1 {
-	font-size: 2.5em;
+	font-size: 2.4em;
 }
 h2 {
-	font-size: 2em;
+	font-size: 1.8em;
 }
 h3 {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 h4 {
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 p {
 	margin: 1em;
 	font-size: 20px;
-	line-height: 1.5em;
 }
 header {
 	background: #fff;
@@ -559,9 +562,6 @@ a.sublink:hover {
 @media screen and (max-width: 960px) {}
 @media screen and (max-width: 768px) {}
 @media screen and (max-width: 640px), only screen and (-webkit-device-pixel-ratio: 2) {
-	p {
-		font-size: 32px;
-	}
 	#content {
 		top: 140px;
 	}
