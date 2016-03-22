@@ -3,7 +3,7 @@
 		<img src="app/assets/images/icons/icon-edit.png" alt="Edit icon">
 	</button>
 	<form class="config full pad" ng-show="edit" ng-submit="saveChanges()">
-		<div ng-include="'app/modules/config/' + configtype() + '.html'"></div>
+		<div ng-include="'app/modules/config/' + configtype + '.html'"></div>
 		<button type="submit">Save</button>
 	</form>
 </div>

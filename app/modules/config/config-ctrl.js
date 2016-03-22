@@ -33,7 +33,7 @@ angular.module("coreMod")
 		/* Element cases */
 		$scope.configtype = function($scope){
 			console.log("* Config Panel *");
-			var type = $scope.contents.config.type;
+			var type = ($scope.contents.config.type);
 			if(type === "h1" || type === "h2" || type === "h3" || type === "h4" || type === "h5" || type === "h6"){
 				console.log("Config Headline");
 				return "configheadline";
