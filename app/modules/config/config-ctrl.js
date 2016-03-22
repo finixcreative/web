@@ -33,13 +33,14 @@ angular.module('coreMod')
 		/* Element cases */
 		$scope.configtype = function($scope){
 			console.log("* Config Panel *");
-			if($scope.contents.config.type === "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
+			var type = $scope.contents.config.type;
+			if(type === "h1" || type === "h2" || type === "h3" || type === "h4" || type === "h5" || type === "h6"){
 				console.log("Config Headline");
 				return "configheadline";
-			} else if ($scope.contents.config.type == "p"){
+			} else if ($scope.contents.config.type === "p"){
 				console.log("Config Text");
 				return "configtext";
-			} else if ($scope.contents.config.type == "img"){
+			} else if ($scope.contents.config.type === "img"){
 				console.log("Config Image");
 				return "configimg";
 			} else {
