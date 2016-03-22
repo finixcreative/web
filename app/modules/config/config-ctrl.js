@@ -30,16 +30,16 @@ angular.module("coreMod")
 			var type = ($scope.contents.config.type);
 			if(type === "h1" || type === "h2" || type === "h3" || type === "h4" || type === "h5" || type === "h6"){
 				console.log("Config Headline");
-				return "configheadline";
+				$scope.configtype = "configheadline";
 			} else if ($scope.contents.config.type === "p"){
 				console.log("Config Text");
-				return "configtext";
+				$scope.configtype = "configtext";
 			} else if ($scope.contents.config.type === "img"){
 				console.log("Config Image");
-				return "configimg";
+				$scope.configtype = "configimg";
 			} else {
-				console.log("Null Config");
-				return null;
+				console.log("Error");
+				$scope.configtype = undefined;
 			};
 		};
 	}])
