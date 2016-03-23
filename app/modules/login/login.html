@@ -1,7 +1,9 @@
 <h6>
-	<label ng-click="userCheck()">
-		<input type="checkbox" ng-model="user"/>
-		<span ng-hide="user">Log in</span>
-		<span ng-show="user">Log out</span>
-	</label>
+	<a href ng-click="userCheck()">
+		<label>
+			<input type="checkbox" ng-model="user"/>			
+			<span ng-hide="user">Log in</span>
+			<span ng-show="user">Log out</span>
+		</label>
+	</a>
 </h6>
