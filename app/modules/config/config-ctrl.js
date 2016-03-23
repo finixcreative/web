@@ -1,5 +1,9 @@
 angular.module("coreMod")
 	.controller("ConfigController", ["$scope", "$rootScope", function($scope, $rootScope){
+		var guest = {
+			"username": "guest",
+			"password": "password"
+		};
 		$rootScope.user = false;
 		$rootScope.configure = false;
 		$rootScope.userCheck = function(){
@@ -8,8 +12,33 @@ angular.module("coreMod")
 				"Configure Init = " + $rootScope.configure
 			);
 			$rootScope.user = !$rootScope.user;
+			function userError(){
+				alert("Your username was incorrect. Try again!");
+				login();
+			};
+			function pwError(){
+				alert("Your password was incorrect. Try again!");
+				login();
+			};
+			function restricted(){
+				alert("Sorry, you don't have access");
+			};
+			function login(){
+				// return login popup
+				user.username = prompt("Enter your username:", "Call me Ishmael");
+				user.password = prompt("Thank you. Now enter your password:", "moby123");
+				if(user.username === guest.username && user.password === guest.password){
+					$scope.configPanel();
+				} else if(user.username !=== guest.username && user.password === guest.password){
+					userError();
+				} else if(user.username === guest.username && user.password !=== guest.password){
+					pwError();
+				} else if(user.username !=== guest.username && user.password !=== guest.password){
+					restricted();
+				}
+			};
 			if($rootScope.user === false){
-				$scope.configPanel();
+				login();
 			};
 			console.log(
 				"User Update = " + $rootScope.user + "\n",
