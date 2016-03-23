@@ -4,6 +4,7 @@ angular.module("coreMod")
 		$rootScope.configure = false;
 		if($rootScope.user === false){
 			$rootScope.configure = false;
+			$rootScope.$apply();
 		};
 		if($rootScope.configure === true){
 			$(".hydra").addClass("relative");
