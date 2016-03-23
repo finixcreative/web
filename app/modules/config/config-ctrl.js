@@ -45,7 +45,9 @@ angular.module("coreMod")
 			};
 			function logout(){
 				$rootScope.user = false;
-				$rootScope.configure = false;
+				if($rootScope.configure === true){
+					$scope.configPanel();
+				};
 				console.log("Logged out");
 			};
 			if($rootScope.user !== true){
