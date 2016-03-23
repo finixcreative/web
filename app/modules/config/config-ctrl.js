@@ -1,5 +1,6 @@
 angular.module("coreMod")
 	.controller("ConfigController", ["$scope", "$rootScope", function($scope, $rootScope){
+		$rootScope.user = false;
 		$rootScope.configure = false;
 		if($rootScope.configure === true){
 			$(".hydra").addClass("relative");
