@@ -549,7 +549,6 @@ footer li {
 }
 footer a {
 	color: #fff;
-	font-size: 20px;
 }
 footer a:hover {
 	color: #f52;
@@ -583,9 +582,6 @@ footer .social li a img {
 	width: auto;
 	height: 40px;
 	float: left;
-}
-copyright a {
-	font-size: 1em;
 }
 @media screen and (min-width: 1000px) {
 	.chart {
