@@ -3,10 +3,20 @@ angular.module("coreMod")
 		$rootScope.user = false;
 		$rootScope.configure = false;
 		$rootScope.userCheck = function(){
-			$rootScope.user = !$rootScope.user;
-			if($rootScope.user === false){
-				$rootScope.configure = false;
-			};
+			console.log(
+				"User Init = " + $rootScope.user + "\n",
+				"Configure Init = " + $rootScope.configure
+			);
+			$rootScope.$apply(
+				$rootScope.user = !$rootScope.user;
+				if($rootScope.user === false){
+					$rootScope.configure = false;
+				}
+			);
+			console.log(
+				"User Update = " + $rootScope.user + "\n",
+				"Configure Update = " + $rootScope.configure
+			);
 		};
 		if($rootScope.configure === true){
 			$(".hydra").addClass("relative");
