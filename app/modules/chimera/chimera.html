@@ -4,7 +4,7 @@ CHIMERA | Shapeshifter module accepts dynamic route parameter to fetch page cont
 -->
 <div class="parent-scope" ng-controller="ConfigController">
 	<hydra></hydra>
-	<div class="primary-bg center pad full">
-		<button id="configbutton" class="center pad" ng-show="user" ng-click="configPanel()">{{configLabel}}</button>			
+	<div class="primary-bg center pad full" ng-show="user">
+		<button id="configbutton" class="center pad" ng-click="configPanel()">{{configLabel}}</button>			
 	</div>
 </div>

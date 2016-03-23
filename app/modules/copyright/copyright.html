@@ -1,5 +1,10 @@
 <div class="copyright">
 	<p>
-		Design &copy; 2015 <a href="http://finixcreative.com/" target="_blank">Finix</a> • Content &copy; 2015 {{ client.client.company }} {{ client.client.type }} • All rights reserved. <label><input type="checkbox" ng-model="user"/> Login</label>
+		Design &copy; 2015 <a href="http://finixcreative.com/" target="_blank">Finix</a> • Content &copy; 2015 {{ client.client.company }} {{ client.client.type }} • All rights reserved.<br>
+		<label>
+			<input type="checkbox" ng-model="user"/>
+			<span ng-hide="user">Log in</span>
+			<span ng-show="user">Log out</span>
+		</label>
 	</p>
 </div>
