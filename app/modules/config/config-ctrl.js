@@ -26,6 +26,7 @@ angular.module("coreMod")
 				alert("Sorry, you don't have access");
 			};
 			function login(){
+				var user;
 				// return login popup
 				user.username = prompt("Enter your username:", "Call me Ishmael");
 				user.password = prompt("Thank you. Now enter your password:", "moby123");
