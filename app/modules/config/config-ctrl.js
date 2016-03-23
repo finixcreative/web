@@ -7,12 +7,10 @@ angular.module("coreMod")
 				"User Init = " + $rootScope.user + "\n",
 				"Configure Init = " + $rootScope.configure
 			);
-			$rootScope.$apply(
-				$rootScope.user = !$rootScope.user;
-				if($rootScope.user === false){
-					$rootScope.configure = false;
-				}
-			);
+			$rootScope.user = !$rootScope.user;
+			if($rootScope.user === false){
+				$scope.configPanel();
+			};
 			console.log(
 				"User Update = " + $rootScope.user + "\n",
 				"Configure Update = " + $rootScope.configure
