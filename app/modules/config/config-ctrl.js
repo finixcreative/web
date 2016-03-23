@@ -2,6 +2,9 @@ angular.module("coreMod")
 	.controller("ConfigController", ["$scope", "$rootScope", function($scope, $rootScope){
 		$rootScope.user = false;
 		$rootScope.configure = false;
+		if($rootScope.user === false){
+			$rootScope.configure = false;
+		};
 		if($rootScope.configure === true){
 			$(".hydra").addClass("relative");
 			$scope.configLabel = "Done";
@@ -10,7 +13,7 @@ angular.module("coreMod")
 			$scope.configLabel = "Edit";
 		} else {
 			$scope.configLabel = "Error";			
-		}
+		};
 		$scope.configPanel = function(){
 			console.log("Configure Init = " + $rootScope.configure);
 			$rootScope.configure = !$rootScope.configure;
