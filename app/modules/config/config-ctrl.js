@@ -11,16 +11,18 @@ angular.module("coreMod")
 				"User Init = " + $rootScope.user + "\n",
 				"Configure Init = " + $rootScope.configure
 			);
-			$rootScope.user = !$rootScope.user;
 			function userError(){
+				logout();
 				alert("Your username was incorrect. Try again!");
 				login();
 			};
 			function pwError(){
+				logout();
 				alert("Your password was incorrect. Try again!");
 				login();
 			};
 			function restricted(){
+				logout();
 				alert("Sorry, you don't have access");
 			};
 			function login(){
@@ -28,17 +30,28 @@ angular.module("coreMod")
 				user.username = prompt("Enter your username:", "Call me Ishmael");
 				user.password = prompt("Thank you. Now enter your password:", "moby123");
 				if(user.username === guest.username && user.password === guest.password){
-					$scope.configPanel();
+					$rootScope.user = !$rootScope.user;
+					console.log("Logged in");
 				} else if(user.username !== guest.username && user.password === guest.password){
 					userError();
+					console.log("Username error");
 				} else if(user.username === guest.username && user.password !== guest.password){
 					pwError();
+					console.log("Password error");
 				} else if(user.username !== guest.username && user.password !== guest.password){
 					restricted();
+					console.log("Restricted access");
 				}
 			};
-			if($rootScope.user === false){
+			function logout(){
+				$rootScope.user = false;
+				$rootScope.configure = false;
+				console.log("Logged out");
+			};
+			if($rootScope.user !== true){
 				login();
+			} else {
+				logout();
 			};
 			console.log(
 				"User Update = " + $rootScope.user + "\n",
