@@ -3,21 +3,19 @@ angular.module("coreMod")
 		$rootScope.user = false;
 		$rootScope.configure = false;
 		$rootScope.userCheck = function(){
-			var guest = {
-				"username": "guest",
-				"password": "password"
-			};
 			console.log(
 				"User Init = " + $rootScope.user + "\n",
 				"Configure Init = " + $rootScope.configure
 			);
 			function userError(){
 				logout();
+				console.log("Username error");
 				alert("Your username was incorrect. Try again!");
 				login();
 			};
 			function pwError(){
 				logout();
+				console.log("Password error");
 				alert("Your password was incorrect. Try again!");
 				login();
 			};
@@ -26,22 +24,31 @@ angular.module("coreMod")
 				alert("Sorry, you don't have access");
 			};
 			function login(){
-				var user = {};
-				user.username = prompt("Enter your username:", "Call me Ishmael");
-				user.password = prompt("Thank you. Now enter your password:", "moby123");
-				if(user.username === guest.username && user.password === guest.password){
-					$rootScope.user = !$rootScope.user;
-					console.log("Logged in");
-				} else if(user.username !== guest.username && user.password === guest.password){
-					userError();
-					console.log("Username error");
-				} else if(user.username === guest.username && user.password !== guest.password){
-					pwError();
-					console.log("Password error");
-				} else if(user.username !== guest.username && user.password !== guest.password){
-					restricted();
-					console.log("Restricted access");
-				}
+				var user = {},
+					username,
+					password,
+					guest = {
+						"username": "guest",
+						"password": "password"
+					};
+				username = function(){
+					user.username = prompt("Enter your username:", "Call me Ishmael");
+					if(user.username === guest.username){
+						password();
+					} else {
+						userError();
+					};
+				};
+				password = function(){
+					user.password = prompt("Thank you. Now enter your password:", "moby123");
+					if(user.password === guest.password){
+						$rootScope.user = !$rootScope.user;
+						console.log("Logged in");
+					} else {
+						pwError();
+					};
+				};
+				username();
 			};
 			function logout(){
 				$rootScope.user = false;
