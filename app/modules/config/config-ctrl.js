@@ -95,28 +95,26 @@ angular.module("coreMod")
 		};
 		/* Element cases */
 		function getConfig(){
-			for(var i = 0; i < $scope.contents.length; i++){
-				if(
-					$scope.contents[i].config.type === "h1" ||
-					$scope.contents[i].config.type === "h2" ||
-					$scope.contents[i].config.type === "h3" ||
-					$scope.contents[i].config.type === "h4" ||
-					$scope.contents[i].config.type === "h5" ||
-					$scope.contents[i].config.type === "h6"
-				){
-					console.log("Config Headline");
-					return "configheadline";
-				} else if($scope.contents[i].config.type === "p"){
-					console.log("Config Text");
-					return "configtext";
-				} else if($scope.contents[i].config.type === "img"){
-					console.log("Config Image");
-					return "configimg";
-				} else {
-					console.log("Error");
-					return null;
-				};
-			}
+			if(
+				$scope.config.type === "h1" ||
+				$scope.config.type === "h2" ||
+				$scope.config.type === "h3" ||
+				$scope.config.type === "h4" ||
+				$scope.config.type === "h5" ||
+				$scope.config.type === "h6"
+			){
+				console.log("Config Headline");
+				return "configheadline";
+			} else if($scope.config.type === "p"){
+				console.log("Config Text");
+				return "configtext";
+			} else if($scope.config.type === "img"){
+				console.log("Config Image");
+				return "configimg";
+			} else {
+				console.log("Error");
+				return null;
+			};
 		};
 		$scope.configtype = 'app/modules/config/' + getConfig() + '.html';
 	}])
