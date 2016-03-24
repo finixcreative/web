@@ -94,7 +94,7 @@ angular.module("coreMod")
 			console.log("Configure Update = " + $rootScope.configure);
 		};
 		/* Element cases */
-		$scope.contents.config.configtype = function(){
+		$scope.configtype = function(){
 			console.log("* Config Panel *");
 			if(
 				$scope.contents.config.type === "h1" ||
@@ -105,16 +105,16 @@ angular.module("coreMod")
 				$scope.contents.config.type === "h6"
 			){
 				console.log("Config Headline");
-				$scope.contents.config.configtype = "configheadline";
+				return "configheadline";
 			} else if($scope.contents.config.type === "p"){
 				console.log("Config Text");
-				$scope.contents.config.configtype = "configtext";
+				return "configtext";
 			} else if($scope.contents.config.type === "img"){
 				console.log("Config Image");
-				$scope.contents.config.configtype = "configimg";
+				return "configimg";
 			} else {
 				console.log("Error");
-				$scope.contents.config.configtype = undefined;
+				return undefined;
 			};
 		};
 	}])
