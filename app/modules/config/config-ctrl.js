@@ -17,7 +17,6 @@ angular.module("coreMod")
 				logout();
 				console.log("Password error");
 				alert("Your password was incorrect. Try again!");
-				login();
 			};
 			function restricted(){
 				logout();
@@ -35,6 +34,8 @@ angular.module("coreMod")
 					user.username = prompt("Enter your username:", "Call me Ishmael");
 					if(user.username === guest.username){
 						password();
+					} else if(user.username === null){
+						logout();
 					} else {
 						userError();
 					};
@@ -44,6 +45,8 @@ angular.module("coreMod")
 					if(user.password === guest.password){
 						$rootScope.user = !$rootScope.user;
 						console.log("Logged in");
+					} else if(user.password === null){
+						logout();
 					} else {
 						pwError();
 					};
