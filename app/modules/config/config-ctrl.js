@@ -94,21 +94,21 @@ angular.module("coreMod")
 			console.log("Configure Update = " + $rootScope.configure);
 		};
 		/* Element cases */
-		$scope.config.configtype = function(){
+		var config = $scope.contents.config;
+		config.configtype = function(){
 			console.log("* Config Panel *");
-			var type = ($scope.contents.config.type);
-			if(type === "h1" || type === "h2" || type === "h3" || type === "h4" || type === "h5" || type === "h6"){
+			if(config.type === "h1" || config.type === "h2" || config.type === "h3" || config.type === "h4" || config.type === "h5" || config.type === "h6"){
 				console.log("Config Headline");
-				$scope.configtype = "configheadline";
-			} else if($scope.contents.config.type === "p"){
+				config.configtype = "configheadline";
+			} else if(config.type === "p"){
 				console.log("Config Text");
-				$scope.configtype = "configtext";
+				config.configtype = "configtext";
 			} else if($scope.contents.config.type === "img"){
 				console.log("Config Image");
-				$scope.configtype = "configimg";
+				config.configtype = "configimg";
 			} else {
 				console.log("Error");
-				$scope.configtype = undefined;
+				config.configtype = undefined;
 			};
 		};
 	}])
