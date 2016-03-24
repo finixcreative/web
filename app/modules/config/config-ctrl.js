@@ -94,7 +94,6 @@ angular.module("coreMod")
 			console.log("Configure Update = " + $rootScope.configure);
 		};
 		/* Element cases */
-		$scope.configtype = 'app/modules/config/' + getConfig() + '.html';
 		function getConfig(){
 			for(var i = 0; i < $scope.contents.length; i++){
 				if(
@@ -119,5 +118,6 @@ angular.module("coreMod")
 				};
 			}
 		};
+		$scope.configtype = 'app/modules/config/' + getConfig() + '.html';
 	}])
 ;
