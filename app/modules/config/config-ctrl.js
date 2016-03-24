@@ -94,9 +94,8 @@ angular.module("coreMod")
 			console.log("Configure Update = " + $rootScope.configure);
 		};
 		/* Element cases */
-		$scope.configtype = getConfig();
+		$scope.configtype = 'app/modules/config/' + getConfig() + '.html';
 		function getConfig(){
-			console.log("* Config Panel *");
 			for(var i = 0; i < $scope.contents.length; i++){
 				if(
 					$scope.contents[i].config.type === "h1" ||
