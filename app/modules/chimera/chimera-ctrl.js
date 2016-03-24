@@ -89,6 +89,8 @@ angular.module('chimeraMod')
 				return null;
 			};
 		};
+		/*
 		$scope.configtype = 'app/modules/config/' + getConfig($index) + '.html';
+		*/
 	}])
 ;
