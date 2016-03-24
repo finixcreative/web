@@ -94,16 +94,16 @@ angular.module("coreMod")
 			console.log("Configure Update = " + $rootScope.configure);
 		};
 		/* Element cases */
-		$scope.configtype = function($scope){
+		$scope.contents.config.configtype = function(){
 			console.log("* Config Panel *");
 			var type = ($scope.contents.config.type);
 			if(type === "h1" || type === "h2" || type === "h3" || type === "h4" || type === "h5" || type === "h6"){
 				console.log("Config Headline");
 				$scope.configtype = "configheadline";
-			} else if ($scope.contents.config.type === "p"){
+			} else if($scope.contents.config.type === "p"){
 				console.log("Config Text");
 				$scope.configtype = "configtext";
-			} else if ($scope.contents.config.type === "img"){
+			} else if($scope.contents.config.type === "img"){
 				console.log("Config Image");
 				$scope.configtype = "configimg";
 			} else {
