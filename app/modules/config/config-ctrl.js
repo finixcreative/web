@@ -94,7 +94,6 @@ angular.module("coreMod")
 			console.log("Configure Update = " + $rootScope.configure);
 		};
 		/* Element cases */
-		var config = $scope.contents.config;
 		$scope.contents.config.configtype = function(){
 			console.log("* Config Panel *");
 			if(
