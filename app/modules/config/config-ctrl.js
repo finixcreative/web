@@ -95,20 +95,27 @@ angular.module("coreMod")
 		};
 		/* Element cases */
 		var config = $scope.contents.config;
-		config.configtype = function(){
+		$scope.contents.config.configtype = function(){
 			console.log("* Config Panel *");
-			if(config.type === "h1" || config.type === "h2" || config.type === "h3" || config.type === "h4" || config.type === "h5" || config.type === "h6"){
+			if(
+				$scope.contents.config.type === "h1" ||
+				$scope.contents.config.type === "h2" ||
+				$scope.contents.config.type === "h3" ||
+				$scope.contents.config.type === "h4" ||
+				$scope.contents.config.type === "h5" ||
+				$scope.contents.config.type === "h6"
+			){
 				console.log("Config Headline");
-				config.configtype = "configheadline";
-			} else if(config.type === "p"){
+				$scope.contents.config.configtype = "configheadline";
+			} else if($scope.contents.config.type === "p"){
 				console.log("Config Text");
-				config.configtype = "configtext";
+				$scope.contents.config.configtype = "configtext";
 			} else if($scope.contents.config.type === "img"){
 				console.log("Config Image");
-				config.configtype = "configimg";
+				$scope.contents.config.configtype = "configimg";
 			} else {
 				console.log("Error");
-				config.configtype = undefined;
+				$scope.contents.config.configtype = undefined;
 			};
 		};
 	}])
