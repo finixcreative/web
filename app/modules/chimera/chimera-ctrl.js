@@ -67,28 +67,30 @@ angular.module('chimeraMod')
 		);
 		*/
 		/* Element cases */
-		function getConfig($scope){
+		function getConfig(){
 			var configtype;
-			if(
-				$scope.config.type === "h1" ||
-				$scope.config.type === "h2" ||
-				$scope.config.type === "h3" ||
-				$scope.config.type === "h4" ||
-				$scope.config.type === "h5" ||
-				$scope.config.type === "h6"
-			){
-				console.log("Config Headline");
-				configtype = "configheadline";
-			} else if($scope.config.type === "p"){
-				console.log("Config Text");
-				configtype = "configtext";
-			} else if($scope.config.type === "img"){
-				console.log("Config Image");
-				configtype = "configimg";
-			} else {
-				console.log("Error");
-				configtype = "";
-			};
+			for(var i = 0; i < $scope.contents.length; i++){
+				if(
+					$scope.contents[i].config.type === "h1" ||
+					$scope.contents[i].config.type === "h2" ||
+					$scope.contents[i].config.type === "h3" ||
+					$scope.contents[i].config.type === "h4" ||
+					$scope.contents[i].config.type === "h5" ||
+					$scope.contents[i].config.type === "h6"
+				){
+					console.log("Config Headline");
+					configtype = "configheadline";
+				} else if($scope.contents[index].config.type === "p"){
+					console.log("Config Text");
+					configtype = "configtext";
+				} else if($scope.contents[index].config.type === "img"){
+					console.log("Config Image");
+					configtype = "configimg";
+				} else {
+					console.log("Error");
+					configtype = "";
+				}
+			}
 			return 'app/modules/config/' + configtype + '.html';
 		};
 		$scope.configtype = getConfig();
