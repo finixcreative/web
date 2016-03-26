@@ -89,7 +89,7 @@ angular.module('chimeraMod')
 					configtype = "configimg";
 				} else {
 					console.log("Error. Config type for " + $scope.contents[i].config.type + " is not defined");
-					configtype = "";
+					configtype = "wompwomp";
 				}
 			}
 			console.log("Config Type: " + configtype);
