@@ -68,9 +68,10 @@ angular.module('chimeraMod')
 		);
 		*/
 		/* Element cases */
-		function getConfig(){
+		function getConfig($scope){
 			var configtype;
 			for(var i = 0; i < $scope.contents.length; i++){
+				console.log($scope.contents[i].config.type);
 				if(
 					$scope.contents[i].config.type === "h1" ||
 					$scope.contents[i].config.type === "h2" ||
