@@ -67,7 +67,7 @@ angular.module('chimeraMod')
 			}
 		);
 		*/
-		/* Element cases */
+		/* Element cases
 		function getConfig($scope){
 			var configtype;
 			for(var i = 0; i < $scope.contents.length; i++){
@@ -97,5 +97,6 @@ angular.module('chimeraMod')
 			return configtype;
 		};
 		$scope.configtype = getConfig();
+		*/
 	}])
 ;
