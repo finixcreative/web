@@ -92,7 +92,7 @@ angular.module('chimeraMod')
 					configtype = "";
 				}
 			}
-			return 'app/modules/config/' + configtype + '.html';
+			return configtype;
 		};
 		$scope.configtype = getConfig();
 	}])
