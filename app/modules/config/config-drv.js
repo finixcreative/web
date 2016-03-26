@@ -14,6 +14,7 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	*/
 	.directive('writetext', function(){
 		return {
 			restrict: 'E',
@@ -22,6 +23,7 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	/*
 	.directive('configheadline', function(){
 		return {
 			restrict: 'E',
@@ -30,6 +32,7 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	*/
 	.directive('writeheadline', function(){
 		return {
 			restrict: 'E',
@@ -38,6 +41,7 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	/*
 	.directive('configimg', function(){
 		return {
 			restrict: 'E',
@@ -46,6 +50,7 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	*/
 	.directive('imgselect', function(){
 		return {
 			restrict: 'E',
@@ -70,5 +75,4 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
-	*/
 ;
