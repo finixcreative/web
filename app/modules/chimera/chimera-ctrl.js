@@ -67,15 +67,15 @@ angular.module('chimeraMod')
 		);
 		*/
 		/* Element cases */
-		function getConfig(){
+		function getConfig(i){
 			var configtype;
 			if(
-				$scope.contents[index].config.type === "h1" ||
-				$scope.contents[index].config.type === "h2" ||
-				$scope.contents[index].config.type === "h3" ||
-				$scope.contents[index].config.type === "h4" ||
-				$scope.contents[index].config.type === "h5" ||
-				$scope.contents[index].config.type === "h6"
+				$scope.contents[i].config.type === "h1" ||
+				$scope.contents[i].config.type === "h2" ||
+				$scope.contents[i].config.type === "h3" ||
+				$scope.contents[i].config.type === "h4" ||
+				$scope.contents[i].config.type === "h5" ||
+				$scope.contents[i].config.type === "h6"
 			){
 				console.log("Config Headline");
 				configtype = "configheadline";
@@ -91,6 +91,6 @@ angular.module('chimeraMod')
 			};
 			return 'app/modules/config/' + configtype + '.html';
 		};
-		$scope.configtype = getConfig();
+		$scope.configtype = getConfig($index);
 	}])
 ;
