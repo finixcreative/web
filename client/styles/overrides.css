@@ -572,7 +572,8 @@ footer li {
 footer a {
 	color: #fff;
 }
-footer a:hover {
+footer a:hover,
+footer p a:hover {
 	color: #f52;
 }
 footer p a {
