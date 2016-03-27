@@ -13,32 +13,22 @@
 	"contacts": [
 		{
 			"type": "email",
-			"info": "contact@email.com",
+			"info": "info@finixcreative.com",
 			"method": "mailto:"
 		},
 		{
 			"type": "phone",
 			"info": "617-417-2179",
 			"method": "tel:"
-		},
-		{
-			"type": "cell",
-			"info": "123-456-7890",
-			"method": "tel:"
-		},
-		{
-			"type": "fax",
-			"info": "123-456-7890",
-			"method": ""
 		}
 	],
 	"locations": [
 		{
 			"address": {
-				"street": "123 Main Street",
-				"city": "Anytown",
-				"state": "ST",
-				"zip": "12345"
+				"street": "",
+				"city": "San Francisco",
+				"state": "CA",
+				"zip": ""
 			},
 			"map": ""
 		}

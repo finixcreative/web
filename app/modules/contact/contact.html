@@ -4,12 +4,12 @@
 		{{ client.company }} {{ client.type }}
 	</p>
 	<p ng-repeat="location in client.locations">
-		{{ location.address.street }}<br>
+		{{ location.address.street }}<br ng-show="location.address.street != null">
 		{{ location.address.city }}, {{ location.address.state }} {{ location.address.zip }}
 	</p>
 	<p>
 		<span class="full" ng-repeat="contact in client.contacts">
-			<span class="capitalize">{{ contact.type }}</span>: <a href="{{ contact.method }}{{ contact.info }}">{{ contact.info }}</a>
+			<a href="{{ contact.method }}{{ contact.info }}">{{ contact.info }}</a>
 		</span>
 	</p>
 </div>
