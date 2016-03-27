@@ -145,6 +145,9 @@ Dark Gray	     | #222
 	width: 10px;
 	height: 10px;
 }
+.pixel-40 {
+	width: 40px;
+}
 .pixel-100 {
 	width: 100px;
 	height: 100px;
