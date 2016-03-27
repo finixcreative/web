@@ -198,7 +198,10 @@ button.config:hover {
 }
 form {}
 form.config {
-	background-color: rgba(0,0,0,0.2);
+	background-color: #fff;
+	position: absolute;
+	top: 100%;
+	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.3);
 }
 .form-body {
 	border: 1px solid #ccc;
