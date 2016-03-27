@@ -59,6 +59,14 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	.directive('vidselect', function(){
+		return {
+			restrict: 'E',
+			templateUrl: 'app/modules/config/vidselect.html',
+			controller: 'ConfigController',
+			controllerAs: 'config'
+		};
+	})
 	.directive('size', function(){
 		return {
 			restrict: 'E',
