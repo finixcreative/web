@@ -1,14 +1,14 @@
 <div class="full">
 	<h3>Contact</h3>
 	<p>
-		{{ client.client.company }} {{ client.client.type }}
+		{{ client.company }} {{ client.type }}
 	</p>
-	<p ng-repeat="location in client.client.locations">
+	<p ng-repeat="location in client.locations">
 		{{ location.address.street }}<br>
 		{{ location.address.city }}, {{ location.address.state }} {{ location.address.zip }}
 	</p>
 	<p>
-		<span class="full" ng-repeat="contact in client.client.contacts">
+		<span class="full" ng-repeat="contact in client.contacts">
 			<span class="capitalize">{{ contact.type }}</span>: <a href="{{ contact.method }}{{ contact.info }}">{{ contact.info }}</a>
 		</span>
 	</p>
