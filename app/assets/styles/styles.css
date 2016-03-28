@@ -454,6 +454,10 @@ button.slidenav:focus {
 }
 .controls {
 	position: relative;
+	display: none;
+}
+*:hover > .controls {
+	display: block;
 }
 .add-top,
 .add-bottom {
@@ -461,10 +465,10 @@ button.slidenav:focus {
 	position: absolute;
 }
 .add-top {
-	top: -100%;
+	top: -62px;
 }
 .add-bottom {
-	top: 100%;
+	bottom: 62px;
 }
 .subsection a:hover,
 .row a:hover {
