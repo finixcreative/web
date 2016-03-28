@@ -459,10 +459,13 @@ button.slidenav:focus {
 .add-top,
 .add-bottom {
 	background: rgba(0,0,0,0.5);
-	font-weight: 700;
 	position: absolute;
 	display: none;
 	z-index: 1;
+}
+.add-top h3,
+.add-bottomn h3 {
+	font-weight: 700;
 }
 .add-top:hover,
 .add-bottom:hover {
@@ -473,10 +476,10 @@ button.slidenav:focus {
 	display: block;
 }
 .add-top {
-	top: -72px;
+	top: -91px;
 }
 .add-bottom {
-	bottom: -72px;
+	bottom: -91px;
 }
 .subsection a:hover,
 .row a:hover {
