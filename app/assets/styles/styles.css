@@ -452,7 +452,6 @@ button.slidenav:focus {
 .row {
 	background: #fff;
 }
-/*
 .controls {
 	height: 100%;
 	position: absolute;
@@ -485,7 +484,6 @@ button.slidenav:focus {
 .add-bottom {
 	bottom: -64px;
 }
-*/
 .subsection a:hover,
 .row a:hover {
 	text-decoration: none;
