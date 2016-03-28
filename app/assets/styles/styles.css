@@ -466,7 +466,7 @@ button.slidenav:focus {
 }
 .add-top:hover,
 .add-bottom:hover {
-	background: #3b2;
+	background: #f52;
 }
 *:hover > .add-top,
 *:hover > .add-bottom {
