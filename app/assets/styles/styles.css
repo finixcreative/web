@@ -455,16 +455,17 @@ button.slidenav:focus {
 .controls {
 	height: 100%;
 	position: absolute;
-	display: none;
 	z-index: 1;
-}
-*:hover > .controls {
-	display: block;
 }
 .add-top,
 .add-bottom {
 	background: #3d2;
 	position: absolute;
+	display: none;
+}
+*:hover > .add-top,
+*:hover > .add-bottom {
+	display: block;
 }
 .add-top {
 	top: -72px;
