@@ -455,7 +455,6 @@ button.slidenav:focus {
 .controls {
 	height: 100%;
 	position: absolute;
-	z-index: 1;
 }
 .add-top,
 .add-bottom {
@@ -463,6 +462,7 @@ button.slidenav:focus {
 	font-weight: 700;
 	position: absolute;
 	display: none;
+	z-index: 1;
 }
 .add-top:hover,
 .add-bottom:hover {
