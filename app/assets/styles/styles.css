@@ -459,9 +459,14 @@ button.slidenav:focus {
 }
 .add-top,
 .add-bottom {
-	background: #3d2;
+	background: rgba(0,0,0,0.5);
+	font-weight: 700;
 	position: absolute;
 	display: none;
+}
+.add-top:hover,
+.add-bottom:hover {
+	background: #3b2;
 }
 *:hover > .add-top,
 *:hover > .add-bottom {
