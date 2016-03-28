@@ -459,13 +459,14 @@ button.slidenav:focus {
 .add-top,
 .add-bottom {
 	background: rgba(0,0,0,0.5);
+	font-size: 1em;
+	font-weight: 700;
 	position: absolute;
+	text-transform: uppercase;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
 	display: none;
 	z-index: 1;
-}
-.add-top h3,
-.add-bottomn h3 {
-	font-weight: 700;
 }
 .add-top:hover,
 .add-bottom:hover {
