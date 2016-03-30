@@ -158,6 +158,7 @@ video {
 }
 .relative {
 	position: relative;
+	z-index: 2;
 }
 .stealth {
 	display: none;
@@ -452,6 +453,10 @@ button.slidenav:focus {
 .row {
 	background: #fff;
 }
+.row:hover,
+.slideshow:hover {
+	z-index: 1;
+}
 .controls {
 	height: 100%;
 	position: absolute;
@@ -468,7 +473,7 @@ button.slidenav:focus {
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 	display: none;
-	z-index: 1;
+	z-index: 3;
 }
 .add-top:hover,
 .add-bottom:hover {

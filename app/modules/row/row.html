@@ -1,6 +1,6 @@
 <div
 	id="{{content.config.title}}"
-	class="{{content.config.class.outer}} row full"
+	class="{{content.config.type}} {{content.config.class.outer}} full"
 	style="
 		background-image:url({{content.config.bg.img}});
 		background-color:{{content.config.bg.color}};
@@ -22,15 +22,13 @@
 			opacity:{{content.config.bg.opacity}};
 		"
 	></div>
-	<div class="wrapper">
+	<div class="wrapper inner-content">
 		<div class="{{content.config.class.inner}} full">
 			<hydra></hydra>
 		</div>
 	</div>
-	<!--
 	<div class="controls center full" ng-show="user && configure">
 		<a href ng-click="" class="add-top pad full">+</a>
 		<a href ng-click="" class="add-bottom pad full">+</a>
 	</div>
-	-->
 </div>
