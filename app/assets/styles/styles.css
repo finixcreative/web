@@ -456,7 +456,8 @@ button.slidenav:focus {
 .slideshow:hover {
 	z-index: 1;
 }
-.row:hover > .relative {
+.row:hover .relative
+.slideshow:hover .relative {
 	z-index: 2;
 }
 .controls {
