@@ -456,40 +456,32 @@ button.slidenav:focus {
 .slideshow:hover {
 	z-index: 1;
 }
-*:hover .relative {
-	z-index: 3;
-}
 .controls {
 	height: 100%;
 	position: absolute;
 }
-.add-top,
-.add-bottom {
+.add-section {
 	background: rgba(0,0,0,0.5);
 	color: #fff;
+	width: 68px
+	border-radius: 50%;
 	font-size: 3em;
 	font-weight: 700;
 	line-height: 0.5;
 	text-transform: uppercase;
 	position: absolute;
+	top: -32px;
+	left: 40px;
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 	display: none;
 	z-index: 3;
 }
-.add-top:hover,
-.add-bottom:hover {
+.add-section:hover {
 	background: #f52;
 }
-*:hover > .add-top,
-*:hover > .add-bottom {
+*:hover > .add-section {
 	display: block;
-}
-.add-top {
-	top: -64px;
-}
-.add-bottom {
-	bottom: -64px;
 }
 .subsection a:hover,
 .row a:hover {
