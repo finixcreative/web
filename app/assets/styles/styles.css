@@ -336,6 +336,8 @@ social a img {
 	box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.2);
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
 }
 social a:hover img {
 	-webkit-filter: grayscale(0%);
