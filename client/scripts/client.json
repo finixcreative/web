@@ -50,12 +50,10 @@
 			"name": "google+",
 			"link": "plus.google.com/+Finixcreative"
 		},
-		/*
 		{
 			"name": "youtube",
-			"link": "www.youtube.com"
+			"link": null
 		},
-		*/
 		{
 			"name": "instagram",
 			"link": "www.instagram.com/finixcreative/"
@@ -64,12 +62,10 @@
 			"name": "pinterest",
 			"link": "www.pinterest.com/finixcreative/"
 		},
-		/*
 		{
 			"name": "tumblr",
-			"link": "www.tumblr.com"
+			"link": null
 		},
-		*/
 		{
 			"name": "yelp",
 			"link": "www.yelp.com"
