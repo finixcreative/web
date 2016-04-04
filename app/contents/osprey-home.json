@@ -40,20 +40,29 @@
 					},
 					{
 						"config": {
-							"type": "button",
-							"id": "",
-							"class": "center pad",
-							"size": "",
-							"name": "",
-							"buttontype": "",
-							"value": "",
-							"form": "",
-							"click": "",
-							"text": "Request demo",
-							"link": "#/signup",
-							"target": ""
+							"type": "block",
+							"class": "pad",
+							"size": "full"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Request demo",
+									"link": "#/signup",
+									"target": ""
+								},
+								"contents": null
+							}
+						]
 					}
 				]
 			},
