@@ -10,5 +10,13 @@ angular.module('coreMod', [])
 				$scope.errors = response.error;
 			}
 		);
+		function filterLive(social){
+			if(social.link.length == 0){
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
 	}])
 ;
