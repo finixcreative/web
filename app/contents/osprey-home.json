@@ -34,7 +34,7 @@
 					{
 						"config": {
 							"type": "p",
-							"text": "Lorem Ipsum dolor sit amet"
+							"text": "Lorem ipsum dolor sit amet, te postulant consetetur mei. An vim nulla malorum. Cu eum populo omittantur. Aliquip dolorem consectetuer eos cu. In quo decore interesset, ea est tantas nonumes."
 						},
 						"contents": null
 					},
@@ -77,24 +77,72 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h3",
-							"text": "Subsection headlines"
+							"type": "box",
+							"class": "pad",
+							"size": "third"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Subsection headlines"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+								},
+								"contents": null
+							}
+						]
 					},
 					{
 						"config": {
-							"type": "h4",
-							"text": "Subsection subheadline"
+							"type": "box",
+							"class": "pad",
+							"size": "third"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Subsection headlines"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+								},
+								"contents": null
+							}
+						]
 					},
 					{
 						"config": {
-							"type": "p",
-							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+							"type": "box",
+							"class": "pad",
+							"size": "third"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Subsection headlines"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+								},
+								"contents": null
+							}
+						]
 					}
 				]
 			},
