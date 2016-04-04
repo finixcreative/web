@@ -36,39 +36,43 @@
 	"socials": [
 		{
 			"name": "facebook",
-			"link": "www.facebook.com"
+			"link": "www.facebook.com/finixcreative"
 		},
 		{
 			"name": "twitter",
-			"link": "www.twitter.com"
+			"link": "twitter.com/FinixCreative"
 		},
 		{
 			"name": "linkedin",
-			"link": "www.linkedin.com"
+			"link": "www.linkedin.com/company/finix"
 		},
 		{
 			"name": "google+",
-			"link": "plus.google.com"
+			"link": "plus.google.com/+Finixcreative"
 		},
+		/*
 		{
 			"name": "youtube",
 			"link": "www.youtube.com"
 		},
+		*/
 		{
 			"name": "instagram",
-			"link": "www.instagram.com"
+			"link": "www.instagram.com/finixcreative/"
 		},
 		{
 			"name": "pinterest",
-			"link": "www.pinterest.com"
+			"link": "www.pinterest.com/finixcreative/"
 		},
-		{
-			"name": "yelp",
-			"link": "www.yelp.com"
-		},
+		/*
 		{
 			"name": "tumblr",
 			"link": "www.tumblr.com"
+		},
+		*/
+		{
+			"name": "yelp",
+			"link": "www.yelp.com"
 		}
 	]
 }
