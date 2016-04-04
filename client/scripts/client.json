@@ -52,7 +52,7 @@
 		},
 		{
 			"name": "youtube",
-			"link": false
+			"link": null
 		},
 		{
 			"name": "instagram",
@@ -64,7 +64,7 @@
 		},
 		{
 			"name": "tumblr",
-			"link": false
+			"link": null
 		},
 		{
 			"name": "yelp",
