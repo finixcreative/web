@@ -94,7 +94,7 @@
 							{
 								"config": {
 									"type": "h3",
-									"text": "Subsection headlines"
+									"text": "Control attacker movement"
 								},
 								"contents": null
 							},
@@ -134,7 +134,7 @@
 							{
 								"config": {
 									"type": "h3",
-									"text": "Subsection headlines"
+									"text": "Mitigate attacks"
 								},
 								"contents": null
 							},
@@ -174,7 +174,7 @@
 							{
 								"config": {
 									"type": "h3",
-									"text": "Subsection headlines"
+									"text": "Secure enterprise"
 								},
 								"contents": null
 							},
