@@ -211,7 +211,7 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "pad"
+						"inner": "pad-40-20"
 					},
 					"bg": {
 						"img": "",
@@ -227,6 +227,7 @@
 					{
 						"config": {
 							"type": "p",
+							"class": "italics",
 							"text": "\"I believe in Osprey Security’s vision for helping secure my organization by harnessing the power of Big Data and Artificial Intelligence and providing my team that predictive and proactive Cyber Security intelligence we have been lacking in our arsenal.\""
 						},
 						"contents": null
@@ -234,7 +235,14 @@
 					{
 						"config": {
 							"type": "h5",
-							"text": "- Paul B | Chief Security Officer, Fortune 50 company. Osprey Security Early Adopter Program"
+							"text": "- Paul B"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "h6",
+							"text": "Chief Security Officer, Fortune 50 company | Osprey Security Early Adopter Program"
 						},
 						"contents": null
 					}
