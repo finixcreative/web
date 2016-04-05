@@ -29,7 +29,7 @@
 							"type": "image",
 							"class": "center",
 							"size": "",
-							"src": "client/images/icons/osprey_security-logo.png",
+							"src": "client/images/osprey_security-logo.png",
 							"alt": "Osprey Security logo"
 						},
 						"contents": null
