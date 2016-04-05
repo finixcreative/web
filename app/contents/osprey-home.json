@@ -227,7 +227,7 @@
 					{
 						"config": {
 							"type": "p",
-							"class": "italics",
+							"class": "italic",
 							"text": "\"I believe in Osprey Security’s vision for helping secure my organization by harnessing the power of Big Data and Artificial Intelligence and providing my team that predictive and proactive Cyber Security intelligence we have been lacking in our arsenal.\""
 						},
 						"contents": null

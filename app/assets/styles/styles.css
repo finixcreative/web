@@ -576,6 +576,9 @@ a.sublink:hover {
 	width: 100%;
 	float: left;
 }
+.italic {
+	font-style: italic;
+}
 .italics {
 	font-size: 0.8em;
 	font-style: italic;
