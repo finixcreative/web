@@ -226,22 +226,15 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h3",
-							"text": "Secondary subsection headline"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "h4",
-							"text": "Secondary subsection subheadline"
-						},
-						"contents": null
-					},
-					{
-						"config": {
 							"type": "p",
-							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+							"text": "\"I believe in Osprey Security’s vision for helping secure my organization by harnessing the power of Big Data and Artificial Intelligence and providing my team that predictive and proactive Cyber Security intelligence we have been lacking in our arsenal.\""
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "h5",
+							"text": "- Paul B | Chief Security Officer, Fortune 50 company. Osprey Security Early Adopter Program"
 						},
 						"contents": null
 					}
