@@ -8,6 +8,17 @@
 			value="{{content.config.value}}"
 			form="{{content.config.form}}"
 			ng-click="content.config.click"
+			style="
+				{
+					background-color:{{content.config.bg.color}};
+					color:{{content.config.txt.color}};
+				}
+				:hover {
+					background-color:{{content.config.bg.hover}};
+					color:{{content.config.txt.hover}};
+				}
+
+			"
 		>
 			{{content.config.text}}
 		</button>

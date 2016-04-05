@@ -51,6 +51,14 @@
 									"id": "",
 									"class": "center pad",
 									"size": "",
+									"bg": {
+										"color": "#e57d00",
+										"hover": "#fbb03b",
+									},
+									"txt": {
+										"color": "#fff",
+										"hover": "#fff",
+									},
 									"name": "",
 									"buttontype": "",
 									"value": "",
@@ -111,6 +119,14 @@
 									"id": "",
 									"class": "center pad",
 									"size": "",
+									"bg": {
+										"color": "#201f4e",
+										"hover": "#33337f",
+									},
+									"txt": {
+										"color": "#fff",
+										"hover": "#fff",
+									},
 									"name": "",
 									"buttontype": "",
 									"value": "",
@@ -151,6 +167,14 @@
 									"id": "",
 									"class": "center pad",
 									"size": "",
+									"bg": {
+										"color": "#201f4e",
+										"hover": "#33337f",
+									},
+									"txt": {
+										"color": "#fff",
+										"hover": "#fff",
+									},
 									"name": "",
 									"buttontype": "",
 									"value": "",
@@ -191,6 +215,14 @@
 									"id": "",
 									"class": "center pad",
 									"size": "",
+									"bg": {
+										"color": "#201f4e",
+										"hover": "#33337f",
+									},
+									"txt": {
+										"color": "#fff",
+										"hover": "#fff",
+									},
 									"name": "",
 									"buttontype": "",
 									"value": "",
@@ -234,14 +266,14 @@
 					},
 					{
 						"config": {
-							"type": "h5",
+							"type": "h4",
 							"text": "- Paul B"
 						},
 						"contents": null
 					},
 					{
 						"config": {
-							"type": "h6",
+							"type": "h5",
 							"text": "Chief Security Officer, Fortune 50 company | Osprey Security Early Adopter Program"
 						},
 						"contents": null
