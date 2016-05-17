@@ -1,12 +1,14 @@
-var formOrLink;
-$('a').on('click', function(){
-	formOrLink = true;
-});
-$('form').on('submit', function(){
-	formOrLink = true;
-});
-$(window).on("beforeunload", function(){
-	confirm("Are you suuuuure?");
-	return
-	//return formOrLink ? "D'oh. You forgot something." : "But wait! There's more..."; 
-});
+window.onload = function(){
+	/*
+	var saved;
+	$('a').on('click', function(){
+		saved = true;
+	});
+	$('form').on('submit', function(){
+		saved = true;
+	});
+	*/
+	window.onmouseout = function(){
+		confirm("Are you suuuuure?");
+	};
+};
