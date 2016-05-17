@@ -16,8 +16,8 @@ window.onload = function(){
 			return;
 		} else {
 			confirm("Are you suuuuure?");
+			exitCount++;
 		}
-		exitCount++;
 	};
 	window.onmouseout = exitMonitor;
 };
