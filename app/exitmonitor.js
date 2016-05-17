@@ -8,13 +8,11 @@ window.onload = function(){
 		saved = true;
 	});
 	*/
-	let count = 0;
+	var exitCount = 0;
 	window.onmouseout = function(){
-		if(count = 0){
+		if(exitCount = 0){
 			confirm("Are you suuuuure?");
-			count++;
-		} else {
-			return;
+			exitCount++;
 		}
 	};
 };
