@@ -14,6 +14,8 @@ window.onload = function(){
 			exitCount++;
 			console.log("Exits: " + exitCount)
 			return;
+		} else if(!confirm("Are you suuuuure?")){
+			return;
 		}
 	};
 	window.onmouseout = exitMonitor;
