@@ -11,12 +11,13 @@ window.onload = function(){
 	*/
 	exitCount = 0;
 	exitMonitor = function(){
-		if(exitCount > 0){
-			console.log("Exitmonitor disabled. Exits: " + exitCount)
-			return;
-		} else {
+		if(exitCount = 0){
 			confirm("Are you suuuuure?");
 			exitCount++;
+			return;
+		} else {
+			console.log("Exitmonitor disabled. Exits: " + exitCount)
+			return;
 		}
 	};
 	window.onmouseout = exitMonitor;
