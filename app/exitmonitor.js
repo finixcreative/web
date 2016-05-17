@@ -1,4 +1,5 @@
 window.onload = function(){
+	var exitCount, exitMonitor;
 	/*
 	var saved;
 	$('a').on('click', function(){
@@ -8,11 +9,15 @@ window.onload = function(){
 		saved = true;
 	});
 	*/
-	var exitCount = 0;
-	window.onmouseout = function(){
-		if(exitCount = 0){
+	exitCount = 0;
+	exitMonitor = function(){
+		if(exitCount > 0){
+			console.log("Exitmonitor disabled. Exits: " + exitCount)
+			return;
+		} else {
 			confirm("Are you suuuuure?");
-			exitCount++;
 		}
+		exitCount++;
 	};
+	window.onmouseout = exitMonitor;
 };
