@@ -6,5 +6,5 @@ $('form').on('submit', function(){
 	formOrLink = true;
 });
 $(window).on("beforeunload", function(){
-	return formOrLink ? "Do you really want to close?" : null; 
+	return formOrLink ? "D'oh. You forgot something." : "But wait! There's more..."; 
 });
