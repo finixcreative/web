@@ -11,8 +11,7 @@ window.onload = function(){
 	*/
 	exitCount = 0;
 	exitMonitor = function(){
-		if(exitCount = 0){
-			confirm("Are you suuuuure?");
+		if(exitCount = 0 && confirm("Are you suuuuure?")){
 			exitCount++;
 			return;
 		} else {
