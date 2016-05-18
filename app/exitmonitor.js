@@ -26,6 +26,6 @@ window.onload = function(){
 		$('#exitmonitor').hide();
 		console.log("Exitmonitor dismissed");
 	};
-	$('#dismiss').click(dismiss);
+	$('#dismiss').click(dismiss());
 	$('html').mouseleave(exitMonitor);
 };
