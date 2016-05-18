@@ -1,9 +1,12 @@
 window.onload = function(){
 	var exitCount,
-		exitMonitor;
+		exitMonitor,
+		template,
+		dismiss;
 	exitCount = 0;
 	exitMonitor = function(){
-		if(exitCount === 0 && confirm("Are you suuuuure?")){
+		if(exitCount === 0){
+			$('#content').prepend(template);
 			exitCount++;
 			return;
 		} else if(exitCount === 1){
@@ -14,9 +17,13 @@ window.onload = function(){
 			exitCount++;
 			console.log("Exits: " + exitCount)
 			return;
-		} else if(!confirm("Are you suuuuure?")){
+		} else {
 			return;
 		}
 	};
+	template = "<div id='exitmonitor' class='pad-40-20 full'><h3>Wait up!</h3><button onclick='dismiss'>nah</button></div>";
+	dismiss = function(){
+		$('#exitmonitor').remove();		
+	}
 	window.onmouseout = exitMonitor;
 };
