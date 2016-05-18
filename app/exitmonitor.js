@@ -26,5 +26,5 @@ window.onload = function(){
 		$(this).closest('#exitmonitor').remove();
 		console.log("Exitmonitor dismissed");
 	});
-	$('body').onmouseout = exitMonitor;
+	$('html').mouseleave(exitMonitor);
 };
