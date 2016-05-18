@@ -23,9 +23,9 @@ window.onload = function(){
 		}
 	};
 	dismiss = function(){
-		$('#exitmonitor').remove();
+		$('#exitmonitor').hide();
 		console.log("Exitmonitor dismissed");
 	};
-	$('button #dismiss').click(dismiss);
+	$('#dismiss').click(dismiss);
 	$('html').mouseleave(exitMonitor);
 };
