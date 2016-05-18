@@ -23,7 +23,7 @@ window.onload = function(){
 		}
 	};
 	$('button #dismiss').click(function(){
-		$('#exitmonitor').remove();
+		$(this).parent().remove();
 	});
 	window.onmouseout = exitMonitor;
 };
