@@ -23,7 +23,8 @@ window.onload = function(){
 		}
 	};
 	$('button #dismiss').click(function(){
-		$(this).parent().remove();
+		$(this).closest('#exitmonitor').remove();
+		console.log("Exitmonitor dismissed");
 	});
 	window.onmouseout = exitMonitor;
 };
