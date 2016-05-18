@@ -4,7 +4,7 @@ window.onload = function(){
 		exitMonitor,
 		dismiss;
 	exitCount = 0;
-	template = "<div id='exitmonitor' class='pad-40-20 full'><h3>Wait up!</h3><button id='dismiss'>Nah...</button></div>";
+	template = "<div id='exitmonitor' class='white-txt pad-40-20 full'><h3>Wait up!</h3><button id='dismiss'>Nah...</button></div>";
 	exitMonitor = function(){
 		if(exitCount === 0){
 			$('#content').prepend(template);
