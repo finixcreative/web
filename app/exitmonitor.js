@@ -21,9 +21,9 @@ window.onload = function(){
 			return;
 		}
 	};
-	template = "<div id='exitmonitor' class='pad-40-20 full'><h3>Wait up!</h3><button onclick='dismiss'>nah</button></div>";
+	template = "<div id='exitmonitor' class='pad-40-20 full'><h3>Wait up!</h3><button onclick='dismiss()'>nah</button></div>";
 	dismiss = function(){
 		$('#exitmonitor').remove();		
-	}
+	};
 	window.onmouseout = exitMonitor;
 };
