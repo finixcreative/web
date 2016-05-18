@@ -1,9 +1,10 @@
 window.onload = function(){
 	var exitCount,
-		exitMonitor,
 		template,
+		exitMonitor,
 		dismiss;
 	exitCount = 0;
+	template = "<div id='exitmonitor' class='pad-40-20 full'><h3>Wait up!</h3><button id='dismiss'>Nah...</button></div>";
 	exitMonitor = function(){
 		if(exitCount === 0){
 			$('#content').prepend(template);
@@ -21,9 +22,8 @@ window.onload = function(){
 			return;
 		}
 	};
-	template = "<div id='exitmonitor' class='pad-40-20 full'><h3>Wait up!</h3><button onclick='dismiss()'>nah</button></div>";
-	dismiss = function(){
-		$('#exitmonitor').remove();		
-	};
+	$('button #dismiss').click(function(){
+		$('#exitmonitor').remove();
+	});
 	window.onmouseout = exitMonitor;
 };
