@@ -22,9 +22,10 @@ window.onload = function(){
 			return;
 		}
 	};
-	$('button #dismiss').click(function(){
-		$(this).closest('#exitmonitor').remove();
+	dismiss = function(){
+		$('#exitmonitor').remove();
 		console.log("Exitmonitor dismissed");
-	});
+	};
+	$('button #dismiss').click(dismiss);
 	$('html').mouseleave(exitMonitor);
 };
