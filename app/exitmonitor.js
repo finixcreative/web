@@ -7,6 +7,7 @@ window.onload = function(){
 	exitMonitor = function(){
 		if(exitCount === 0){
 			$('#content').prepend(template);
+			exitMonitorDismiss();
 			exitCount++;
 			return;
 		} else if(exitCount === 1){
@@ -23,11 +24,13 @@ window.onload = function(){
 	};
 	$('html').mouseleave(exitMonitor);
 };
-$(document).ready(function(){
+function exitMonitorDismiss(){
 	var dismiss;
 	dismiss = function(){
 		$(this).closest('#exitmonitor').hide();
 		console.log("Exitmonitor dismissed");
 	};
-	$('#dismiss').click(dismiss);		
+	$(document).ready(function(){
+		$('#dismiss').click(dismiss);		
+	};
 };
