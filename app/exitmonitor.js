@@ -32,5 +32,5 @@ function exitMonitorDismiss(){
 	};
 	$(document).ready(function(){
 		$('#dismiss').click(dismiss);		
-	};
+	});
 };
