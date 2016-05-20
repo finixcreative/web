@@ -1,10 +1,9 @@
 window.onload = function(){
 	var exitCount,
 		template,
-		exitMonitor,
-		dismiss;
+		exitMonitor;
 	exitCount = 0;
-	template = "<div id='exitmonitor' class='configpanel white-txt pad-150-20 center full'><h3>Wait up!</h3><button id='dismiss'>Nah...</button></div>";
+	template = "<div id='exitmonitor' class='configpanel white-txt pad-150-20 center full'><h3>Wait up!</h3><button id='dismiss' class='pad-20'>Nah...</button></div>";
 	exitMonitor = function(){
 		if(exitCount === 0){
 			$('#content').prepend(template);
@@ -22,10 +21,13 @@ window.onload = function(){
 			return;
 		}
 	};
+	$('html').mouseleave(exitMonitor);
+};
+$(document).ready(function(){
+	var dismiss;
 	dismiss = function(){
 		$(this).closest('#exitmonitor').hide();
 		console.log("Exitmonitor dismissed");
 	};
-	$('#exitmonitor button').click(dismiss);
-	$('html').mouseleave(exitMonitor);
+	$('#dismiss').click(dismiss);		
 };
