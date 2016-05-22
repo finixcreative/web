@@ -10,7 +10,7 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "white-txt center pad-150-20"
+						"inner": "white-txt center pad-100-20"
 					},
 					"bg": {
 						"img": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Berlin_Alexanderplatz_construction_cranes.jpg",
