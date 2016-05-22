@@ -176,6 +176,9 @@ Dark Gray	     | #222
 	width: 100px;
 	height: 100px;
 }
+.codebox {
+	word-break: break-all;
+}
 * {
 	box-sizing: border-box;
 }

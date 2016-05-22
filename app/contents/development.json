@@ -58,7 +58,7 @@
 					{
 						"config": {
 							"type": "block",
-							"class": "darkgray-bg white-txt pad-0-20 corners-3",
+							"class": "codebox darkgray-bg white-txt pad-0-20 corners-3",
 							"size": "full"
 						},
 						"contents": [
@@ -124,7 +124,7 @@
 					{
 						"config": {
 							"type": "block",
-							"class": "darkgray-bg white-txt pad-0-20 corners-3",
+							"class": "codebox darkgray-bg white-txt pad-0-20 corners-3",
 							"size": "third"
 						},
 						"contents": [
