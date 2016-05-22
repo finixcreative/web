@@ -50,6 +50,13 @@
 					},
 					{
 						"config": {
+							"type": "p",
+							"text": "Include the script in your index.html file:"
+						},
+						"contents": null
+					},
+					{
+						"config": {
 							"type": "block",
 							"class": "darkgray-bg white-txt pad-0-20 corners-3",
 							"size": "full"
