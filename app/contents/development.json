@@ -51,7 +51,7 @@
 					{
 						"config": {
 							"type": "block",
-							"class": "darkgray-bg white-txt pad-20",
+							"class": "darkgray-bg white-txt pad-20 corners-3",
 							"size": "full"
 						},
 						"contents": [
@@ -117,7 +117,7 @@
 					{
 						"config": {
 							"type": "block",
-							"class": "darkgray-bg white-txt pad-20",
+							"class": "darkgray-bg white-txt pad-20 corners-3",
 							"size": "third"
 						},
 						"contents": [
