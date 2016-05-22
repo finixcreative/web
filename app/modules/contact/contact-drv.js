@@ -6,4 +6,5 @@ angular.module('coreMod')
 			controller: 'ClientController',
 			controllerAs: 'client',
 		};
-	});
+	})
+;
