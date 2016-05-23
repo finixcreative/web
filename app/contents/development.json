@@ -43,8 +43,8 @@
 					},
 					{
 						"config": {
-							"type": "h2",
-							"text": "A framework for the future"
+							"type": "p",
+							"text": "A framework for building the future."
 						},
 						"contents": null
 					},
