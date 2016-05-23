@@ -50,10 +50,125 @@
 					},
 					{
 						"config": {
-							"type": "p",
-							"text": "Include the script in your index.html file:"
+							"type": "block",
+							"class": "pad",
+							"size": "half"
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Download",
+									"link": "https://github.com/finixcreative/finix.js",
+									"target": "_blank"
+								},
+								"contents": null
+							}
+						]
+					},
+					{
+						"config": {
+							"type": "block",
+							"class": "pad",
+							"size": "half"
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Documentation",
+									"link": "#",
+									"target": ""
+								},
+								"contents": null
+							}
+						]
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#fff",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h3",
+							"text": "Documentation"
 						},
 						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+						},
+						"contents": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#f3f3f3",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "block",
+							"class": "",
+							"size": "twothird"
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "p",
+									"text": "Include the script in your index.html file:"
+								},
+								"contents": null
+							}
+						]
 					},
 					{
 						"config": {
@@ -93,49 +208,10 @@
 				"contents": [
 					{
 						"config": {
-							"type": "block",
-							"class": "",
-							"size": "twothird"
+							"type": "p",
+							"text": "That's all you need to include to get started! Next step is to create your app."
 						},
-						"contents": [
-							{
-								"config": {
-									"type": "h3",
-									"text": "Subsection headlines"
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "h4",
-									"text": "Subsection subheadline"
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "p",
-									"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
-								},
-								"contents": null
-							}
-						]
-					},
-					{
-						"config": {
-							"type": "block",
-							"class": "codebox darkgray-bg white-txt pad-0-20 corners-3",
-							"size": "third"
-						},
-						"contents": [
-							{
-								"config": {
-									"type": "p",
-									"text": "Finix.app();"
-								},
-								"contents": null
-							}
-						]
+						"contents": null
 					}
 				]
 			},
@@ -159,24 +235,35 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h3",
-							"text": "Secondary subsection headline"
+							"type": "block",
+							"class": "",
+							"size": "twothird"
 						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "p",
+									"text": "Create an app:"
+								},
+								"contents": null
+							}
+						]
 					},
 					{
 						"config": {
-							"type": "h4",
-							"text": "Secondary subsection subheadline"
+							"type": "block",
+							"class": "codebox darkgray-bg white-txt pad-0-20 corners-3",
+							"size": "third"
 						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "p",
-							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
-						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "p",
+									"text": "Finix.app();"
+								},
+								"contents": null
+							}
+						]
 					}
 				]
 			}
