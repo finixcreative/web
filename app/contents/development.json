@@ -52,7 +52,7 @@
 						"config": {
 							"type": "block",
 							"class": "pad",
-							"size": "half"
+							"size": "full"
 						},
 						"contents": [
 							{
@@ -69,32 +69,6 @@
 									"text": "Download",
 									"link": "https://github.com/finixcreative/finix.js",
 									"target": "_blank"
-								},
-								"contents": null
-							}
-						]
-					},
-					{
-						"config": {
-							"type": "block",
-							"class": "pad",
-							"size": "half"
-						},
-						"contents": [
-							{
-								"config": {
-									"type": "button",
-									"id": "",
-									"class": "center pad",
-									"size": "",
-									"name": "",
-									"buttontype": "",
-									"value": "",
-									"form": "",
-									"click": "",
-									"text": "Documentation",
-									"link": "#",
-									"target": ""
 								},
 								"contents": null
 							}
@@ -174,7 +148,7 @@
 						"config": {
 							"type": "block",
 							"class": "codebox darkgray-bg white-txt pad-0-20 corners-3",
-							"size": "full"
+							"size": "third"
 						},
 						"contents": [
 							{
