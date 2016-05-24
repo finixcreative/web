@@ -132,7 +132,7 @@
 						"config": {
 							"type": "block",
 							"class": "",
-							"size": "twothird"
+							"size": "half"
 						},
 						"contents": [
 							{
@@ -148,7 +148,7 @@
 						"config": {
 							"type": "block",
 							"class": "codebox darkgray-bg white-txt pad-0-20 corners-3",
-							"size": "third"
+							"size": "half"
 						},
 						"contents": [
 							{
@@ -211,7 +211,7 @@
 						"config": {
 							"type": "block",
 							"class": "",
-							"size": "twothird"
+							"size": "half"
 						},
 						"contents": [
 							{
@@ -227,7 +227,7 @@
 						"config": {
 							"type": "block",
 							"class": "codebox darkgray-bg white-txt pad-0-20 corners-3",
-							"size": "third"
+							"size": "half"
 						},
 						"contents": [
 							{
