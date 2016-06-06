@@ -1,60 +1,60 @@
 nav {}
-ul {
+nav ul {
 	padding: 0;
 	margin: 0;
 }
-ul.menu {
+nav ul.menu {
 	width: 100%;
 	position: fixed;
 	top: 80px;
 	left: 0px;
 	display: none;
 }
-ul.menu li {
+nav ul.menu li {
 	width: 100%;
 	display: block;
 }
-ul.menu li a {}
-ul.menu li a:hover {
+nav ul.menu li a {}
+nav ul.menu li a:hover {
 	border: none;
 }
-li {
+nav li {
 	line-height: 40px;
 	float: left;
 	display: inline-block;
 	list-style-type: none;
 }
-li .subnav,
-li .dropdown {
+nav li .subnav,
+nav li .dropdown {
 	background: #444;
 	height: auto;	
 	display: none;
 	top: 70px;
 	left: 0px;
 }
-li .subnav {
+nav li .subnav {
 	position: absolute;
 }
-li .dropdown {
+nav li .dropdown {
 	border-bottom: 1px solid #fff;
 	position: fixed;
 }
-li .dropdown li a {
+nav li .dropdown li a {
 	text-align: center;
 	text-transform: capitalize;
 }
-li .dropdown li img {
+nav li .dropdown li img {
 	width: 100%;
 	max-width: 40px;
 	height: auto;
 	margin: 0 auto;
 }
-li:hover > ul.menu,
-li:hover > .dropdown,
-li:hover > .subnav {
+nav li:hover > ul.menu,
+nav li:hover > .dropdown,
+nav li:hover > .subnav {
 	display: block;
 }
-a {
+nav a {
 	height: 80px;
 	padding: 20px;
 	font-size: 20px;
@@ -62,19 +62,19 @@ a {
 	text-decoration: none;
 	display: block;
 }
-a:hover,
-a.active,
-a:active,
-a:focus {
+nav a:hover,
+nav a.active,
+nav a:active,
+nav a:focus {
 	text-decoration: none;
 }
-a:hover {
+nav a:hover {
 	color: #f52;
 	border-bottom: 4px solid #f52;
 }
-a.active,
-a:active,
-a:focus {
+nav a.active,
+nav a:active,
+nav a:focus {
 	color: #444;
 	border-bottom: 4px solid #f52;
 }
