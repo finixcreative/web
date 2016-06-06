@@ -1,0 +1,80 @@
+nav {}
+ul {
+	padding: 0;
+	margin: 0;
+}
+ul.menu {
+	width: 100%;
+	position: fixed;
+	top: 80px;
+	left: 0px;
+	display: none;
+}
+ul.menu li {
+	width: 100%;
+	display: block;
+}
+ul.menu li a {}
+ul.menu li a:hover {
+	border: none;
+}
+li {
+	line-height: 40px;
+	float: left;
+	display: inline-block;
+	list-style-type: none;
+}
+li .subnav,
+li .dropdown {
+	background: #444;
+	height: auto;	
+	display: none;
+	top: 70px;
+	left: 0px;
+}
+li .subnav {
+	position: absolute;
+}
+li .dropdown {
+	border-bottom: 1px solid #fff;
+	position: fixed;
+}
+li .dropdown li a {
+	text-align: center;
+	text-transform: capitalize;
+}
+li .dropdown li img {
+	width: 100%;
+	max-width: 40px;
+	height: auto;
+	margin: 0 auto;
+}
+li:hover > ul.menu,
+li:hover > .dropdown,
+li:hover > .subnav {
+	display: block;
+}
+a {
+	height: 80px;
+	padding: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+}
+a:hover,
+a.active,
+a:active,
+a:focus {
+	text-decoration: none;
+}
+a:hover {
+	color: #f52;
+	border-bottom: 4px solid #f52;
+}
+a.active,
+a:active,
+a:focus {
+	color: #444;
+	border-bottom: 4px solid #f52;
+}

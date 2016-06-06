@@ -1,7 +1,7 @@
 footer {
 	color: #fff;
-	border-top: 1px solid #ccc;
-	position: absolute;
+	border: none;
+	position: relative;
 }
 footer p a {
 	color: #fff;
@@ -28,4 +28,44 @@ social a:hover img {
 }
 .copyright p a:hover {
 	color: #f52;
+}
+footer li {
+	list-style-type: none;
+}
+footer a {
+	color: #fff;
+}
+footer a:hover,
+footer p a:hover {
+	color: #f52;
+}
+footer p a {
+	font-weight: 300;
+	text-decoration: none;
+}
+footer p a:hover {
+	text-decoration: none;
+}
+footer nav a {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+footer .social li {
+	margin: 0 10px 0 0;
+	float: left;
+}
+footer .social li a {
+	background: #0387ab;
+	border-radius: 5px;
+	float: left;
+	display: inline-block;
+}
+footer .social li a:hover {
+	background: #75bbce;
+	color: #fff;
+}
+footer .social li a img {
+	width: auto;
+	height: 40px;
+	float: left;
 }
