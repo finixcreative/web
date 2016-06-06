@@ -55,11 +55,13 @@ nav li:hover > .subnav {
 	display: block;
 }
 nav a {
+	color: #ccc;
 	height: 80px;
 	padding: 20px;
 	font-size: 20px;
 	text-transform: uppercase;
 	text-decoration: none;
+	float: left;
 	display: block;
 }
 nav a:hover,
@@ -77,4 +79,8 @@ nav a:active,
 nav a:focus {
 	color: #444;
 	border-bottom: 4px solid #444;
+}
+nav a img {
+	width: auto;
+	height: 40px;
 }
