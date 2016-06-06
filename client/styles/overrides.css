@@ -242,52 +242,6 @@ button:hover {
 	color: #f52;
 	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.3);
 }
-header {
-	border: none;
-	position: fixed;
-}
-header nav ul {
-	width: auto;
-	margin: 0;
-	padding: 0;
-	float: right;
-}
-header nav li {
-	line-height: 40px;
-	display: inline-block;
-	float: left;
-}
-header nav a {
-	height: 80px;
-	padding: 20px;
-	font-size: 20px;
-	font-weight: 400;
-	text-transform: uppercase;
-	text-decoration: none;
-	display: block;
-}
-header nav li a:hover {
-	color: #f52;
-	border-bottom: 4px solid #f52;
-}
-header nav li ul.menu {
-	width: 100%;
-	position: fixed;
-	top: 80px;
-	left: 0px;
-	display: none;
-}
-header nav li:hover > ul.menu {
-	display: block;
-}
-header nav li ul.menu li {
-	width: 100%;
-	display: block;
-}
-header nav li ul.menu li a {}
-header nav li ul.menu li a:hover {
-	border: none;
-}
 .logo {
 	float: left;
 }
@@ -587,51 +541,6 @@ table {
 	border: 3px solid #fff;
 	border-radius: 3px;
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-}
-footer {
-	color: #fff;
-	border: none;
-	position: relative;
-}
-footer li {
-	list-style-type: none;
-}
-footer a {
-	color: #fff;
-}
-footer a:hover,
-footer p a:hover {
-	color: #f52;
-}
-footer p a {
-	font-weight: 300;
-	text-decoration: none;
-}
-footer p a:hover {
-	text-decoration: none;
-}
-footer nav a {
-	font-weight: 400;
-	text-transform: uppercase;
-}
-footer .social li {
-	margin: 0 10px 0 0;
-	float: left;
-}
-footer .social li a {
-	background: #0387ab;
-	border-radius: 5px;
-	float: left;
-	display: inline-block;
-}
-footer .social li a:hover {
-	background: #75bbce;
-	color: #fff;
-}
-footer .social li a img {
-	width: auto;
-	height: 40px;
-	float: left;
 }
 @media screen and (min-width: 1000px) {
 	.chart {
