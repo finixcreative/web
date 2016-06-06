@@ -18,21 +18,21 @@ footer a:hover {
 footer nav a {
 	text-transform: uppercase;
 }
-.social li {
+social li {
 	margin: 0 10px 0 0;
 	float: left;
 }
-.social li a {
+social li a {
 	background: #0387ab;
 	border-radius: 5px;
 	float: left;
 	display: inline-block;
 }
-.social li a:hover {
+social li a:hover {
 	background: #75bbce;
 	color: #fff;
 }
-.social li a img {
+social li a img {
 	width: auto;
 	height: 40px;
 	float: left;
