@@ -76,5 +76,5 @@ nav a.active,
 nav a:active,
 nav a:focus {
 	color: #444;
-	border-bottom: 4px solid #f52;
+	border-bottom: 4px solid #444;
 }
