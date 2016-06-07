@@ -7,7 +7,7 @@ angular.module('finixApp')
 			'https://www.google.com/**',
 			'https://www.youtube.com/**',
 			'https://twitter.com/**',
-			'https://**.typeform.com/**'
+			'https://finixcreative.typeform.com/**'
 		]);
 	}])
 ;
