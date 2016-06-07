@@ -6,7 +6,8 @@ angular.module('finixApp')
 			// Allow loading from our assets domain.  Notice the difference between * and **.
 			'https://www.google.com/**',
 			'https://www.youtube.com/**',
-			'https://twitter.com/**'
+			'https://twitter.com/**',
+			'https://**.typeform.com/**'
 		]);
 	}])
 ;
