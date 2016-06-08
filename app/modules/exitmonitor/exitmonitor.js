@@ -3,7 +3,7 @@ window.onload = function(){
 		template,
 		exitMonitor;
 	exitCount = 0;
-	template = "<div id='exitmonitor' class='configpanel white-txt pad-150-20 center full'><h3>Wait up!</h3><button id='dismiss' class='pad-20'>Nah...</button></div>";
+	template = "<exitmonitor></exitmonitor>";
 	exitMonitor = function(){
 		if(exitCount === 0){
 			$('#content').prepend(template);
