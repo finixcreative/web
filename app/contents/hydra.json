@@ -119,6 +119,23 @@
 							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
 						},
 						"contents": null
+					},
+					{
+						"config": {
+							"type": "business-hours",
+							"class": "pad-20 primary-bg white-txt",
+							"size": "full",
+							"schedule": [
+								{"day": "Sun", "open": "", "close": ""},
+								{"day": "Mon", "open": "", "close": ""},
+								{"day": "Tue", "open": "9.00.00", "close": "17.00.00"},
+								{"day": "Wed", "open": "9.00.00", "close": "17.00.00"},
+								{"day": "Thu", "open": "9.00.00", "close": "17.00.00"},
+								{"day": "Fri", "open": "", "close": ""},
+								{"day": "Sat", "open": "", "close": ""}
+							]
+						},
+						"contents": null
 					}
 				]
 			}
