@@ -2,7 +2,7 @@
 	<div id="businesshours" class="full">
 		<!-- Message goes here -->
 	</div>
-	<ul class="full">
+	<ul class="full pad-0">
 		<li class="full" ng-repeat="item in content.config.schedule" ng-show="item.open && item.close">
 			{{item.day}}: <b>{{item.open}} - {{item.close}}</b>
 		</li>
