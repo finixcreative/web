@@ -123,7 +123,7 @@
 					{
 						"config": {
 							"type": "business-hours",
-							"class": "primary-bg white-txt",
+							"class": "darkgray-bg white-txt",
 							"size": "full",
 							"schedule": [
 								{"day": "Sun", "open": "", "close": ""},

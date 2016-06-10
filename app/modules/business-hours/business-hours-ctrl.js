@@ -13,8 +13,8 @@ angular.module('coreMod')
 				bh = document.getElementById("businesshours"),
 				message = "<h3>Schedule</h3>",
 				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + time + "</b></p>",
-				fail = "<h1>Schedule</h1><p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + time + "</b></p>",
-				error = "<h1>Schedule</h1><p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + open + "</b> until <b>" + close + "</b></p>";
+				fail = "<p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + time + "</b></p>",
+				error = "<p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + open + "</b> until <b>" + close + "</b></p>";
 			if(time > open && time < close){
 				message += success;
 				console.log("tick");
