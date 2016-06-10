@@ -10,7 +10,7 @@ angular.module('coreMod')
 				openHours = $scope.config.schedule,
 				open = parseFloat(openHours[day].open),
 				close = parseFloat(openHours[day].close),
-				content = document.getElementById("businesshours"),
+				//content = document.getElementById("businesshours"),
 				success = "<h1>Schedule</h1><p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + time + "</b></p>",
 				fail = "<h1>Schedule</h1><p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + time + "</b></p>",
 				error = "<h1>Schedule</h1><p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + open + "</b> until <b>" + close + "</b></p>",
@@ -25,7 +25,7 @@ angular.module('coreMod')
 				message = error;
 				console.log("tick");
 			}
-			content.innerHTML = message;
+			//content.innerHTML = message;
 		}, 1000);
 	})
 ;
