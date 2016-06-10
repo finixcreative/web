@@ -101,30 +101,38 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h3",
-							"text": "Secondary subsection headline"
+							"type": "block",
+							"size": "twothird"
 						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "h4",
-							"text": "Secondary subsection subheadline"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "p",
-							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
-						},
-						"contents": null
+						"contents": [
+							{
+								"config": {
+									"type": "h3",
+									"text": "Secondary subsection headline"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "h4",
+									"text": "Secondary subsection subheadline"
+								},
+								"contents": null
+							},
+							{
+								"config": {
+									"type": "p",
+									"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+								},
+								"contents": null
+							}
+						]
 					},
 					{
 						"config": {
 							"type": "business-hours",
 							"class": "darkgray-bg white-txt",
-							"size": "full",
+							"size": "third",
 							"schedule": [
 								{"day": "Sun", "open": "", "close": ""},
 								{"day": "Mon", "open": "", "close": ""},
