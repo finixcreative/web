@@ -86,7 +86,7 @@
 					"type": "row",
 					"class": {
 						"outer": "",
-						"inner": "pad"
+						"inner": ""
 					},
 					"bg": {
 						"img": "",
@@ -102,6 +102,7 @@
 					{
 						"config": {
 							"type": "block",
+							"class": "pad-20",
 							"size": "twothird"
 						},
 						"contents": [
