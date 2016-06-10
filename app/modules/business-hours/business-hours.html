@@ -3,7 +3,7 @@
 		<!-- Template message displayed here -->
 	</div>
 	<ul class="full">
-		<li class="full" ng-repeat="item in content.config.schedule | filter: item.open && item.close">
+		<li class="full" ng-repeat="item in content.config.schedule" ng-show="item.open && item.close">
 			<p>{{item.day}}: <b>{{item.open}} - {{item.close}}</b></p>
 		</li>
 	</ul>
