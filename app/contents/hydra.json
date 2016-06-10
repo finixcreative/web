@@ -139,7 +139,7 @@
 								{"day": "Mon", "open": "", "close": ""},
 								{"day": "Tue", "open": "9.00.00", "close": "17.00.00"},
 								{"day": "Wed", "open": "9.00.00", "close": "17.00.00"},
-								{"day": "Thu", "open": "9.00.00", "close": "17.00.00"},
+								{"day": "Thu", "open": "9.00.00", "close": "24.00.00"},
 								{"day": "Fri", "open": "", "close": ""},
 								{"day": "Sat", "open": "", "close": ""}
 							]
