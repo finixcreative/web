@@ -1,10 +1,10 @@
 <div class="{{content.config.class}} {{content.config.size}}">
-	<div id="business-hours">
+	<div id="business-hours" class="full">
 		<!-- Template message displayed here -->
 	</div>
-	<ul>
-		<li ng-repeat="item in content.config.schedule">
-			<p>{{item.day}}: <b>{{item.open}}</b> - <b>{{item.close}}</b></p>
+	<ul class="full">
+		<li class="full" ng-repeat="item in content.config.schedule | filter: item.open && item.close">
+			<p>{{item.day}}: <b>{{item.open}} - {{item.close}}</b></p>
 		</li>
 	</ul>
 </div>
