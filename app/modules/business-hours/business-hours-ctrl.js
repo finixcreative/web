@@ -1,7 +1,7 @@
 angular.module('coreMod')
 	.controller('BusinessHoursController', function($scope){
-		let businessHours = setInterval(function(){
-			let date = new Date(),
+		var businessHours = setInterval(function(){
+			var date = new Date(),
 				day = date.getDay(),
 				hour = date.getHours(),
 				minute = date.getMinutes(),
