@@ -1,8 +1,8 @@
 <div class="{{content.config.class}} {{content.config.size}}" ng-controller="BusinessHoursController as bhc">
-	<div id="businesshours" class="full pad-20">
+	<div id="businesshours" class="full">
 		<!-- Message goes here -->
 	</div>
-	<ul class="full pad-20">
+	<ul class="full">
 		<li class="full" ng-repeat="item in content.config.schedule" ng-show="item.open && item.close">
 			{{item.day}}: <b>{{item.open}} - {{item.close}}</b>
 		</li>

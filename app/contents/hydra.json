@@ -132,7 +132,7 @@
 					{
 						"config": {
 							"type": "business-hours",
-							"class": "darkgray-bg white-txt",
+							"class": "darkgray-bg white-txt pad-20",
 							"size": "third",
 							"schedule": [
 								{"day": "Sun", "open": "", "close": ""},
