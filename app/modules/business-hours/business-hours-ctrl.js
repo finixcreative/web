@@ -11,7 +11,7 @@ angular.module('coreMod')
 				open = parseFloat(openHours[day].open),
 				close = parseFloat(openHours[day].close),
 				bh = document.getElementById("businesshours"),
-				message = "<h3>Schedule</h3>",
+				message = "<h4>Business Hours</h4>",
 				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + time + "</b></p>",
 				fail = "<p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + time + "</b></p>",
 				error = "<p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + open + "</b> until <b>" + close + "</b></p>";
