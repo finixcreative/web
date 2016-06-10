@@ -11,18 +11,18 @@ angular.module('coreMod')
 				open = parseFloat(openHours[day].open),
 				close = parseFloat(openHours[day].close),
 				bh = document.getElementById("businesshours"),
-				success = "<h1>Schedule</h1><p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + time + "</b></p>",
+				message = "<h3>Schedule</h3>",
+				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + time + "</b></p>",
 				fail = "<h1>Schedule</h1><p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + time + "</b></p>",
-				error = "<h1>Schedule</h1><p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + open + "</b> until <b>" + close + "</b></p>",
-				message = "";
+				error = "<h1>Schedule</h1><p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + open + "</b> until <b>" + close + "</b></p>";
 			if(time > open && time < close){
-				message = success;
+				message += success;
 				console.log("tick");
 			} else if(time < open || time > close){
-				message = fail;
+				message += fail;
 				console.log("tick");
 			} else {
-				message = error;
+				message += error;
 				console.log("tick");
 			}
 			bh.innerHTML = message;
