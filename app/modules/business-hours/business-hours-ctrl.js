@@ -7,7 +7,7 @@ angular.module('coreMod')
 				minute = date.getMinutes(),
 				second = date.getSeconds(),
 				time = parseFloat(hour + ((minute < 10) ? ".0" : ".") + minute + ((second < 10) ? ".0" : ".") + second),
-				openHours = $scope.contents.config.schedule,
+				openHours = $scope.content.config.schedule,
 				open = parseFloat(openHours[day].open),
 				close = parseFloat(openHours[day].close),
 				//content = document.getElementById("businesshours"),
