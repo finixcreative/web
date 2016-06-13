@@ -21,17 +21,21 @@ angular.module('coreMod')
 				},
 				bh = document.getElementById("businesshours"),
 				message = "<h4>Business Hours</h4>",
-				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + time + "</b></p>",
-				fail = "<p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + time + "</b></p>",
-				error = "<p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + hrformat(open) + "</b> until <b>" + hrformat(close) + "</b></p>";
+				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + hrformat(time) + "</b></p>",
+				fail = "<p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + hrformat(time) + "</b></p>",
+				errorOpen = "<p>Error...</p><p>It is currently <b>" + hrformat(time) + "</b>. We are open from <b>" + hrformat(open) + "</b> until <b>" + hrformat(close) + "</b></p>",
+				errorClosed = "<p>Error...</p><p>It is currently <b>" + hrformat(time) + "</b>. We are not open today</p>";
 			if(time > open && time < close){
 				message += success;
 				console.log("tick");
 			} else if(time < open || time > close){
 				message += fail;
 				console.log("tick");
+			} else if(open && close){
+				message += errorOpen;
+				console.log("tick");
 			} else {
-				message += error;
+				message += errorClosed;
 				console.log("tick");
 			}
 			bh.innerHTML = message;
