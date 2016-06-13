@@ -19,14 +19,14 @@ angular.module('coreMod')
 						return parseFloat(timestamp).toFixed(2);
 					}
 				},
-				$scope.opentime = hrformat(open),
-				$scope.closetime = hrformat(close),
 				bh = document.getElementById("businesshours"),
 				message = "<h4>Business Hours</h4>",
 				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + hrformat(time) + "</b></p>",
 				fail = "<p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + hrformat(time) + "</b></p>",
 				errorOpen = "<p>Error...</p><p>It is currently <b>" + hrformat(time) + "</b>. We are open from <b>" + hrformat(open) + "</b> until <b>" + hrformat(close) + "</b></p>",
 				errorClosed = "<p>Error...</p><p>It is currently <b>" + hrformat(time) + "</b>. We are not open today</p>";
+			$scope.content.config.opentime = hrformat(open);
+			$scope.content.config.closetime = hrformat(close);
 			if(time > open && time < close){
 				message += success;
 				console.log("tick");
