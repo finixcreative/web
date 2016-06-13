@@ -23,7 +23,7 @@ angular.module('coreMod')
 				message = "<h4>Business Hours</h4>",
 				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + time + "</b></p>",
 				fail = "<p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + time + "</b></p>",
-				error = "<p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + bhc.hrformat(open) + "</b> until <b>" + bhc.hrformat(close) + "</b></p>";
+				error = "<p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + hrformat(open) + "</b> until <b>" + hrformat(close) + "</b></p>";
 			if(time > open && time < close){
 				message += success;
 				console.log("tick");
