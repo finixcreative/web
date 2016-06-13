@@ -10,11 +10,20 @@ angular.module('coreMod')
 				openHours = $scope.content.config.schedule,
 				open = parseFloat(openHours[day].open),
 				close = parseFloat(openHours[day].close),
+				hrformat = function(timestamp){
+					if(timestamp === 0){
+						return (timestamp + 12);
+					} else if(timestamp > 12){
+						return (timestamp - 12);
+					} else {
+						return timestamp;
+					}
+				},
 				bh = document.getElementById("businesshours"),
 				message = "<h4>Business Hours</h4>",
 				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + time + "</b></p>",
 				fail = "<p>We're <span style='color: red'>closed</span> :(</p><p>Try again soon. It is currently <b>" + time + "</b></p>",
-				error = "<p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + open + "</b> until <b>" + close + "</b></p>";
+				error = "<p>Error...</p><p>It is currently <b>" + time + "</b>. We are open from <b>" + bhc.hrformat(open) + "</b> until <b>" + bhc.hrformat(close) + "</b></p>";
 			if(time > open && time < close){
 				message += success;
 				console.log("tick");

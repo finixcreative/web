@@ -4,7 +4,7 @@
 	</div>
 	<ul class="full pad-0">
 		<li class="full" ng-repeat="item in content.config.schedule" ng-show="item.open && item.close">
-			{{item.day}}: <b>{{item.open}} - {{item.close}}</b>
+			{{item.day}}: <b>{{bhc.hrformat(item.open)}} - {{bhc.hrformat(item.close)}}</b>
 		</li>
 	</ul>
 </div>
