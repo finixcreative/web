@@ -19,8 +19,8 @@ angular.module('coreMod')
 						return parseFloat(timestamp).toFixed(2);
 					}
 				},
-				opentime = hrformat(open),
-				closetime = hrformat(close),
+				$scope.opentime = hrformat(open),
+				$scope.closetime = hrformat(close),
 				bh = document.getElementById("businesshours"),
 				message = "<h4>Business Hours</h4>",
 				success = "<p>We're <span style='color: lightgreen'>open</span> :)</p><p>It is currently <b>" + hrformat(time) + "</b></p>",
