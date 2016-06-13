@@ -12,11 +12,11 @@ angular.module('coreMod')
 				close = parseFloat(openHours[day].close),
 				hrformat = function(timestamp){
 					if(timestamp === 0){
-						return parseFloat(timestamp + 12).toFixed(2);
+						return (parseFloat(timestamp + 12).toFixed(2) + "A.M.");
 					} else if(timestamp > 12){
-						return parseFloat(timestamp - 12).toFixed(2);
+						return (parseFloat(timestamp - 12).toFixed(2) + "P.M.");
 					} else {
-						return parseFloat(timestamp).toFixed(2);
+						return (parseFloat(timestamp).toFixed(2) + "A.M.");
 					}
 				},
 				bh = document.getElementById("businesshours"),
