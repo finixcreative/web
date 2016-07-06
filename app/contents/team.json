@@ -13,7 +13,7 @@
 						"inner": "white-txt center pad-100-20"
 					},
 					"bg": {
-						"img": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Todd_Huffman_-_Lattice_(by).jpg",
+						"img": "app/assets/images/backgrounds/team-bg.jpg",
 						"color": "#f91",
 						"size": "cover",
 						"repeat": "no-repeat",
