@@ -154,7 +154,7 @@
 							{
 								"config": {
 									"type": "p",
-									"text": "<script type='text/javascript' src='http://finixcreative.github.io/web/app/assets/scripts/finix.js'></script>"
+									"text": "<script type='text/javascript' src='http://finixcreative.github.io/finix.js/finix.js'></script>"
 								},
 								"contents": null
 							}
