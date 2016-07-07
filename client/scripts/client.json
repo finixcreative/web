@@ -36,48 +36,39 @@
 	"socials": [
 		{
 			"name": "facebook",
-			"link": "www.facebook.com/finixcreative",
-			"active": true
+			"link": "www.facebook.com/finixcreative"
 		},
 		{
 			"name": "twitter",
-			"link": "twitter.com/FinixCreative",
-			"active": true
+			"link": "twitter.com/FinixCreative"
 		},
 		{
 			"name": "linkedin",
-			"link": "www.linkedin.com/company/finix",
-			"active": true
+			"link": "www.linkedin.com/company/finix"
 		},
 		{
 			"name": "googleplus",
-			"link": "plus.google.com/+Finixcreative",
-			"active": true
+			"link": "plus.google.com/+Finixcreative"
 		},
 		{
 			"name": "youtube",
-			"link": "",
-			"active": false
+			"link": ""
 		},
 		{
 			"name": "instagram",
-			"link": "www.instagram.com/finixcreative/",
-			"active": true
+			"link": "www.instagram.com/finixcreative/"
 		},
 		{
 			"name": "pinterest",
-			"link": "www.pinterest.com/finixcreative/",
-			"active": true
+			"link": "www.pinterest.com/finixcreative/"
 		},
 		{
 			"name": "tumblr",
-			"link": "",
-			"active": false
+			"link": ""
 		},
 		{
 			"name": "yelp",
-			"link": "www.yelp.com/biz/finix-pacifica",
-			"active": true
+			"link": "www.yelp.com/biz/finix-pacifica"
 		}
 	]
 }

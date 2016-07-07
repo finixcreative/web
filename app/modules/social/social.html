@@ -1,6 +1,9 @@
 <div class="full">
+	<style scoped>
+		@import url(app/modules/social/social.css);
+	</style>
 	<h3>Connect</h3>
-	<a id="{{social.name}}" href="https://{{social.link}}" target="_blank" ng-repeat="social in client.socials" ng-show="social.active">
+	<a id="{{social.name}}" href="https://{{social.link}}" target="_blank" ng-repeat="social in client.socials" ng-if="social.link">
 		<span class="socicon-{{social.name}}"></span>
 		<!--
 		<img class="pixel-36" src="app/assets/images/icons/social/icon-{{social.name}}.png" alt="{{social.name}} icon"/>
