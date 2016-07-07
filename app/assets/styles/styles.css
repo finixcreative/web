@@ -9,6 +9,7 @@ Phone: 617-417-2179
 /* IMPORT STYLES */
 @import url(responsive.css);
 @import url(text.css);
+@import url(icons.css);
 
 /* GENERAL STYLES */
 * {
