@@ -65,10 +65,10 @@
 									"buttontype": "",
 									"value": "",
 									"form": "",
-									"click": "",
-									"text": "Download",
-									"link": "https://github.com/finixcreative/finix.js",
-									"target": "_blank"
+									"click": "userCheck()",
+									"text": "Demo",
+									"link": "",
+									"target": ""
 								},
 								"contents": null
 							}
