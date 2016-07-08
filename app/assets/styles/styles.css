@@ -353,8 +353,13 @@ button.slidenav:focus {
 	background: rgba(0,0,0,0.5);
 	height: 40px;
 	position: absolute;
-	top: -20px;
 	display: none;
+}
+.controls-top {
+	top: -20px;	
+}
+.controls-bottom {
+	bottom: -20px;	
 }
 *:hover > .controls {
 	display: block;
