@@ -85,14 +85,14 @@ angular.module('chimeraMod')
 							"type": "h1",
 							"text": "Add headline"
 						},
-						"contents": null
+						"contents": []
 					},
 					{
 						"config": {
 							"type": "p",
 							"text": "Add content"
 						},
-						"contents": null
+						"contents": []
 					}
 				]
 			});
