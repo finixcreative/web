@@ -350,24 +350,24 @@ button.slidenav:focus {
 	z-index: 1;
 }
 .controls {
-	background: rgba(0,0,0,0.5);
-	height: 40px;
+	background: #f52;
+	height: 10px;
 	position: absolute;
 	display: none;
 }
 .controls-top {
-	top: -20px;	
+	top: -5px;	
 }
 .controls-bottom {
-	bottom: -20px;	
+	bottom: -5px;	
 }
 *:hover > .controls {
 	display: block;
 }
 .add-section {
-	background: rgba(0,0,0,0.5);
-	color: #fff;
-	width: 68px;
+	background: #fff;
+	color: #f52;
+	border: 10px solid #f52;
 	border-radius: 50%;
 	font-size: 3em;
 	font-weight: 700;
@@ -376,14 +376,14 @@ button.slidenav:focus {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translateX(-50%);
-	transform: translateY(-50%);
+	transform: translate(-50%, -50%);
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 	z-index: 3;
 }
 .add-section:hover {
 	background: #f52;
+	color: #fff;
 }
 .subsection a:hover,
 .row a:hover {
