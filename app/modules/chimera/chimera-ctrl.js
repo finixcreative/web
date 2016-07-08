@@ -58,7 +58,7 @@ angular.module('chimeraMod')
 		);
 		$scope.addRow = function(row, placement){
 			console.log(row, placement);
-			console.log("Created at index: " + row.$parent.$parent.index());
+			console.log("Created at index: " + row.$parent.$parent.$index);
 			console.log("Added to: " + row.$parent.$parent.$parent);
 			row.$parent.$parent.$parent.contents.push({
 				"config": {
