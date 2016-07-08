@@ -28,9 +28,9 @@
 		</div>
 	</div>
 	<div class="controls controls-top center full" ng-show="user && configure">
-		<a href ng-click="addRow(this, top)" class="add-section pad">+</a>
+		<a href ng-click="addRow(this.parentNode, top)" class="add-section pad">+</a>
 	</div>
 	<div class="controls controls-bottom center full" ng-show="user && configure">
-		<a href ng-click="addRow(this, bottom)" class="add-section pad">+</a>
+		<a href ng-click="addRow(this.parentNode, bottom)" class="add-section pad">+</a>
 	</div>
 </div>
