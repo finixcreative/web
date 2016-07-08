@@ -67,7 +67,7 @@ angular.module('chimeraMod')
 					return (row.$parent.$parent.$index + 1);
 				}				
 			}
-			row.$parent.$parent.$parent.contents.splice(newIndex, 0, {
+			row.$parent.$parent.$parent.contents.splice(newIndex(), 0, {
 				"config": {
 					"type": "row",
 					"class": {
