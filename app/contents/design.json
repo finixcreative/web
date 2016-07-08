@@ -104,6 +104,33 @@
 					{
 						"config": {
 							"type": "p",
+							"text": "The Finix CMS platform is currently pre-alpha release. This tutorial will be complete and up-to-date when the framework is made available to customers during beta release."
+						},
+						"contents": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#f3f3f3",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "p",
 							"text": "Click the 'Login' link in the footer to demo the CMS platform using these credentials:"
 						},
 						"contents": null
@@ -116,7 +143,7 @@
 						"contents": null
 					}
 				]
-			},
+			}
 		]
 	}
 ]
