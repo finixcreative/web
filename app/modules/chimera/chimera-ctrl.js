@@ -79,7 +79,22 @@ angular.module('chimeraMod')
 						"parallax": null
 					}
 				},
-				"contents": []
+				"contents": [
+					{
+						"config": {
+							"type": "h1",
+							"text": "Add headline"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Add content"
+						},
+						"contents": null
+					}
+				]
 			});
 			row.$parent.$parent.$parent.contents.join();
 			/*
