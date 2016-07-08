@@ -13,7 +13,7 @@
 						"inner": "white-txt center pad-100-20"
 					},
 					"bg": {
-						"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Construction,_Kim_Seng,_Singapore_(3410346147).jpg/1280px-Construction,_Kim_Seng,_Singapore_(3410346147).jpg",
+						"img": "app/assets/images/backgrounds/develop-bg.jpg",
 						"color": "#f52",
 						"size": "cover",
 						"repeat": "no-repeat",

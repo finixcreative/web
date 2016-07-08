@@ -13,7 +13,7 @@
 						"inner": "white-txt center pad-100-20"
 					},
 					"bg": {
-						"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Golden_Gate_Bridge_view_from_top,_HAER_CA-31-30.jpg/1280px-Golden_Gate_Bridge_view_from_top,_HAER_CA-31-30.jpg",
+						"img": "app/assets/images/backgrounds/design-bg.jpg",
 						"color": "#f52",
 						"size": "cover",
 						"repeat": "no-repeat",
