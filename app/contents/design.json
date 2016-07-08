@@ -65,7 +65,7 @@
 									"buttontype": "",
 									"value": "",
 									"form": "",
-									"click": "userCheck()",
+									"click": "userCheck",
 									"text": "Demo",
 									"link": "",
 									"target": ""
