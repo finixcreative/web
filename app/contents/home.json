@@ -484,14 +484,14 @@
 					{
 						"config": {
 							"type": "h4",
-							"text": "Easily build web pages & manage content"
+							"text": "Easily generate pages & manage content"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
-							"text": "Finix web tools are the ultimate resource for powerful, flexible, and intuitive software development and content management. Make a website, app, or blog in minutes with a custom design and your own content. Stop wasting hours writing code or limiting your design options with a template-based content management platform."
+							"text": "The ultimate resource for powerful, flexible, and intuitive software development and content management. Make a website, app, or blog in minutes with a fully customizable design and your own content. Stop wasting time writing code or limiting your design options with a template-based content management platform."
 						},
 						"contents": null
 					},
@@ -507,216 +507,8 @@
 							"form": "",
 							"click": "",
 							"text": "Learn more",
-							"link": "#/about",
+							"link": "#/development",
 							"target": ""
-						},
-						"contents": null
-					}
-				]
-			},
-			{
-				"config": {
-					"type": "row",
-					"class": {
-						"outer": "",
-						"inner": "white-txt"
-					},
-					"bg": {
-						"img": "https://pixabay.com/static/uploads/photo/2015/12/14/23/42/wood-1093427_960_720.jpg",
-						"color": "#000",
-						"size": "cover",
-						"repeat": "no-repeat",
-						"position": "",
-						"attachment": "fixed",
-						"opacity": 0.2,
-						"parallax": 0.8
-					}
-				},
-				"contents": [
-					{
-						"config": {
-							"type": "block",
-							"id": "",
-							"class": "pad",
-							"size": "quarter"
-						},
-						"contents": [
-							{
-								"config": {
-									"type": "image",
-									"class": "white-bg circle",
-									"size": "full",
-									"src": "https://pixabay.com/static/uploads/photo/2015/11/19/05/14/gorilla-1050384_960_720.png",
-									"alt": "Gorilla"							
-								},
-								"contents": null
-							}
-						]
-					},
-					{
-						"config": {
-							"type": "block",
-							"id": "",
-							"class": "pad",
-							"size": "threequarter"
-						},
-						"contents": [
-							{
-								"config": {
-									"type": "h3",
-									"text": "Storytelling at it's finest!"
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "p",
-									"text": "Q: What do you get when you cross a gorilla and a computer?"
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "p",
-									"text": "A: Hairy Reasoner."
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "button",
-									"id": "",
-									"class": "center pad",
-									"size": "",
-									"name": "",
-									"buttontype": "",
-									"value": "",
-									"form": "",
-									"click": "",
-									"text": "Try it now",
-									"link": "#/hydra",
-									"target": ""
-								},
-								"contents": null
-							}
-						]
-					}
-				]
-			},
-			{
-				"config": {
-					"type": "row",
-					"class": {
-						"outer": "",
-						"inner": ""
-					},
-					"bg": {
-						"img": "",
-						"color": "#fff",
-						"size": "",
-						"repeat": "",
-						"position": "",
-						"attachment": "",
-						"parallax": 1
-					}
-				},
-				"contents": [
-					{
-						"config": {
-							"type": "block",
-							"id": "",
-							"class": "pad",
-							"size": "threequarter"
-						},
-						"contents": [
-							{
-								"config": {
-									"type": "h3",
-									"text": "No kidding..."
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "p",
-									"text": "Q: How many Microsoft engineers does it take to screw in a light bulb?"
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "p",
-									"text": "A: None. They would just declare darkness the new standard™"
-								},
-								"contents": null
-							},
-							{
-								"config": {
-									"type": "button",
-									"id": "",
-									"class": "center pad",
-									"size": "",
-									"name": "",
-									"buttontype": "",
-									"value": "",
-									"form": "",
-									"click": "",
-									"text": "Try it now",
-									"link": "#/hydra",
-									"target": ""
-								},
-								"contents": null
-							}
-						]
-					},
-					{
-						"config": {
-							"type": "block",
-							"id": "",
-							"class": "pad",
-							"size": "quarter"
-						},
-						"contents": [
-							{
-								"config": {
-									"type": "image",
-									"class": "",
-									"size": "full",
-									"src": "http://cbri.com/wp-content/uploads/2012/02/risk-management-safety.png",
-									"alt": "Burned out lightbulb"							
-								},
-								"contents": null
-							}					
-						]
-					}
-				]
-			},
-			{
-				"config": {
-					"type": "row",
-					"class": {
-						"outer": "",
-						"inner": "pad"
-					},
-					"bg": {
-						"img": "",
-						"color": "#f3f3f3",
-						"size": "",
-						"repeat": "",
-						"position": "",
-						"attachment": "",
-						"parallax": 1
-					}
-				},
-				"contents": [
-					{
-						"config": {
-							"type": "video",
-							"class": "middle",
-							"size": "full",
-							"format": "mp4",
-							"src": "",
-							"poster": ""
 						},
 						"contents": null
 					}

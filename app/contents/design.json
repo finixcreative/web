@@ -1,0 +1,122 @@
+[
+	{
+		"config": {
+			"title": "Design",
+			"type": "page"
+		},
+		"contents": [
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "white-txt center pad-100-20"
+					},
+					"bg": {
+						"img": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Berlin_Alexanderplatz_construction_cranes.jpg",
+						"color": "#f52",
+						"size": "cover",
+						"repeat": "no-repeat",
+						"position": "",
+						"attachment": "fixed",
+						"opacity": 0.5,
+						"parallax": 0.2
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "image",
+							"class": "center",
+							"size": "",
+							"src": "app/assets/images/icons/finix-logo.png",
+							"alt": "Finix logo"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "h1",
+							"text": "Finix CMS"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "A content management platform for building the future web."
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "block",
+							"class": "pad",
+							"size": "full"
+						},
+						"contents": [
+							{
+								"config": {
+									"type": "button",
+									"id": "",
+									"class": "center pad",
+									"size": "",
+									"name": "",
+									"buttontype": "",
+									"value": "",
+									"form": "",
+									"click": "",
+									"text": "Download",
+									"link": "https://github.com/finixcreative/finix.js",
+									"target": "_blank"
+								},
+								"contents": null
+							}
+						]
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
+					},
+					"bg": {
+						"img": "",
+						"color": "#fff",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h3",
+							"text": "Tutorial"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Click the 'Login' link in the footer to demo the CMS platform using these credentials:"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Username: 'guest' / Password: 'password'"
+						},
+						"contents": null
+					}
+				]
+			},
+		]
+	}
+]

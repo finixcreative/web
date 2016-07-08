@@ -1,7 +1,7 @@
 [
 	{
 		"config": {
-			"title": "Development",
+			"title": "Develop",
 			"type": "page"
 		},
 		"contents": [
@@ -44,7 +44,7 @@
 					{
 						"config": {
 							"type": "p",
-							"text": "A framework for building the future."
+							"text": "A framework for building the future web."
 						},
 						"contents": null
 					},

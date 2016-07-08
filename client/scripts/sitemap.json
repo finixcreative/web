@@ -5,16 +5,12 @@
 			"link": "home"
 		},
 		{
-			"title": "Services",
-			"link": "services"
+			"title": "Design",
+			"link": "design"
 		},
 		{
-			"title": "Development",
-			"link": "development"
-		},
-		{
-			"title": "Hydra",
-			"link": "hydra"
+			"title": "Develop",
+			"link": "develop"
 		},
 		{
 			"title": "About",
