@@ -13,7 +13,7 @@
 						"inner": "white-txt center pad-100-20"
 					},
 					"bg": {
-						"img": "app/assets/images/backgrounds/team-bg.jpg",
+						"img": "app/assets/images/backgrounds/team-bg-2.jpg",
 						"color": "#f91",
 						"size": "cover",
 						"repeat": "no-repeat",
