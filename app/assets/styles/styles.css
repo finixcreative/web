@@ -341,6 +341,11 @@ button.slidenav:focus {
 .white-text {
 	color: #fff;
 }
+.edit-tab {
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+}
 .subsection,
 .row {
 	background: #fff;
