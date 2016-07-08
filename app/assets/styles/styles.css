@@ -350,7 +350,6 @@ button.slidenav:focus {
 	z-index: 1;
 }
 .controls {
-	height: 100%;
 	position: absolute;
 }
 .add-section {
