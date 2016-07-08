@@ -56,6 +56,24 @@ angular.module('chimeraMod')
 				};
 			}
 		);
+		$scope.addRow = function(location, placement){
+			console.log(location, placement);
+			location.contents.push({
+				"config": {
+					"type": "row",
+					"class": {
+						"inner": "pad-40-20"
+					},
+					"bg": {
+						"color": "#fff",
+						"opacity": 0,
+						"parallax": null
+					}
+				},
+				"contents": []
+			});
+			console.log(localscope.member.children);			
+		}
 		/* Post method
 		$http.post(pageData).then(
 			function success(response){
