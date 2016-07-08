@@ -2,7 +2,7 @@
 	<a href="{{content.config.link}}" ng-if="content.config.click.length == 0" target="{{content.config.target}}">
 		<div ng-include src="'button_include'"></div>
 	</a>
-	<a href ng-click="(content.config.click + ())" ng-if="content.config.click.length > 0" target="{{content.config.target}}">
+	<a href ng-click="content.config.click" ng-if="content.config.click.length > 0" target="{{content.config.target}}">
 		<div ng-include src="'button_include'"></div>
 	</a>
 	<script type="text/ng-template" id="button_include">
