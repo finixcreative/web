@@ -350,12 +350,13 @@ button.slidenav:focus {
 	z-index: 1;
 }
 .controls {
+	background: rgba(0,0,0,0.5);
 	height: 40px;
 	position: absolute;
 	top: -20px;
 	display: none;
 }
-.row:hover > .controls {
+*:hover > .controls {
 	display: block;
 }
 .add-section {
@@ -374,14 +375,10 @@ button.slidenav:focus {
 	transform: translateY(-50%);
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
-	display: none;
 	z-index: 3;
 }
 .add-section:hover {
 	background: #f52;
-}
-*:hover > .add-section {
-	display: block;
 }
 .subsection a:hover,
 .row a:hover {
