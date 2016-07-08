@@ -56,9 +56,9 @@ angular.module('chimeraMod')
 				};
 			}
 		);
-		$scope.addRow = function(location, placement){
-			console.log(location, placement);
-			location.contents.push({
+		$scope.addRow = function(row, placement){
+			console.log(row, placement);
+			row.parentNode.contents.push({
 				"config": {
 					"type": "row",
 					"class": {
@@ -72,7 +72,7 @@ angular.module('chimeraMod')
 				},
 				"contents": []
 			});
-			console.log(localscope.member.children);			
+			console.log(row.parentNode.contents);
 		}
 		/* Post method
 		$http.post(pageData).then(
@@ -80,7 +80,7 @@ angular.module('chimeraMod')
 				$scope.contents = response.data;
 			},
 			function error(response){
-				$scope.contents = response.data;	
+				$scope.contents = response.data;
 				$scope.errors = response.error;
 			}
 		);
