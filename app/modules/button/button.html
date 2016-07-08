@@ -1,27 +1,11 @@
 <div class="relative full">
 	<a href="{{content.config.link}}" ng-if="content.config.click.length == 0" target="{{content.config.target}}">
-		<button
-			id="{{content.config.id}}"
-			class="{{content.config.class}} {{content.config.size}}"
-			name="{{content.config.name}}"
-			type="{{content.config.buttontype}}"
-			value="{{content.config.value}}"
-			form="{{content.config.form}}"
-			style="
-				{
-					background-color:{{content.config.bg.color}};
-					color:{{content.config.txt.color}};
-				}
-				:hover {
-					background-color:{{content.config.bg.hover}};
-					color:{{content.config.txt.hover}};
-				}
-			"
-		>
-			{{content.config.text}}
-		</button>
+		<div ng-include src="'button_include'"></div>
 	</a>
 	<a href ng-click="content.config.click" ng-if="content.config.click.length > 0" target="{{content.config.target}}">
+		<div ng-include src="'button_include'"></div>
+	</a>
+	<script type="text/ng-template" id="button_include">
 		<button
 			id="{{content.config.id}}"
 			class="{{content.config.class}} {{content.config.size}}"
@@ -41,7 +25,7 @@
 			"
 		>
 			{{content.config.text}}
-		</button>
-	</a>
+		</button>		
+	</script>
 	<config></config>
 </div>
