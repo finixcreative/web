@@ -477,21 +477,14 @@
 					{
 						"config": {
 							"type": "h3",
-							"text": "The future of web development"
-						},
-						"contents": null
-					},
-					{
-						"config": {
-							"type": "h4",
-							"text": "Easily generate pages & manage content"
+							"text": "Quickly generate websites & apps"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
-							"text": "The ultimate resource for powerful, flexible, and intuitive software development and content management. Make a website, app, or blog in minutes with a fully customizable design and your own content. Stop wasting time writing code or limiting your design options with a template-based content management platform."
+							"text": "The ultimate resource for powerful and flexible software development. Make a website, app, or blog in minutes with a fully customizable design. Save time writing code with an easy, expressive framework."
 						},
 						"contents": null
 					},
@@ -508,6 +501,58 @@
 							"click": "",
 							"text": "Learn more",
 							"link": "#/develop",
+							"target": ""
+						},
+						"contents": null
+					}
+				]
+			},
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad-40-20"
+					},
+					"bg": {
+						"img": "",
+						"color": "#f3f3f3",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"opacity": 0,
+						"parallax": null
+					}
+				},
+				"contents": [
+					{
+						"config": {
+							"type": "h3",
+							"text": "Easily manage content"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "With intuitive content management, you can create and edit website content without leaving the page. Stop limiting your design options with a template-based content management platform."
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "button",
+							"id": "",
+							"class": "center pad",
+							"size": "",
+							"name": "",
+							"buttontype": "",
+							"value": "",
+							"form": "",
+							"click": "",
+							"text": "Learn more",
+							"link": "#/design",
 							"target": ""
 						},
 						"contents": null
