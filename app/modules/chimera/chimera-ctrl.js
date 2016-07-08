@@ -58,7 +58,7 @@ angular.module('chimeraMod')
 		);
 		$scope.addRow = function(row, placement){
 			console.log(row, placement);
-			row.parentNode.contents.push({
+			row.$parent.contents.push({
 				"config": {
 					"type": "row",
 					"class": {
@@ -72,7 +72,7 @@ angular.module('chimeraMod')
 				},
 				"contents": []
 			});
-			console.log(row.parentNode.contents);
+			console.log(row.$parent.contents);
 		}
 		/* Post method
 		$http.post(pageData).then(
