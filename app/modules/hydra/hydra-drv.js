@@ -1,6 +1,6 @@
 /*
 HYDRA | Replicating module generates dynamic elements based on page content data.
-© 2015 Finix, all rights reserved.
+© 2015-2016 Finix, all rights reserved.
 */
 angular.module('hydraMod', [])
 	.directive('hydra', function(){
