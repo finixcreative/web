@@ -67,7 +67,7 @@
 									"form": "",
 									"click": "userCheck()",
 									"text": "Demo",
-									"link": "/",
+									"link": "",
 									"target": ""
 								},
 								"contents": null
