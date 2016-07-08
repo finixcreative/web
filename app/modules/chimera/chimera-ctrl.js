@@ -60,6 +60,29 @@ angular.module('chimeraMod')
 			console.log(row, placement);
 			console.log("Created at index: " + row.$parent.$parent.$index);
 			console.log("Added to: " + row.$parent.$parent.$parent);
+			let newIndex = function(){
+				if(placement === "top"){
+					return row.$parent.$parent.$index;
+				} else if(placement === "bottom"){
+					return (row.$parent.$parent.$index + 1);
+				}				
+			}
+			row.$parent.$parent.$parent.contents.splice(newIndex, 0, {
+				"config": {
+					"type": "row",
+					"class": {
+						"inner": "pad-40-20"
+					},
+					"bg": {
+						"color": "#fff",
+						"opacity": 0,
+						"parallax": null
+					}
+				},
+				"contents": []
+			});
+			row.$parent.$parent.$parent.contents.join();
+			/*
 			row.$parent.$parent.$parent.contents.push({
 				"config": {
 					"type": "row",
@@ -74,6 +97,7 @@ angular.module('chimeraMod')
 				},
 				"contents": []
 			});
+			*/
 			console.log(row.$parent.contents);
 		}
 		/* Post method
