@@ -89,6 +89,6 @@ nav li:hover > .subnav {
 	display: block;
 }
 .cta-button {
-	background: #f52;
-	color: #fff;
+	background: #f52 !important;
+	color: #fff !important;
 }
