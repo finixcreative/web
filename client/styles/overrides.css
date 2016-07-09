@@ -2,8 +2,8 @@
 --------------------------
 BRAND GUIDE
 --------------------------
-Primary Color    | #0387ab
-Secondary Color  | #75bbce
+Primary Color    | #f52
+Secondary Color  | #f93
 Red			     | #d95251
 Yellow		     | #f5c83d
 Light Gray		 | #f3f3f3
@@ -16,13 +16,13 @@ Dark Gray	     | #222
 	background: #f52;
 }
 .primary-txt {
-	color: #0387ab;
+	color: #f52;
 }
 .secondary-bg {
-	background: #75bbce;
+	background: #f93;
 }
 .secondary-txt {
-	color: #75bbce;
+	color: #f93;
 }
 .yellow-bg {
 	background: #f5c83d;
@@ -60,7 +60,7 @@ Dark Gray	     | #222
 .white-bg a,
 .lightgray-bg a,
 .midgray-bg a {
-	color: #0387ab;
+	color: #f52;
 }
 .darkgray-bg > a {
 	color: #fff;
@@ -69,17 +69,17 @@ Dark Gray	     | #222
 .lightgray-bg a:hover,
 .midgray-bg a:hover,
 .darkgray-bg a:hover {
-	color: #75bbce;
+	color: #f93;
 }
 .white-bg p a,
 .lightgray-bg p a,
 .midgray-bg p a {
-	border-bottom: 1px solid #0387ab;
+	border-bottom: 1px solid #f52;
 }
 .white-bg p a:hover,
 .lightgray-bg p a:hover,
 .midgray-bg p a:hover {
-	border-bottom: 1px solid #75bbce;
+	border-bottom: 1px solid #f93;
 }
 .row,
 .slideshow {
@@ -272,10 +272,10 @@ button:hover {
 	background-size: 44px 40px;
 }
 .nav-cta a {
-	background: #0387ab;
+	background: #f52;
 }
 .nav-cta a:hover {
-	background: #75bbce;
+	background: #f93;
 }
 .nav-cta:hover > a,
 .menu-button:hover > a {
@@ -403,15 +403,15 @@ button:hover {
 }
 .hero .button:hover {
 	background: #fff;
-	color: #75bbce;
+	color: #f93;
 }
 .button-body {
-	background: #0387ab;
+	background: #f52;
 	color: #fff !important;
 	border: none;
 }
 .button-body:hover {
-	background: #75bbce;
+	background: #f93;
 	color: #fff !important;
 	border: none;
 }
@@ -455,10 +455,10 @@ button:hover {
 	transition: none;
 }
 .slide p a {
-	border-bottom: 1px solid #0387ab;
+	border-bottom: 1px solid #f52;
 }
 .slide p a:hover {
-	border-bottom: 1px solid #75bbce;
+	border-bottom: 1px solid #f93;
 }
 .slide p.nav-pills a {
 	background: #f3f3f3;
