@@ -88,6 +88,10 @@ nav li:hover > .dropdown,
 nav li:hover > .subnav {
 	display: block;
 }
+.menu-button,
+.cta-button {
+	border-bottom: none !important;
+}
 .cta-button {
 	background: #f52 !important;
 	color: #fff !important;
