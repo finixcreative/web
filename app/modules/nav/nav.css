@@ -24,36 +24,6 @@ nav li {
 	display: inline-block;
 	list-style-type: none;
 }
-nav li .subnav,
-nav li .dropdown {
-	background: #444;
-	height: auto;	
-	display: none;
-	top: 70px;
-	left: 0px;
-}
-nav li .subnav {
-	position: absolute;
-}
-nav li .dropdown {
-	border-bottom: 1px solid #fff;
-	position: fixed;
-}
-nav li .dropdown li a {
-	text-align: center;
-	text-transform: capitalize;
-}
-nav li .dropdown li img {
-	width: 100%;
-	max-width: 40px;
-	height: auto;
-	margin: 0 auto;
-}
-nav li:hover > ul.menu,
-nav li:hover > .dropdown,
-nav li:hover > .subnav {
-	display: block;
-}
 nav a {
 	color: #ccc;
 	height: 80px;
@@ -83,4 +53,38 @@ nav a:focus {
 nav a img {
 	width: auto;
 	height: 40px;
+}
+nav li .subnav,
+nav li .dropdown {
+	height: auto;
+	display: none;
+	top: 80px;
+	left: 0px;
+}
+nav li .subnav {
+	position: absolute;
+}
+nav li .dropdown {
+	position: fixed;
+}
+nav li .dropdown li a {
+	text-align: center;
+	text-transform: capitalize;
+}
+nav li .dropdown li a:hover,
+nav li .dropdown li a.active,
+nav li .dropdown li a:active,
+nav li .dropdown li a:focus {
+	border: none;
+}
+nav li .dropdown li img {
+	width: 100%;
+	max-width: 40px;
+	height: auto;
+	margin: 0 auto;
+}
+nav li:hover > ul.menu,
+nav li:hover > .dropdown,
+nav li:hover > .subnav {
+	display: block;
 }
