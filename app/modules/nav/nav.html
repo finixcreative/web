@@ -2,49 +2,7 @@
 	<style scoped>
 		@import url(app/modules/nav/nav.css);
 	</style>
-	<nav class="desktop full">
-		<ul class="wrapper">
-			<li ng-repeat="page in sitemap.pages">
-				<a href="#/{{page.link}}" ng-class="{active: isActive('/{{page.link}}')}" onload="active: isActive('/home')">
-					<img src="{{page.icon}}" ng-show="page.icon">
-					<span ng-hide="page.icon">{{page.title}}</span>
-				</a>
-			</li>
-			<li class="call-now right-float" ng-controller="ClientController as client">
-				<a href="tel:1-{{client.cta}}" class="cta-button">Call Now</a>
-			</li>
-		</ul>
-	</nav>
-	<nav class="tablet full">
-		<ul class="wrapper">
-			<li ng-repeat="page in sitemap.pages">
-				<a href="#/{{page.link}}">
-					<img src="{{page.icon}}" ng-show="page.icon">
-					<span ng-hide="page.icon">{{page.title}}</span>
-				</a>
-			</li>
-			<li class="call-now right-float" ng-controller="ClientController as client">
-				<a href="tel:1-{{client.cta}}" class="cta-button">Call Now</a>
-			</li>
-		</ul>
-	</nav>
-	<nav class="mobile full">
-		<ul class="wrapper">
-			<li>
-				<a href="" class="menu-button">
-					<img src="app/assets/images/icons/icon_menu.png" alt="Menu">
-				</a>
-				<ul class="dropdown white-bg full">
-					<li class="full" ng-repeat="page in sitemap.pages">
-						<a class="full" href="#/{{page.link}}">{{page.title}}</a>
-					</li>
-				</ul>
-			</li>
-			<li class="call-now right-float" ng-controller="ClientController as client">
-				<a href="tel:1-{{client.cta}}" class="cta-button">
-					<img src="app/assets/images/icons/icon_phone.png" alt="Call Now!">
-				</a>
-			</li>
-		</ul>
-	</nav>
+	<div class="desktop" ng-include="nav-desktop.html"></div>
+	<div class="tablet" ng-include="nav-tablet.html"></div>
+	<div class="mobile" ng-include="nav-mobile.html"></div>
 </div>
