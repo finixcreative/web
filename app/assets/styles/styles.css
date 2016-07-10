@@ -384,7 +384,7 @@ button.slidenav:focus {
 	border: 2px solid #f52;
 	font-size: 1em;
 	font-weight: 700;
-	line-height: 0.5;
+	line-height: 2;
 	text-transform: uppercase;
 	position: absolute;
 	left: 50%;
