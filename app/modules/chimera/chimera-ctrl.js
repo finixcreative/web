@@ -63,7 +63,7 @@ angular.module('chimeraMod')
 				} else if(placement === "bottom"){
 					return (row.$parent.$parent.$index + 1);
 				}				
-			}
+			};
 			row.$parent.$parent.$parent.contents.splice(newIndex(), 0, {
 				"config": {
 					"type": "row",
