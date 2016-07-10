@@ -57,7 +57,7 @@ angular.module('chimeraMod')
 			}
 		);
 		$scope.addRow = function(row, placement){
-			let newIndex = function(){
+			var newIndex = function(){
 				if(placement === "top"){
 					return row.$parent.$parent.$index;
 				} else if(placement === "bottom"){
