@@ -13,35 +13,9 @@ angular.module('chimeraMod')
 		$scope.edit = false;
 		$http.get(pageData).then(
 			function success(response){
-				//success callbacks
 				$scope.contents = response.data;
-				console.log(
-					"Chimera: " + chimera + "\n",
-					"Page URL: " + pageData + "\n",
-					"Template URL: " + $scope.template + "\n",
-					"Content Level 1: " + $scope.contents
-				);
-				for(var i = 0; i < $scope.contents.length; i++){
-					console.log(
-						"Name: " + $scope.contents[i].config.title + "\n",
-						"Type: " + $scope.contents[i].config.type + "\n",
-						$scope.contents[i].config.type + " " + (i + 1) + " of " + $scope.contents.length + "\n",
-						"Content Level 2: " + $scope.contents[i].contents + "\n",
-						"-> contains " + $scope.contents[i].contents.length + " widgets."
-					);
-					for(var j = 0; j < $scope.contents[i].contents.length; j++){
-						console.log(
-							"Name: " + $scope.contents[i].contents[j].config.title + "\n",
-							"Type: " + $scope.contents[i].contents[j].config.type + "\n",
-							$scope.contents[i].contents[j].config.type + " " + (j + 1) + " of " + $scope.contents[i].contents.length + "\n",
-							"Content Level 3: " + $scope.contents[i].contents[j].contents + "\n",
-							"-> contains " + $scope.contents[i].contents[j].contents.length + " components."
-						);
-					};
-				};
-			},
+			};
 			function error(response){
-				//error callbacks
 				$scope.contents = response.data;
 				$scope.errors = response.error;
 				console.log(
@@ -93,6 +67,17 @@ angular.module('chimeraMod')
 					}
 				]
 			});
+			row.$parent.$parent.$parent.contents.join();
+		};
+		$scope.addComponent = function(location, type, placement){
+			var newIndex = function(){
+				if(placement === "top"){
+					return location.$parent.$index;
+				} else if(placement === "bottom"){
+					return (location.$parent.$index + 1);
+				}				
+			};
+			location.$parent.$parent.contents.splice(newIndex(), 0, {"config": {"type": type}, "contents": []});
 			row.$parent.$parent.$parent.contents.join();
 		};
 		/* Post method
