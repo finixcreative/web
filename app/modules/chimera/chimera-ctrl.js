@@ -57,9 +57,6 @@ angular.module('chimeraMod')
 			}
 		);
 		$scope.addRow = function(row, placement){
-			console.log(row, placement);
-			console.log("Created at index: " + row.$parent.$parent.$index);
-			console.log("Added to: " + row.$parent.$parent.$parent);
 			let newIndex = function(){
 				if(placement === "top"){
 					return row.$parent.$parent.$index;
@@ -97,24 +94,7 @@ angular.module('chimeraMod')
 				]
 			});
 			row.$parent.$parent.$parent.contents.join();
-			/*
-			row.$parent.$parent.$parent.contents.push({
-				"config": {
-					"type": "row",
-					"class": {
-						"inner": "pad-40-20"
-					},
-					"bg": {
-						"color": "#fff",
-						"opacity": 0,
-						"parallax": null
-					}
-				},
-				"contents": []
-			});
-			*/
-			console.log(row.$parent.contents);
-		}
+		};
 		/* Post method
 		$http.post(pageData).then(
 			function success(response){
