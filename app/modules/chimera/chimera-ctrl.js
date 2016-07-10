@@ -69,6 +69,7 @@ angular.module('chimeraMod')
 			});
 			row.$parent.$parent.$parent.contents.join();
 		};
+		/*
 		$scope.addComponent = function(location, type, placement){
 			var newIndex = function(){
 				if(placement === "top"){
@@ -80,6 +81,7 @@ angular.module('chimeraMod')
 			location.$parent.$parent.contents.splice(newIndex(), 0, {"config": {"type": type}, "contents": []});
 			row.$parent.$parent.$parent.contents.join();
 		};
+		*/
 		/* Post method
 		$http.post(pageData).then(
 			function success(response){
