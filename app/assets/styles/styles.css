@@ -361,24 +361,23 @@ button.slidenav:focus {
 	display: none;
 }
 .controls-top {
-	border-radius: 0 0 2em 2em;
 	top: -1px;
 }
 .controls-top .add-section {
+	border-radius: 0 0 2em 2em;
 	top: 0;
 }
 .controls-bottom {
-	border-radius: 2em 2em 0 0;
 	bottom: -1px;
 }
 .controls-bottom .add-section {
+	border-radius: 2em 2em 0 0;
 	bottom: 0;
 }
 *:hover > .controls {
 	display: block;
 }
 .add-section {
-	background: #fff;
 	color: #f52;
 	width: 4em;
 	height: 2em;
