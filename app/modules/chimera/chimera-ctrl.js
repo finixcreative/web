@@ -14,7 +14,7 @@ angular.module('chimeraMod')
 		$http.get(pageData).then(
 			function success(response){
 				$scope.contents = response.data;
-			};
+			},
 			function error(response){
 				$scope.contents = response.data;
 				$scope.errors = response.error;
