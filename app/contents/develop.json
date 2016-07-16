@@ -138,7 +138,7 @@
 							{
 								"config": {
 									"type": "p",
-									"text": "Include the script in your index.html file:"
+									"text": "Include the module in your index.js file:"
 								},
 								"contents": null
 							}
@@ -217,7 +217,7 @@
 							{
 								"config": {
 									"type": "p",
-									"text": "Create an app:"
+									"text": "Create a new app:"
 								},
 								"contents": null
 							}
@@ -233,7 +233,7 @@
 							{
 								"config": {
 									"type": "p",
-									"text": "Finix.app();"
+									"text": "app();"
 								},
 								"contents": null
 							}
