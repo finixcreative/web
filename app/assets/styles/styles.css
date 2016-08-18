@@ -242,6 +242,10 @@ input[type=text] {
 .slider {
 	position: relative;
 }
+.nav-pils {
+	position: absolute;
+	bottom: 0;
+}
 .position-left {
 	position: absolute;
 	left: 0px;
