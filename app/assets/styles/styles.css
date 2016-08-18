@@ -255,7 +255,8 @@ input[type=text] {
 	display: inline-block;
 }
 .nav-pils a:hover,
-.nav-pils a.active, {
+.nav-pils a:active,
+.nav-pils a.active {
 	background: #fff;
 	border: 1px solid #fff;
 }
