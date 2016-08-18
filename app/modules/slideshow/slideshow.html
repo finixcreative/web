@@ -16,7 +16,7 @@
 	<div class="full">
 		<p class="center">
 			<a
-				href ng-click="selectIndex(content.index)"
+				ng-click="selectIndex($index)"
 				ng-show="content.contents.length > 1"
 				ng-repeat="content in content.contents"
 				>
