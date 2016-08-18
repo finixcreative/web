@@ -261,7 +261,9 @@ input[type=text] {
 .nav-pils a:active,
 .nav-pils a.active {
 	background: #fff;
-	border: 2px solid #fff;
+}
+.nav-pils:hover a {
+	border: 2px solid #fff;	
 }
 .position-left {
 	position: absolute;
