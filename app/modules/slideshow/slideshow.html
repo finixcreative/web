@@ -18,7 +18,7 @@
 			<a
 				class="white-txt"
 				href ng-click="selectIndex($index)"
-				ng-class="{active: currentIndex($index)}"
+				ng-class="{active: currentIndex === $index}"
 				ng-show="content.contents.length > 1"
 				ng-repeat="content in content.contents"
 				>
