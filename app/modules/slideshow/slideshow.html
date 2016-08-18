@@ -13,11 +13,17 @@
 		<img class="slideshow-icon position-right" src="app/assets/images/icons/icon_arrow_right.png" alt="Next">
 		<span class="icon-arrow_right"></span>
 	</button>
-	<div class="center">
+	<div class="full">
+		<p class="center">
+			<a
+				href ng-show="content.contents.length > 1"
+				ng-repeat="content in content.contents"
+				ng-click="selectIndex(content.index)"
+				>
+				o
+			</a>
+		</p>
 		<button
-			ng-show="content.contents.length > 1"
-			ng-repeat="content in content.contents"
-			ng-click="selectIndex(content.index)"
 			>
 		</button>
 	</div>
