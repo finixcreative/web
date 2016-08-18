@@ -16,16 +16,13 @@
 	<div class="full">
 		<p class="center">
 			<a
-				href ng-show="content.contents.length > 1"
+				href ng-click="selectIndex(content.index)"
+				ng-show="content.contents.length > 1"
 				ng-repeat="content in content.contents"
-				ng-click="selectIndex(content.index)"
 				>
 				o
 			</a>
 		</p>
-		<button
-			>
-		</button>
 	</div>
 	<div class="controls controls-top center full" ng-show="user && configure">
 		<a href ng-click="addRow(this, 'top')" class="add-section">+</a>
