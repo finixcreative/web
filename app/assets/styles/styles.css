@@ -257,13 +257,15 @@ input[type=text] {
 	border-radius: 50%;
 	display: inline-block;
 }
-.nav-pils a:hover,
-.nav-pils a:active,
 .nav-pils a.active {
-	background: #fff;
+	background: rgba(255,255,255,0.5);
 }
 .nav-pils:hover a {
 	border: 2px solid #fff;	
+}
+.nav-pils a:hover,
+.nav-pils:hover a.active {
+	background: #fff;
 }
 .position-left {
 	position: absolute;
