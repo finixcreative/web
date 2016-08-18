@@ -53,6 +53,7 @@ nav a:focus {
 nav a img {
 	width: auto;
 	height: 40px;
+	float: left;
 }
 nav li .subnav,
 nav li .dropdown {
