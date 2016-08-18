@@ -262,12 +262,11 @@ input[type=text] {
 }
 .nav-pils a.active {
 	background: rgba(255,255,255,0.5);
-	border: none;
+	border: rgba(255,255,255,0);
 }
 .nav-pils a:hover,
 .nav-pils:hover a.active {
 	background: #fff;
-	border: none;
 }
 .position-left {
 	position: absolute;
