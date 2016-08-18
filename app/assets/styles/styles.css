@@ -246,11 +246,14 @@ input[type=text] {
 	position: absolute;
 	bottom: 0;
 }
+.nav-pils:hover {
+	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+}
 .nav-pils a {
 	width: 15px;
 	height: 15px;
 	margin: 0 3px;
-	border: 1px solid rgba(255,255,255,0.5);
+	border: 2px solid rgba(255,255,255,0.5);
 	border-radius: 50%;
 	display: inline-block;
 }
@@ -258,7 +261,7 @@ input[type=text] {
 .nav-pils a:active,
 .nav-pils a.active {
 	background: #fff;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 }
 .position-left {
 	position: absolute;
