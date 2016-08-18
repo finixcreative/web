@@ -13,12 +13,14 @@
 		<img class="slideshow-icon position-right" src="app/assets/images/icons/icon_arrow_right.png" alt="Next">
 		<span class="icon-arrow_right"></span>
 	</button>
-	<button
-		ng-show="content.contents.length > 1"
-		ng-repeat="content in content.contents"
-		ng-click="selectIndex(content.index)"
-		>
-	</button>
+	<div class="center">
+		<button
+			ng-show="content.contents.length > 1"
+			ng-repeat="content in content.contents"
+			ng-click="selectIndex(content.index)"
+			>
+		</button>
+	</div>
 	<div class="controls controls-top center full" ng-show="user && configure">
 		<a href ng-click="addRow(this, 'top')" class="add-section">+</a>
 	</div>
