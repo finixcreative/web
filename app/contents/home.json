@@ -499,7 +499,7 @@
 							"value": "",
 							"form": "",
 							"click": "",
-							"text": "Learn more",
+							"text": "Documentation",
 							"link": "#/develop",
 							"target": ""
 						},
@@ -551,7 +551,7 @@
 							"value": "",
 							"form": "",
 							"click": "",
-							"text": "Learn more",
+							"text": "Try it now",
 							"link": "#/design",
 							"target": ""
 						},
